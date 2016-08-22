@@ -1,6 +1,8 @@
+var _ = require ('lodash');
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
+
 
   var headers = [
     'date',
@@ -34,15 +36,20 @@ var cheerio = require('cheerio');
   request(options, function(error, response, html) {
     if (!error) {
       var $ = cheerio.load(html);
+      var data = [];
       var table = $('table:nth-child(4)');
       $('tr', table).each(function(k,v){
         if (k > 3) {
-          console.log("Row: " + k);
-          $('td', this).each(function(){
-            console.log($(this).text());
+          var row = {};
+          $('td', this).each(function(k, v){
+            row[headers[k]] = $(v).text();
           });
+          if (Object.keys(row).length !== 0) {
+            data.push(row);
+          }
         }
       });
+      console.log(JSON.stringify(data.reverse(),true,2));
     }
   });
 
