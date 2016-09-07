@@ -4,6 +4,8 @@ var request = require('request');
 var cheerio = require('cheerio');
 
 
+function getWeatherData(url, callback) {
+
   var headers = [
     'date',
     'time',
@@ -27,7 +29,7 @@ var cheerio = require('cheerio');
 
 
   var options = {
-    url: 'http://w1.weather.gov/data/obhistory/KPVD.html',
+    url: url,
     headers: {
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     }
@@ -49,7 +51,11 @@ var cheerio = require('cheerio');
           }
         }
       });
-      console.log(JSON.stringify(data.reverse(),true,2));
+      callback(data);
     }
   });
+}
+
+var url = 'http://w1.weather.gov/data/obhistory/KPVD.html';
+var data = getWeatherData(url, console.log);
 
