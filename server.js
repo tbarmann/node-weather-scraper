@@ -1,12 +1,10 @@
-var _ = require ('lodash');
-var fs = require('fs');
-var request = require('request');
-var cheerio = require('cheerio');
-
+"use strict";
+const request = require('request');
+const cheerio = require('cheerio');
 
 function getWeatherData(url, callback) {
 
-  var headers = [
+  const headers = [
     'date',
     'time',
     'wind',
@@ -27,35 +25,37 @@ function getWeatherData(url, callback) {
     'precip_6hr'
   ];
 
-
-  var options = {
-    url: url,
+  const options = {
+    url,
     headers: {
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     }
   };
 
-  request(options, function(error, response, html) {
+  request(options, (error, response, html) => {
     if (!error) {
-      var $ = cheerio.load(html);
-      var data = [];
-      var table = $('table:nth-child(4)');
-      $('tr', table).each(function(k,v){
-        if (k > 3) {
-          var row = {};
-          $('td', this).each(function(k, v){
-            row[headers[k]] = $(v).text();
+      const $ = cheerio.load(html);
+      let result = {}
+      result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
+      const data = [];
+      const table = $('table:nth-child(4)');
+      $('tr', table).each(function(k1,v1){
+        if (k1 > 2) {
+          let row = {};
+          $('td', this).each((k2, v2) => {
+            row[headers[k2]] = $(v2).text();
           });
           if (Object.keys(row).length !== 0) {
             data.push(row);
           }
         }
       });
-      callback(data);
+      result.data = data;
+      callback(result.data[0]);
     }
   });
 }
 
-var url = 'http://w1.weather.gov/data/obhistory/KPVD.html';
-var data = getWeatherData(url, console.log);
+const url = 'http://w1.weather.gov/data/obhistory/KPVD.html';
+const data = getWeatherData(url, console.log);
 
