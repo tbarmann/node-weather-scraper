@@ -2,8 +2,7 @@
 const request = require('request');
 const cheerio = require('cheerio');
 
-function getWeatherData(url, callback) {
-
+module.exports = (url, callback) => {
   const headers = [
     'date',
     'time',
@@ -31,19 +30,18 @@ function getWeatherData(url, callback) {
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     }
   };
-
-  request(options, (error, response, html) => {
+  return request(options, (error, response, html) => {
     if (!error) {
       const $ = cheerio.load(html);
       let result = {}
       result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
       const data = [];
       const table = $('table:nth-child(4)');
-      $('tr', table).each(function(k1,v1){
-        if (k1 > 2) {
+      $('tr', table).each((key1,value1) => {
+        if (key1 > 2) {
           let row = {};
-          $('td', this).each((k2, v2) => {
-            row[headers[k2]] = $(v2).text();
+          $('td', value1).each((key2, value2) => {
+            row[headers[key2]] = $(value2).text();
           });
           if (Object.keys(row).length !== 0) {
             data.push(row);
@@ -51,11 +49,7 @@ function getWeatherData(url, callback) {
         }
       });
       result.data = data;
-      callback(result.data[0]);
+      callback(result);
     }
   });
 }
-
-const url = 'http://w1.weather.gov/data/obhistory/KPVD.html';
-const data = getWeatherData(url, console.log);
-

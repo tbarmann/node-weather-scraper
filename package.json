@@ -1,11 +1,10 @@
 {
-  "name"         : "node-web-scrape",
+  "name"         : "node-weather-scraper",
   "version"      : "0.0.1",
-  "description"  : "Scrape le web.",
-  "main"         : "server.js",
-  "author"       : "Scotch",
+  "description"  : "Scrapes current conditions for Providence from NWS",
+  "main"         : "main.js",
+  "author"       : "tbarmann",
   "dependencies" : {
-    "express"    : "latest",
     "request"    : "latest",
     "cheerio"    : "latest"
   }
