@@ -1,11 +1,12 @@
 {
-  "name"         : "node-weather-scraper",
-  "version"      : "0.0.1",
-  "description"  : "Scrapes current conditions for Providence from NWS",
-  "main"         : "main.js",
-  "author"       : "tbarmann",
-  "dependencies" : {
-    "request"    : "latest",
-    "cheerio"    : "latest"
+  "name": "node-weather-scraper",
+  "version": "0.0.1",
+  "description": "Scrapes current conditions for Providence from NWS",
+  "main": "main.js",
+  "author": "tbarmann",
+  "dependencies": {
+    "@slack/client": "^3.6.0",
+    "cheerio": "latest",
+    "request": "latest"
   }
 }
