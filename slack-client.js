@@ -28,20 +28,20 @@ rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, function (rtmStartData) {
 
 rtm.on(RTM_EVENTS.MESSAGE, function (message) {
   if (message.subtype !== 'message_deleted' && isMessageToUserId(message.text,weatherBotId)) {
-  	sendWeatherReport(message.channel);
+  	getWeatherReport(message.channel);
   	console.log('The message mentions me!');
   }
 });
 
-function sendWeatherReport(channelId) {
+function getWeatherReport(channelId) {
 	const url = 'http://w1.weather.gov/data/obhistory/KPVD.html';
-	getWeatherData(url, function(data){
-  	var msg = data[0];
-  	console.log(msg);
-  	rtm.sendMessage(msg, channelId, function messageSent() {
-    	console.log('message sent.');
-  	});
-	});
+	getWeatherData(url, (data) => {
+		console.log(data[0].temp_air);
+		rtm.sendMessage(data[0].temp_air, channelId, () => {
+			console.log('message sent.');
+ 
+		});
+	})
 }
 
 function isMessageToUserId(msg, userId) {
