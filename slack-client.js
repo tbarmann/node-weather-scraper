@@ -5,7 +5,7 @@ const RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 const RTM_CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS.RTM;
 const MemoryDataStore = require('@slack/client').MemoryDataStore;
 const config = require('./.config.json');
-const token = config.SLACK_API_TOKEN;
+const token = process.env.SLACK_API_TOKEN || '';
 const getWeatherData = require('./nws-current-conditions-scraper');
 let weatherBotId;
 
