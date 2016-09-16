@@ -7,6 +7,8 @@ const MemoryDataStore = require('@slack/client').MemoryDataStore;
 const token = process.env.SLACK_API_TOKEN || '';
 const getWeatherData = require('./nws-current-conditions-scraper');
 let weatherBotId;
+let weatherBotName;
+const weatherBotDMChannel = 'D1VK6F805';
 
 const rtm = new RtmClient(token, {
   logLevel: 'error',
@@ -16,13 +18,14 @@ const rtm = new RtmClient(token, {
 rtm.start();
 
 rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, (rtmStartData) => {
-	weatherBotId = rtmStartData.self.id;
+	weatherBotId = rtmStartData.self.id; // U1VJTP4TS
+  weatherBotName = rtmStartData.self.name;
 	console.log(`Logged in as ${rtmStartData.self.name} of team ${rtmStartData.team.name}, but not yet connected to a channel`);
 });
 
 rtm.on(RTM_EVENTS.MESSAGE, (message) => {
-  if (message.subtype !== 'message_deleted' && messageContainsUserId(message.text,weatherBotId)) {
-  	getWeatherReport(message.channel);
+  if (message.subtype !== 'message_deleted' && messageContainsUserId(message,weatherBotId)) {
+    getWeatherReport(message.channel);
   	console.log('The message mentions me!');
   }
 });
@@ -48,6 +51,12 @@ const constructWeatherMessage = (data) => {
 
 const messageContainsUserId = (msg, userId) => {
 	const pattern  = `<@${userId}>`;
-	return (msg.indexOf(pattern) !== -1);
+  return (msg.text.indexOf(pattern) !== -1 || msg.channel === weatherBotDMChannel);
 }
 
+// // dummy server needed by heroku
+// const http = require ('http');
+// const handle = (req, res) => res.end("hit");
+// const server = http.createServer(handle);
+
+// server.listen(process.env.PORT || 5000);
