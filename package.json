@@ -9,5 +9,8 @@
     "cheerio": "latest",
     "lodash": "^4.15.0",
     "request": "latest"
+  },
+  "scripts" : {
+    "start" : "node ./slack-client"
   }
 }
