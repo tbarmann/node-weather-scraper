@@ -46,6 +46,7 @@ const constructWeatherMessage = (data) => {
   items.push(`Weather: ${latest.weather}`);
   items.push(`Temperature: ${latest.temp_air} degrees`);
   items.push(`Humidity: ${latest.relative_humidity}`);
+  items.push(`Last updated: ${latest.time}`);
   return items.join('\n  ');
 }
 
@@ -54,9 +55,3 @@ const messageContainsUserId = (msg, userId) => {
   return (msg.text.indexOf(pattern) !== -1 || msg.channel === weatherBotDMChannel);
 }
 
-// // dummy server needed by heroku
-// const http = require ('http');
-// const handle = (req, res) => res.end("hit");
-// const server = http.createServer(handle);
-
-// server.listen(process.env.PORT || 5000);
