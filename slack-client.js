@@ -20,8 +20,6 @@ rtm.start();
 rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, (rtmStartData) => {
 	weatherBotId = rtmStartData.self.id; // U1VJTP4TS
   weatherBotName = rtmStartData.self.name;
-  const now = new Date();
-  console.log(now);
 	console.log(`Logged in as ${rtmStartData.self.name} of team ${rtmStartData.team.name}, but not yet connected to a channel`);
 });
 
@@ -48,7 +46,7 @@ const constructWeatherMessage = (data) => {
   items.push(`Weather: ${latest.weather}`);
   items.push(`Temperature: ${latest.temp_air} degrees`);
   items.push(`Humidity: ${latest.relative_humidity}`);
-  items.push(`Last updated: ${latest.time}`);
+  items.push(`Last updated: ${latest.parsedDate}`);
   return items.join('\n  ');
 }
 
