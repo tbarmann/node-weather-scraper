@@ -50,3 +50,4 @@ const messageContainsUserId = (msg, userId) => {
 	const pattern  = `<@${userId}>`;
 	return (msg.indexOf(pattern) !== -1);
 }
+
