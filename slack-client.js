@@ -32,16 +32,23 @@ rtm.on(RTM_EVENTS.MESSAGE, (message) => {
 const getWeatherReport = (channelId) => {
 	const url = 'http://w1.weather.gov/data/obhistory/KPVD.html';
 	getWeatherData(url, (data) => {
-    const currentTemp = data.data[0].temp_air;
-		console.log(currentTemp);
-		rtm.sendMessage("The current temperature is " + currentTemp, channelId, () => {
+		rtm.sendMessage(constructWeatherMessage(data), channelId, () => {
 			console.log('message sent.');
-
 		});
 	})
 }
 
+const constructWeatherMessage = (data) => {
+  const latest = data.data[0];
+  const items = [];
+  items.push(`Current conditions for ${data.title}`);
+  items.push(`Weather: ${latest.weather}`);
+  items.push(`Temperature: ${latest.temp_air} degrees`);
+  items.push(`Humidity: ${latest.relative_humidity}`);
+  return items.join('\n  ');
+}
+
 const messageContainsUserId = (msg, userId) => {
-	const pattern  = '<@' + userId + '>';
+	const pattern  = `<@${userId}>`;
 	return (msg.indexOf(pattern) !== -1);
 }
