@@ -41,12 +41,13 @@ const getWeatherReport = (channelId) => {
 
 const constructWeatherMessage = (data) => {
   const latest = data.data[0];
-  const items = [];
-  items.push(`Current conditions for ${data.title}`);
-  items.push(`Weather: ${latest.weather}`);
-  items.push(`Temperature: ${latest.temp_air} degrees`);
-  items.push(`Humidity: ${latest.relative_humidity}`);
-  items.push(`Last updated: ${latest.parsedDate}`);
+  const items = [
+  	`Current conditions for ${data.title}`,
+  	`Weather: ${latest.weather}`,
+  	`Temperature: ${latest.temp_air} degrees`,
+  	`Humidity: ${latest.relative_humidity}`,
+  	`Last updated: ${latest.parsedDate}`
+  ];
   return items.join('\n  ');
 }
 

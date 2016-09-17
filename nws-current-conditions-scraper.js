@@ -31,25 +31,6 @@ module.exports = (url, callback) => {
     }
   };
 
-// $this_hour_data = array();
-
-//   $today_day = date("j");
-//   $today_month = date("n");
-//   $today_year = date("Y");
-
-//   $year = $today_year;
-//   $day = intval($cells[0]->innertext);
-//   $hour = intval(substr($cells[1]->innertext,0,2));
-//   $minute = intval(substr($cells[1]->innertext,3,2));
-//   $month = ($day>$today_day)? $today_month - 1 : $today_month;
-
-//   if ($month === 0) {
-//     $month = 12;
-//     $year--;
-
-//   }
-
-
   const parseDate = (row) => {
     const now = new Date();
     const todayDay = now.getDate();
