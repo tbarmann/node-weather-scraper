@@ -7,7 +7,7 @@ var apiKey = '8ffcd4db8c3692fc149d2964ea96eae6';
 function performRequest(endpoint, method, data, success) {
   var dataString = JSON.stringify(data);
   var headers = {};
-  
+
   if (method == 'GET') {
     endpoint += '?' + querystring.stringify(data);
   }
@@ -17,9 +17,6 @@ function performRequest(endpoint, method, data, success) {
       'Content-Length': dataString.length
     };
   }
-
-  console.log(host, endpoint, method, headers);
-  process.exit();
 
   var options = {
     host: host,
@@ -48,7 +45,7 @@ function performRequest(endpoint, method, data, success) {
   req.end();
 }
 
-var endpoint = 'data/2.5/forecast/city';
+var endpoint = '/data/2.5/forecast/city';
 var params = {
   q: 'Providence',
   units: 'imperial',
