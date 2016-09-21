@@ -1,12 +1,12 @@
-var querystring = require('querystring');
-var http = require('http');
-
-var host = 'api.openweathermap.org';
-var apiKey = '8ffcd4db8c3692fc149d2964ea96eae6';
+"use strict";
+const querystring = require('querystring');
+const http = require('http');
+const host = 'api.openweathermap.org';
+const apiKey = '8ffcd4db8c3692fc149d2964ea96eae6';
 
 function performRequest(endpoint, method, data, success) {
-  var dataString = JSON.stringify(data);
-  var headers = {};
+  const dataString = JSON.stringify(data);
+  let headers = {};
 
   if (method == 'GET') {
     endpoint += '?' + querystring.stringify(data);
@@ -18,17 +18,17 @@ function performRequest(endpoint, method, data, success) {
     };
   }
 
-  var options = {
+  const options = {
     host: host,
     path: endpoint,
     method: method,
     headers: headers
   };
 
-  var req = http.request(options, function(res) {
+  const req = http.request(options, function(res) {
     res.setEncoding('utf-8');
 
-    var responseString = '';
+    let responseString = '';
 
     res.on('data', function(data) {
       responseString += data;
@@ -36,7 +36,7 @@ function performRequest(endpoint, method, data, success) {
 
     res.on('end', function() {
       console.log(responseString);
-      var responseObject = JSON.parse(responseString);
+      const responseObject = JSON.parse(responseString);
       success(responseObject);
     });
   });
@@ -45,8 +45,8 @@ function performRequest(endpoint, method, data, success) {
   req.end();
 }
 
-var endpoint = '/data/2.5/forecast/city';
-var params = {
+const endpoint = '/data/2.5/forecast/city';
+const params = {
   q: 'Providence',
   units: 'imperial',
   APPID: apiKey
