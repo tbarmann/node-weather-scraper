@@ -2,7 +2,10 @@
 const request = require('request');
 const cheerio = require('cheerio');
 
-module.exports = (url, callback) => {
+module.exports = (stationRecord, callback) => {
+
+  const stationId = stationRecord.stationId;
+
   const headers = [
     'date',
     'time',
@@ -25,7 +28,7 @@ module.exports = (url, callback) => {
   ];
 
   const options = {
-    url,
+    url: `http://w1.weather.gov/data/obhistory/${stationId}.html`,
     headers: {
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
     }
@@ -52,10 +55,14 @@ module.exports = (url, callback) => {
   };
 
   return request(options, (error, response, html) => {
+    let result = {
+      stationId,
+      data: []
+    };
     if (!error) {
       const $ = cheerio.load(html);
-      let result = {}
       result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
+      console.log("Result title: ", result.title);
       const data = [];
       const table = $('table:nth-child(4)');
       $('tr', table).each((key1,value1) => {
@@ -71,7 +78,7 @@ module.exports = (url, callback) => {
         }
       });
       result.data = data;
-      callback(result);
     }
+    callback(result);
   });
 }

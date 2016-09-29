@@ -28,20 +28,20 @@ rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, (rtmStartData) => {
 
 rtm.on(RTM_EVENTS.MESSAGE, (message) => {
   if (message.subtype !== 'message_deleted' && messageContainsUserId(message,weatherBotId)) {
-    const words = messageToWords(message);
+    const words = messageToWords(message.text);
     _.each(words, (w) => {
-      const s = stationLookup(w);
-      if (s !== null) {
-        getWeatherReport(message.channel, station);
+      const stationRecord = stationLookup(w);
+      if (stationRecord !== null) {
+        getWeatherReport(message.channel, stationRecord);
       }
     })
   	console.log('The message mentions me!');
   }
 });
 
-const getWeatherReport = (channelId, station) => {
-	const url = `http://w1.weather.gov/data/obhistory/${station}.html`;
-	getWeatherData(url, (data) => {
+const getWeatherReport = (channelId, stationRecord) => {
+  console.log(stationRecord);
+	getWeatherData(stationRecord, (data) => {
 		rtm.sendMessage(constructWeatherMessage(data), channelId, () => {
 			console.log('message sent.');
 		});
@@ -49,19 +49,25 @@ const getWeatherReport = (channelId, station) => {
 }
 
 const messageToWords = (message) => {
+  // break up message into parts that are delimited by commas
   // get rid of any @user
-  message = message.replace(/@[^\s.]+/g, '');
-  message = message.replace(/[.,!$%\^&\*;:{}=\-_`~()\?]/g, ' ');
+
+  message = message.replace(/<@[^\s.]+/g, '');
+  message = message.replace(/[.!$%\^&\*;:{}=\-_`~()\?]/g, ' ');
   message = message.replace(/\s{2,}/g,' ');
-  const parts = message.split(' ');
+  let parts = message.split(',');
+  parts = _.map(parts, (part) => part.trim());
   console.log(parts);
   return (_.filter(parts, (word) => word !== ''));
 }
 
-const stationLookup = (s) => {
-  s = s.toUpperCase();
-  const record = _.find(airports, (o) => o.airport === s );
-  return (record) ? record.station : null
+const stationLookup = (target) => {
+  const airport = target.toUpperCase();
+  let record = _.find(airports, (o) => o.airportId === airport );
+  if (!record) {
+    record = _.find(airports, (o) => o.city.toLowerCase().indexOf(target.toLowerCase()) !== -1);
+  }
+  return (record) ? record : null
 }
 
 const constructWeatherMessage = (data) => {

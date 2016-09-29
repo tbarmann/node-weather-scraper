@@ -1,0 +1,10 @@
+[
+  {
+    "stationId": "KAIV",
+    "airportId": "AIV",
+    "name": "George Downer Airport",
+    "city": "Aliceville",
+    "state": "Alabama",
+    "hasWeather": false
+  }
+]
