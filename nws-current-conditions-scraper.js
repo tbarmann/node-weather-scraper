@@ -62,6 +62,7 @@ module.exports = (stationRecord, callback) => {
     if (!error) {
       const $ = cheerio.load(html);
       result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
+      result.url = options.url;
       console.log("Result title: ", result.title);
       const data = [];
       const table = $('table:nth-child(4)');

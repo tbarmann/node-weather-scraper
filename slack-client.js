@@ -34,15 +34,17 @@ rtm.on(RTM_EVENTS.MESSAGE, (message) => {
       if (stationRecord !== null) {
         getWeatherReport(message.channel, stationRecord);
       }
-    })
-  	console.log('The message mentions me!');
+      else {
+        rtm.sendMessage(`I don't have any information about '${w}'. Sorry.`, message.channel);
+      }
+    });
   }
 });
 
 const getWeatherReport = (channelId, stationRecord) => {
   console.log(stationRecord);
 	getWeatherData(stationRecord, (data) => {
-		rtm.sendMessage(constructWeatherMessage(data), channelId, () => {
+		rtm.sendMessage(constructWeatherMessage(data, stationRecord), channelId, () => {
 			console.log('message sent.');
 		});
 	})
@@ -53,7 +55,7 @@ const messageToWords = (message) => {
   // get rid of any @user
 
   message = message.replace(/<@[^\s.]+/g, '');
-  message = message.replace(/[.!$%\^&\*;:{}=\-_`~()\?]/g, ' ');
+  message = message.replace(/[!$%\^&\*;:{}=\-_`~()\?]/g, ' ');
   message = message.replace(/\s{2,}/g,' ');
   let parts = message.split(',');
   parts = _.map(parts, (part) => part.trim());
@@ -63,23 +65,34 @@ const messageToWords = (message) => {
 
 const stationLookup = (target) => {
   const airport = target.toUpperCase();
-  let record = _.find(airports, (o) => o.airportId === airport );
-  if (!record) {
-    record = _.find(airports, (o) => o.city.toLowerCase().indexOf(target.toLowerCase()) !== -1);
+  const targetLower = target.toLowerCase();
+  let record = null;
+
+  if (target.length === 3) {
+    record = _.find(airports, (o) => o.airportId === airport );
   }
+  if (!record) {
+    record = _.find(airports, (o) => o.city.toLowerCase().indexOf(targetLower) !== -1);
+  }
+  if (!record) {
+    record = _.find(airports, (o) => o.alternate_city.toLowerCase().indexOf(targetLower) !== -1);
+  }
+  if (!record) {
+    record = _.find(airports, (o) => o.name.toLowerCase().indexOf(targetLower) !== -1);
+  }
+
   return (record) ? record : null
 }
 
-const constructWeatherMessage = (data) => {
+const constructWeatherMessage = (data, stationRecord) => {
   const latest = data.data[0];
   const items = [
-  	`Current conditions for ${data.title}`,
-  	`Weather: ${latest.weather}`,
-  	`Temperature: ${latest.temp_air} degrees`,
-  	`Humidity: ${latest.relative_humidity}`,
+  	`${stationRecord.name}, ${stationRecord.city}, ${stationRecord.state}`,
+  	`${latest.weather}, ${latest.temp_air} degrees`,
+    `Source: ${data.url}`,
   	`Last updated: ${latest.parsedDate}`
   ];
-  return items.join('\n  ');
+  return items.join('\n');
 }
 
 const messageContainsUserId = (msg, userId) => {
