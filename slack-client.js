@@ -28,18 +28,22 @@ rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, (rtmStartData) => {
 
 rtm.on(RTM_EVENTS.MESSAGE, (message) => {
   if (message.subtype !== 'message_deleted' && messageContainsUserId(message,weatherBotId)) {
-    const words = messageToWords(message.text);
-    _.each(words, (w) => {
-      const stationRecord = stationLookup(w);
-      if (stationRecord !== null) {
-        getWeatherReport(message.channel, stationRecord);
-      }
-      else {
-        rtm.sendMessage(`I don't have any information about '${w}'. Sorry.`, message.channel);
-      }
-    });
+    handleMessage(message);
   }
 });
+
+const handleMessage = (message) => {
+  const words = messageToWords(message.text);
+  _.each(words, (w) => {
+    const stationRecord = stationLookup(w);
+    if (stationRecord !== null) {
+      getWeatherReport(message.channel, stationRecord);
+    }
+    else {
+      rtm.sendMessage(`I don't have any information about '${w}'. Sorry.`, message.channel);
+    }
+  });
+}
 
 const getWeatherReport = (channelId, stationRecord) => {
   console.log(stationRecord);

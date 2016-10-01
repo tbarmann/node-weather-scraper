@@ -1,107 +1,9 @@
 [
   {
-    "stationId": "KAIV",
-    "airportId": "AIV",
-    "name": "George Downer Airport",
-    "city": "Aliceville",
-    "state": "Alabama"
-  },
-  {
     "stationId": "KALX",
     "airportId": "ALX",
     "name": "Thomas C. Russell Field",
     "city": "Alexander City",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KANB",
-    "airportId": "ANB",
-    "name": "Anniston Regional Airport",
-    "city": "Anniston",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KASN",
-    "airportId": "ASN",
-    "name": "Talladega Municipal Airport",
-    "city": "Talladega",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KAUO",
-    "airportId": "AUO",
-    "name": "Auburn University Regional Airport",
-    "city": "Auburn",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KBFM",
-    "airportId": "BFM",
-    "name": "Mobile Downtown Airport",
-    "city": "Mobile",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KBHM",
-    "airportId": "BHM",
-    "name": "Birmingham-Shuttlesworth International Airport",
-    "city": "Birmingham",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KCQF",
-    "airportId": "CQF",
-    "name": "H. L. Sonny Callahan Airport",
-    "city": "Fairhope",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KDCU",
-    "airportId": "DCU",
-    "name": "Pryor Field Regional Airport",
-    "city": "Decatur",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KDHN",
-    "airportId": "DHN",
-    "name": "Dothan Regional Airport",
-    "city": "Dothan",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KDYA",
-    "airportId": "DYA",
-    "name": "Demopolis Municipal Airport",
-    "city": "Demopolis",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KEDN",
-    "airportId": "EDN",
-    "name": "Enterprise Municipal Airport",
-    "city": "Enterprise",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KEET",
-    "airportId": "EET",
-    "name": "Shelby County Airport",
-    "city": "Alabaster",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KEKY",
-    "airportId": "EKY",
-    "name": "Bessemer Airport",
-    "city": "Bessemer",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KEUF",
-    "airportId": "EUF",
-    "name": "Weedon Field",
-    "city": "Eufaula",
     "state": "Alabama"
   },
   {
@@ -112,52 +14,10 @@
     "state": "Alabama"
   },
   {
-    "stationId": "KGZH",
-    "airportId": "GZH",
-    "name": "Middleton Field",
-    "city": "Evergreen",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KHEY",
-    "airportId": "HEY",
-    "name": "Hanchey Army Heliport",
-    "city": "Fort Rucker / Ozark",
-    "state": "Alabama"
-  },
-  {
     "stationId": "KHSV",
     "airportId": "HSV",
     "name": "Huntsville International Airport (Carl T. Jones Field)",
     "city": "Huntsville",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KHUA",
-    "airportId": "HUA",
-    "name": "Redstone Army Airfield",
-    "city": "Redstone Arsenal / Huntsville",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KJFX",
-    "airportId": "JFX",
-    "name": "Walker County Airport (Bevill Field)",
-    "city": "Jasper",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KJKA",
-    "airportId": "JKA",
-    "name": "Jack Edwards Airport",
-    "city": "Gulf Shores",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KLOR",
-    "airportId": "LOR",
-    "name": "Lowe Army Heliport",
-    "city": "Fort Rucker / Ozark",
     "state": "Alabama"
   },
   {
@@ -189,87 +49,10 @@
     "state": "Alabama"
   },
   {
-    "stationId": "KMVC",
-    "airportId": "MVC",
-    "name": "Monroe County Airport",
-    "city": "Monroeville",
-    "state": "Alabama"
-  },
-  {
     "stationId": "KMXF",
     "airportId": "MXF",
     "name": "Maxwell Air Force Base",
     "city": "Montgomery",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KNBJ",
-    "airportId": "NBJ",
-    "name": "Naval Outlying Field Barin",
-    "city": "Foley",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KNFD",
-    "airportId": "NFD",
-    "name": "Naval Outlying Field Summerdale",
-    "city": "Summerdale",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KNHL",
-    "airportId": "NHL",
-    "name": "Naval Outlying Field Wolf",
-    "city": "Foley",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KNQB",
-    "airportId": "NQB",
-    "name": "Naval Outlying Field Silverhill",
-    "city": "Robertsdale",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KOZR",
-    "airportId": "OZR",
-    "name": "Cairns Army Airfield",
-    "city": "Fort Rucker / Ozark",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KPLR",
-    "airportId": "PLR",
-    "name": "St. Clair County Airport",
-    "city": "Pell City",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KPRN",
-    "airportId": "PRN",
-    "name": "Mac Crenshaw Memorial Airport",
-    "city": "Greenville",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KPYP",
-    "airportId": "PYP",
-    "name": "Centre-Piedmont-Cherokee County Regional Airport",
-    "city": "Centre",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KSCD",
-    "airportId": "SCD",
-    "name": "Sylacauga Municipal Airport (Merkel Field)",
-    "city": "Sylacauga",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KSEM",
-    "airportId": "SEM",
-    "name": "Craig Field",
-    "city": "Selma",
     "state": "Alabama"
   },
   {
@@ -278,34 +61,6 @@
     "name": "Troy Municipal Airport",
     "city": "Troy",
     "state": "Alabama"
-  },
-  {
-    "stationId": "KHAB",
-    "airportId": "HAB",
-    "name": "Marion County / Rankin Fite Airport",
-    "city": "Hamilton",
-    "state": "Alabama"
-  },
-  {
-    "stationId": "KAZC",
-    "airportId": "AZC",
-    "name": "Colorado City Municipal Airport",
-    "city": "Colorado City",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KBXK",
-    "airportId": "BXK",
-    "name": "Buckeye Municipal Airport",
-    "city": "Buckeye",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KCFT",
-    "airportId": "CFT",
-    "name": "Greenlee County Airport",
-    "city": "Clifton / Morenci",
-    "state": "Arizona"
   },
   {
     "stationId": "KCGZ",
@@ -319,20 +74,6 @@
     "airportId": "CHD",
     "name": "Chandler Municipal Airport",
     "city": "Chandler",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KCMR",
-    "airportId": "CMR",
-    "name": "H.A. Clark Memorial Field",
-    "city": "Williams",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KDGL",
-    "airportId": "DGL",
-    "name": "Douglas Municipal Airport",
-    "city": "Douglas",
     "state": "Arizona"
   },
   {
@@ -354,13 +95,6 @@
     "airportId": "DVT",
     "name": "Phoenix Deer Valley Airport",
     "city": "Phoenix",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KFFZ",
-    "airportId": "FFZ",
-    "name": "Falcon Field",
-    "city": "Mesa",
     "state": "Arizona"
   },
   {
@@ -406,13 +140,6 @@
     "state": "Arizona"
   },
   {
-    "stationId": "KHII",
-    "airportId": "HII",
-    "name": "Lake Havasu City Airport",
-    "city": "Lake Havasu City",
-    "state": "Arizona"
-  },
-  {
     "stationId": "KIFP",
     "airportId": "IFP",
     "name": "Laughlin/Bullhead International Airport",
@@ -441,24 +168,10 @@
     "state": "Arizona"
   },
   {
-    "stationId": "KLGF",
-    "airportId": "LGF",
-    "name": "Laguna Army Airfield (Yuma Proving Ground)",
-    "city": "Yuma",
-    "state": "Arizona"
-  },
-  {
     "stationId": "KLUF",
     "airportId": "LUF",
     "name": "Luke Air Force Base",
     "city": "Glendale",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KMZJ",
-    "airportId": "MZJ",
-    "name": "Pinal Airpark",
-    "city": "Pinal County",
     "state": "Arizona"
   },
   {
@@ -473,13 +186,6 @@
     "airportId": "OLS",
     "name": "Nogales International Airport",
     "city": "Nogales",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KPAN",
-    "airportId": "PAN",
-    "name": "Payson Municipal Airport",
-    "city": "Payson",
     "state": "Arizona"
   },
   {
@@ -511,13 +217,6 @@
     "state": "Arizona"
   },
   {
-    "stationId": "KRYN",
-    "airportId": "RYN",
-    "name": "Ryan Field",
-    "city": "Tucson",
-    "state": "Arizona"
-  },
-  {
     "stationId": "KSAD",
     "airportId": "SAD",
     "name": "Safford Regional Airport",
@@ -532,24 +231,10 @@
     "state": "Arizona"
   },
   {
-    "stationId": "KSEZ",
-    "airportId": "SEZ",
-    "name": "Sedona Airport",
-    "city": "Sedona",
-    "state": "Arizona"
-  },
-  {
     "stationId": "KSJN",
     "airportId": "SJN",
     "name": "St. Johns Industrial Air Park",
     "city": "St. Johns",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KSOW",
-    "airportId": "SOW",
-    "name": "Show Low Regional Airport",
-    "city": "Show Low",
     "state": "Arizona"
   },
   {
@@ -558,27 +243,6 @@
     "name": "Tucson International Airport",
     "city": "Tucson",
     "state": "Arizona"
-  },
-  {
-    "stationId": "KTYL",
-    "airportId": "TYL",
-    "name": "Taylor Airport",
-    "city": "Taylor",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KAVQ",
-    "airportId": "AVQ",
-    "name": "Marana Regional Airport",
-    "city": "Marana",
-    "state": "Arizona"
-  },
-  {
-    "stationId": "KAGO",
-    "airportId": "AGO",
-    "name": "Magnolia Municipal Airport",
-    "city": "Magnolia",
-    "state": "Arkansas"
   },
   {
     "stationId": "KARG",
@@ -602,20 +266,6 @@
     "state": "Arkansas"
   },
   {
-    "stationId": "KAZU",
-    "airportId": "AZU",
-    "name": "Arrowhead Assault Strip",
-    "city": "Fort Chaffee",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KBDQ",
-    "airportId": "BDQ",
-    "name": "Morrilton Municipal Airport",
-    "city": "Morrilton",
-    "state": "Arkansas"
-  },
-  {
     "stationId": "KBPK",
     "airportId": "BPK",
     "name": "Ozark Regional Airport (formerly Baxter County Regional Airport)",
@@ -630,48 +280,6 @@
     "state": "Arkansas"
   },
   {
-    "stationId": "KBYH",
-    "airportId": "BYH",
-    "name": "Arkansas International Airport",
-    "city": "Blytheville",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KCCA",
-    "airportId": "CCA",
-    "name": "Clinton Municipal Airport",
-    "city": "Clinton",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KCDH",
-    "airportId": "CDH",
-    "name": "Harrell Field",
-    "city": "Camden",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KCRT",
-    "airportId": "CRT",
-    "name": "Z.M. Jack Stell Field",
-    "city": "Crossett",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KCVK",
-    "airportId": "CVK",
-    "name": "Sharp County Regional Airport",
-    "city": "Ash Flat",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KCXW",
-    "airportId": "CXW",
-    "name": "Conway Municipal Airport / Cantrell Field",
-    "city": "Conway",
-    "state": "Arkansas"
-  },
-  {
     "stationId": "KDEQ",
     "airportId": "DEQ",
     "name": "J. Lynn Helms Sevier County Airport",
@@ -683,13 +291,6 @@
     "airportId": "ELD",
     "name": "South Arkansas Regional Airport at Goodwin Field",
     "city": "El Dorado",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KFCY",
-    "airportId": "FCY",
-    "name": "Forrest City Municipal Airport",
-    "city": "Forrest City",
     "state": "Arkansas"
   },
   {
@@ -711,20 +312,6 @@
     "airportId": "FYV",
     "name": "Drake Field / Fayetteville Municipal Airport",
     "city": "Fayetteville",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KHBZ",
-    "airportId": "HBZ",
-    "name": "Heber Springs Municipal Airport",
-    "city": "Heber Springs",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KHEE",
-    "airportId": "HEE",
-    "name": "Thompson-Robbins Airport",
-    "city": "Helena",
     "state": "Arkansas"
   },
   {
@@ -777,38 +364,10 @@
     "state": "Arkansas"
   },
   {
-    "stationId": "KMPJ",
-    "airportId": "MPJ",
-    "name": "Petit Jean Park Airport",
-    "city": "Morrilton",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KMXA",
-    "airportId": "MXA",
-    "name": "Manila Municipal Airport",
-    "city": "Manila",
-    "state": "Arkansas"
-  },
-  {
     "stationId": "KPBF",
     "airportId": "PBF",
     "name": "Grider Field",
     "city": "Pine Bluff",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KPGR",
-    "airportId": "PGR",
-    "name": "Kirk Airport",
-    "city": "Paragould",
-    "state": "Arkansas"
-  },
-  {
-    "stationId": "KRBM",
-    "airportId": "RBM",
-    "name": "Robinson Army Airfield",
-    "city": "Camp Robinson",
     "state": "Arkansas"
   },
   {
@@ -847,13 +406,6 @@
     "state": "Arkansas"
   },
   {
-    "stationId": "KSUZ",
-    "airportId": "SUZ",
-    "name": "Saline County Regional Airport",
-    "city": "Benton",
-    "state": "Arkansas"
-  },
-  {
     "stationId": "KTXK",
     "airportId": "TXK",
     "name": "Texarkana Regional Airport-Webb Field",
@@ -889,31 +441,10 @@
     "state": "California"
   },
   {
-    "stationId": "KAHC",
-    "airportId": "AHC",
-    "name": "Amedee Army Airfield",
-    "city": "Herlong",
-    "state": "California"
-  },
-  {
-    "stationId": "KAJO",
-    "airportId": "AJO",
-    "name": "Corona Municipal Airport",
-    "city": "Corona",
-    "state": "California"
-  },
-  {
     "stationId": "KAPC",
     "airportId": "APC",
     "name": "Napa County Airport",
     "city": "Napa",
-    "state": "California"
-  },
-  {
-    "stationId": "KAPV",
-    "airportId": "APV",
-    "name": "Apple Valley Airport",
-    "city": "Apple Valley",
     "state": "California"
   },
   {
@@ -935,13 +466,6 @@
     "airportId": "BAB",
     "name": "Beale Air Force Base",
     "city": "Marysville",
-    "state": "California"
-  },
-  {
-    "stationId": "KBAN",
-    "airportId": "BAN",
-    "name": "Bryant Field",
-    "city": "Bridgeport",
     "state": "California"
   },
   {
@@ -973,38 +497,10 @@
     "state": "California"
   },
   {
-    "stationId": "KBNG",
-    "airportId": "BNG",
-    "name": "Banning Municipal Airport",
-    "city": "Banning",
-    "state": "California"
-  },
-  {
     "stationId": "KBUR",
     "airportId": "BUR",
     "name": "Bob Hope Airport",
     "city": "Burbank",
-    "state": "California"
-  },
-  {
-    "stationId": "KBWC",
-    "airportId": "BWC",
-    "name": "Brawley Municipal Airport",
-    "city": "Brawley",
-    "state": "California"
-  },
-  {
-    "stationId": "KBYS",
-    "airportId": "BYS",
-    "name": "Bicycle Lake Army Airfield (Fort Irwin)",
-    "city": "Barstow",
-    "state": "California"
-  },
-  {
-    "stationId": "KCCB",
-    "airportId": "CCB",
-    "name": "Cable Airport",
-    "city": "Upland",
     "state": "California"
   },
   {
@@ -1022,20 +518,6 @@
     "state": "California"
   },
   {
-    "stationId": "KCIC",
-    "airportId": "CIC",
-    "name": "Chico Municipal Airport",
-    "city": "Chico",
-    "state": "California"
-  },
-  {
-    "stationId": "KCLR",
-    "airportId": "CLR",
-    "name": "Cliff Hatfield Memorial Airport",
-    "city": "Calipatria",
-    "state": "California"
-  },
-  {
     "stationId": "KCMA",
     "airportId": "CMA",
     "name": "Camarillo Airport",
@@ -1050,27 +532,6 @@
     "state": "California"
   },
   {
-    "stationId": "KCPM",
-    "airportId": "CPM",
-    "name": "Compton/Woodley Airport",
-    "city": "Compton",
-    "state": "California"
-  },
-  {
-    "stationId": "KCPU",
-    "airportId": "CPU",
-    "name": "Calaveras County Airport (Maury Rasmussen Field)",
-    "city": "San Andreas",
-    "state": "California"
-  },
-  {
-    "stationId": "KCRO",
-    "airportId": "CRO",
-    "name": "Corcoran Airport",
-    "city": "Corcoran",
-    "state": "California"
-  },
-  {
     "stationId": "KCRQ",
     "airportId": "CRQ",
     "name": "McClellan-Palomar Airport",
@@ -1078,45 +539,10 @@
     "state": "California"
   },
   {
-    "stationId": "KCVH",
-    "airportId": "CVH",
-    "name": "Hollister Municipal Airport",
-    "city": "Hollister",
-    "state": "California"
-  },
-  {
-    "stationId": "KCXL",
-    "airportId": "CXL",
-    "name": "Calexico International Airport",
-    "city": "Calexico",
-    "state": "California"
-  },
-  {
     "stationId": "KDAG",
     "airportId": "DAG",
     "name": "Barstow-Daggett Airport",
     "city": "Daggett",
-    "state": "California"
-  },
-  {
-    "stationId": "KDLO",
-    "airportId": "DLO",
-    "name": "Delano Municipal Airport",
-    "city": "Delano",
-    "state": "California"
-  },
-  {
-    "stationId": "KDVO",
-    "airportId": "DVO",
-    "name": "Gnoss Field",
-    "city": "Novato",
-    "state": "California"
-  },
-  {
-    "stationId": "KEDU",
-    "airportId": "EDU",
-    "name": "University Airport",
-    "city": "Davis",
     "state": "California"
   },
   {
@@ -1134,20 +560,6 @@
     "state": "California"
   },
   {
-    "stationId": "KEKA",
-    "airportId": "EKA",
-    "name": "Murray Field",
-    "city": "Eureka",
-    "state": "California"
-  },
-  {
-    "stationId": "KEMT",
-    "airportId": "EMT",
-    "name": "El Monte Airport",
-    "city": "El Monte",
-    "state": "California"
-  },
-  {
     "stationId": "KFAT",
     "airportId": "FAT",
     "name": "Fresno Yosemite International Airport",
@@ -1155,45 +567,10 @@
     "state": "California"
   },
   {
-    "stationId": "KFCH",
-    "airportId": "FCH",
-    "name": "Fresno Chandler Executive Airport",
-    "city": "Fresno",
-    "state": "California"
-  },
-  {
-    "stationId": "KFOT",
-    "airportId": "FOT",
-    "name": "Rohnerville Airport",
-    "city": "Fortuna",
-    "state": "California"
-  },
-  {
     "stationId": "KFUL",
     "airportId": "FUL",
     "name": "Fullerton Municipal Airport",
     "city": "Fullerton",
-    "state": "California"
-  },
-  {
-    "stationId": "KGOO",
-    "airportId": "GOO",
-    "name": "Nevada County Air Park",
-    "city": "Grass Valley",
-    "state": "California"
-  },
-  {
-    "stationId": "KGXA",
-    "airportId": "GXA",
-    "name": "Gray Butte Field",
-    "city": "Lake Los Angeles",
-    "state": "California"
-  },
-  {
-    "stationId": "KHAF",
-    "airportId": "HAF",
-    "name": "Half Moon Bay Airport",
-    "city": "Half Moon Bay",
     "state": "California"
   },
   {
@@ -1211,13 +588,6 @@
     "state": "California"
   },
   {
-    "stationId": "KHMT",
-    "airportId": "HMT",
-    "name": "Hemet-Ryan Airport",
-    "city": "Hemet",
-    "state": "California"
-  },
-  {
     "stationId": "KHWD",
     "airportId": "HWD",
     "name": "Hayward Executive Airport",
@@ -1229,27 +599,6 @@
     "airportId": "IPL",
     "name": "Imperial County Airport",
     "city": "Imperial",
-    "state": "California"
-  },
-  {
-    "stationId": "KIYK",
-    "airportId": "IYK",
-    "name": "Inyokern Airport",
-    "city": "Inyokern",
-    "state": "California"
-  },
-  {
-    "stationId": "KIZA",
-    "airportId": "IZA",
-    "name": "Santa Ynez Airport",
-    "city": "Santa Ynez",
-    "state": "California"
-  },
-  {
-    "stationId": "KKIC",
-    "airportId": "KIC",
-    "name": "Mesa Del Rey Airport",
-    "city": "King City",
     "state": "California"
   },
   {
@@ -1267,24 +616,10 @@
     "state": "California"
   },
   {
-    "stationId": "KLHM",
-    "airportId": "LHM",
-    "name": "Lincoln Regional Airport (Karl Harder Field)",
-    "city": "Lincoln",
-    "state": "California"
-  },
-  {
     "stationId": "KLPC",
     "airportId": "LPC",
     "name": "Lompoc Airport",
     "city": "Lompoc",
-    "state": "California"
-  },
-  {
-    "stationId": "KLSN",
-    "airportId": "LSN",
-    "name": "Los Banos Municipal Airport",
-    "city": "Los Banos",
     "state": "California"
   },
   {
@@ -1316,13 +651,6 @@
     "state": "California"
   },
   {
-    "stationId": "KMER",
-    "airportId": "MER",
-    "name": "Castle Airport",
-    "city": "Atwater",
-    "state": "California"
-  },
-  {
     "stationId": "KMHR",
     "airportId": "MHR",
     "name": "Mather Airport",
@@ -1337,38 +665,10 @@
     "state": "California"
   },
   {
-    "stationId": "KMHV",
-    "airportId": "MHV",
-    "name": "Mojave Spaceport",
-    "city": "Mojave",
-    "state": "California"
-  },
-  {
-    "stationId": "KMIT",
-    "airportId": "MIT",
-    "name": "Shafter Airport",
-    "city": "Shafter",
-    "state": "California"
-  },
-  {
-    "stationId": "KMMH",
-    "airportId": "MMH",
-    "name": "Mammoth Yosemite Airport",
-    "city": "Mammoth Lakes",
-    "state": "California"
-  },
-  {
     "stationId": "KMOD",
     "airportId": "MOD",
     "name": "Modesto City-County Airport",
     "city": "Modesto",
-    "state": "California"
-  },
-  {
-    "stationId": "KMPI",
-    "airportId": "MPI",
-    "name": "Mariposa-Yosemite Airport",
-    "city": "Mariposa",
     "state": "California"
   },
   {
@@ -1390,13 +690,6 @@
     "airportId": "MYV",
     "name": "Yuba County Airport",
     "city": "Marysville",
-    "state": "California"
-  },
-  {
-    "stationId": "KNGZ",
-    "airportId": "NGZ",
-    "name": "Naval Air Station Alameda",
-    "city": "Alameda",
     "state": "California"
   },
   {
@@ -1435,31 +728,10 @@
     "state": "California"
   },
   {
-    "stationId": "KNSI",
-    "airportId": "NSI",
-    "name": "Naval Outlying Field San Nicolas Island",
-    "city": "San Nicolas Island",
-    "state": "California"
-  },
-  {
     "stationId": "KNTD",
     "airportId": "NTD",
     "name": "Naval Air Station Point Mugu",
     "city": "Oxnard",
-    "state": "California"
-  },
-  {
-    "stationId": "KNTK",
-    "airportId": "NTK",
-    "name": "Marine Corps Air Station Tustin",
-    "city": "Santa Ana",
-    "state": "California"
-  },
-  {
-    "stationId": "KNUC",
-    "airportId": "NUC",
-    "name": "Naval Auxiliary Landing Field San Clemente Island",
-    "city": "San Clemente",
     "state": "California"
   },
   {
@@ -1470,24 +742,10 @@
     "state": "California"
   },
   {
-    "stationId": "KNXF",
-    "airportId": "NXF",
-    "name": "Mcolf Camp Pendleton",
-    "city": "Camp Pendleton",
-    "state": "California"
-  },
-  {
     "stationId": "KNXP",
     "airportId": "NXP",
     "name": "Marine Corps Air Ground Combat Center Twentynine Palms",
     "city": "Twentynine Palms",
-    "state": "California"
-  },
-  {
-    "stationId": "KNZJ",
-    "airportId": "NZJ",
-    "name": "Marine Corps Air Station El Toro",
-    "city": "Santa Ana",
     "state": "California"
   },
   {
@@ -1502,13 +760,6 @@
     "airportId": "OAK",
     "name": "Oakland International Airport",
     "city": "Oakland",
-    "state": "California"
-  },
-  {
-    "stationId": "KOAR",
-    "airportId": "OAR",
-    "name": "Marina Airport",
-    "city": "Marina",
     "state": "California"
   },
   {
@@ -1554,13 +805,6 @@
     "state": "California"
   },
   {
-    "stationId": "KPOC",
-    "airportId": "POC",
-    "name": "Brackett Airport",
-    "city": "La Verne",
-    "state": "California"
-  },
-  {
     "stationId": "KPRB",
     "airportId": "PRB",
     "name": "Paso Robles Municipal Airport",
@@ -1579,13 +823,6 @@
     "airportId": "PTV",
     "name": "Porterville Municipal Airport",
     "city": "Porterville",
-    "state": "California"
-  },
-  {
-    "stationId": "KPVF",
-    "airportId": "PVF",
-    "name": "Placerville Airport",
-    "city": "Placerville",
     "state": "California"
   },
   {
@@ -1610,31 +847,10 @@
     "state": "California"
   },
   {
-    "stationId": "KREI",
-    "airportId": "REI",
-    "name": "Redlands Municipal Airport",
-    "city": "Redlands",
-    "state": "California"
-  },
-  {
     "stationId": "KRHV",
     "airportId": "RHV",
     "name": "Reid-Hillview Airport",
     "city": "San Jose",
-    "state": "California"
-  },
-  {
-    "stationId": "KRIR",
-    "airportId": "RIR",
-    "name": "Flabob Airport",
-    "city": "Riverside",
-    "state": "California"
-  },
-  {
-    "stationId": "KRIU",
-    "airportId": "RIU",
-    "name": "Rancho Murieta Airport",
-    "city": "Rancho Murieta",
     "state": "California"
   },
   {
@@ -1666,24 +882,10 @@
     "state": "California"
   },
   {
-    "stationId": "KSAS",
-    "airportId": "SAS",
-    "name": "Salton Sea Airport",
-    "city": "Salton City",
-    "state": "California"
-  },
-  {
     "stationId": "KSBA",
     "airportId": "SBA",
     "name": "Santa Barbara Municipal Airport",
     "city": "Santa Barbara",
-    "state": "California"
-  },
-  {
-    "stationId": "KSBD",
-    "airportId": "SBD",
-    "name": "San Bernardino International Airport",
-    "city": "San Bernardino",
     "state": "California"
   },
   {
@@ -1708,13 +910,6 @@
     "state": "California"
   },
   {
-    "stationId": "KSEE",
-    "airportId": "SEE",
-    "name": "Gillespie Airport",
-    "city": "San Diego",
-    "state": "California"
-  },
-  {
     "stationId": "KSFO",
     "airportId": "SFO",
     "name": "San Francisco International Airport",
@@ -1733,13 +928,6 @@
     "airportId": "SJC",
     "name": "Norman Y. Mineta San José International Airport",
     "city": "San Jose",
-    "state": "California"
-  },
-  {
-    "stationId": "KSLI",
-    "airportId": "SLI",
-    "name": "Los Alamitos Army Airfield",
-    "city": "Los Alamitos",
     "state": "California"
   },
   {
@@ -1799,48 +987,6 @@
     "state": "California"
   },
   {
-    "stationId": "KSVE",
-    "airportId": "SVE",
-    "name": "Susanville Airport",
-    "city": "Susanville",
-    "state": "California"
-  },
-  {
-    "stationId": "KSYL",
-    "airportId": "SYL",
-    "name": "Roberts Army Heliport",
-    "city": "Camp Roberts, San Luis Obispo County",
-    "state": "California"
-  },
-  {
-    "stationId": "KSZP",
-    "airportId": "SZP",
-    "name": "Santa Paula Airport",
-    "city": "Santa Paula",
-    "state": "California"
-  },
-  {
-    "stationId": "KTCY",
-    "airportId": "TCY",
-    "name": "Tracy Municipal Airport",
-    "city": "Tracy",
-    "state": "California"
-  },
-  {
-    "stationId": "KTLR",
-    "airportId": "TLR",
-    "name": "Mefford Airport",
-    "city": "Tulare",
-    "state": "California"
-  },
-  {
-    "stationId": "KTNP",
-    "airportId": "TNP",
-    "name": "Twentynine Palms Airport",
-    "city": "Twentynine Palms",
-    "state": "California"
-  },
-  {
     "stationId": "KTOA",
     "airportId": "TOA",
     "name": "Zamperini Airport",
@@ -1862,24 +1008,10 @@
     "state": "California"
   },
   {
-    "stationId": "KTSP",
-    "airportId": "TSP",
-    "name": "Tehachapi Municipal Airport",
-    "city": "Tehachapi",
-    "state": "California"
-  },
-  {
     "stationId": "KTVL",
     "airportId": "TVL",
     "name": "Lake Tahoe Airport",
     "city": "South Lake Tahoe",
-    "state": "California"
-  },
-  {
-    "stationId": "KUDD",
-    "airportId": "UDD",
-    "name": "Bermuda Dunes Airport",
-    "city": "Palm Springs",
     "state": "California"
   },
   {
@@ -1904,13 +1036,6 @@
     "state": "California"
   },
   {
-    "stationId": "KVCV",
-    "airportId": "VCV",
-    "name": "Southern California Logistics Airport",
-    "city": "Victorville",
-    "state": "California"
-  },
-  {
     "stationId": "KVIS",
     "airportId": "VIS",
     "name": "Visalia Municipal Airport",
@@ -1925,24 +1050,10 @@
     "state": "California"
   },
   {
-    "stationId": "KWHP",
-    "airportId": "WHP",
-    "name": "Whiteman Airport",
-    "city": "Los Angeles",
-    "state": "California"
-  },
-  {
     "stationId": "KWJF",
     "airportId": "WJF",
     "name": "General William J. Fox Airfield",
     "city": "Lancaster",
-    "state": "California"
-  },
-  {
-    "stationId": "KWLW",
-    "airportId": "WLW",
-    "name": "Willows-Glenn County Airport",
-    "city": "Willows",
     "state": "California"
   },
   {
@@ -1953,31 +1064,10 @@
     "state": "California"
   },
   {
-    "stationId": "KAEJ",
-    "airportId": "AEJ",
-    "name": "Central Colorado Regional Airport",
-    "city": "Buena Vista",
-    "state": "Colorado"
-  },
-  {
     "stationId": "KAFF",
     "airportId": "AFF",
     "name": "United States Air Force Academy Airfield",
     "city": "Colorado Springs",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KAIB",
-    "airportId": "AIB",
-    "name": "Hopkins-Montrose County Airport",
-    "city": "Nucla",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KAJZ",
-    "airportId": "AJZ",
-    "name": "Blake Field",
-    "city": "Delta",
     "state": "Colorado"
   },
   {
@@ -1995,24 +1085,10 @@
     "state": "Colorado"
   },
   {
-    "stationId": "KANK",
-    "airportId": "ANK",
-    "name": "Harriet Alexander Field",
-    "city": "Salida",
-    "state": "Colorado"
-  },
-  {
     "stationId": "KASE",
     "airportId": "ASE",
     "name": "Aspen-Pitkin County Airport",
     "city": "Aspen",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KBDU",
-    "airportId": "BDU",
-    "name": "Boulder Municipal Airport",
-    "city": "Boulder",
     "state": "Colorado"
   },
   {
@@ -2072,45 +1148,10 @@
     "state": "Colorado"
   },
   {
-    "stationId": "KEIK",
-    "airportId": "EIK",
-    "name": "Erie Municipal Airport",
-    "city": "Erie",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KFCS",
-    "airportId": "FCS",
-    "name": "Butts Army Airfield (Fort Carson)",
-    "city": "Fort Carson",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KFLY",
-    "airportId": "FLY",
-    "name": "Meadow Lake Airport",
-    "city": "Colorado Springs",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KFMM",
-    "airportId": "FMM",
-    "name": "Fort Morgan Municipal Airport",
-    "city": "Fort Morgan",
-    "state": "Colorado"
-  },
-  {
     "stationId": "KFNL",
     "airportId": "FNL",
     "name": "Fort Collins-Loveland Municipal Airport",
     "city": "Fort Collins / Loveland",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KFTG",
-    "airportId": "FTG",
-    "name": "Front Range Airport",
-    "city": "Aurora",
     "state": "Colorado"
   },
   {
@@ -2121,24 +1162,10 @@
     "state": "Colorado"
   },
   {
-    "stationId": "KGNB",
-    "airportId": "GNB",
-    "name": "Granby-Grand County Airport",
-    "city": "Granby",
-    "state": "Colorado"
-  },
-  {
     "stationId": "KGUC",
     "airportId": "GUC",
     "name": "Gunnison County Airport",
     "city": "Gunnison",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KGWS",
-    "airportId": "GWS",
-    "name": "Glenwood Springs Municipal Airport",
-    "city": "Glenwood Springs",
     "state": "Colorado"
   },
   {
@@ -2153,13 +1180,6 @@
     "airportId": "HDN",
     "name": "Yampa Valley Airport",
     "city": "Hayden",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KHEQ",
-    "airportId": "HEQ",
-    "name": "Holyoke Municipal Airport",
-    "city": "Holyoke",
     "state": "Colorado"
   },
   {
@@ -2191,13 +1211,6 @@
     "state": "Colorado"
   },
   {
-    "stationId": "KLMO",
-    "airportId": "LMO",
-    "name": "Vance Brand Airport",
-    "city": "Longmont",
-    "state": "Colorado"
-  },
-  {
     "stationId": "KLXV",
     "airportId": "LXV",
     "name": "Lake County Airport",
@@ -2209,20 +1222,6 @@
     "airportId": "MTJ",
     "name": "Montrose Regional Airport",
     "city": "Montrose",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KMVI",
-    "airportId": "MVI",
-    "name": "Monte Vista Municipal Airport",
-    "city": "Monte Vista",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KPSO",
-    "airportId": "PSO",
-    "name": "Stevens Field",
-    "city": "Pagosa Springs",
     "state": "Colorado"
   },
   {
@@ -2240,24 +1239,10 @@
     "state": "Colorado"
   },
   {
-    "stationId": "KSBS",
-    "airportId": "SBS",
-    "name": "Steamboat Springs Airport (Bob Adams Field)",
-    "city": "Steamboat Springs",
-    "state": "Colorado"
-  },
-  {
     "stationId": "KSPD",
     "airportId": "SPD",
     "name": "Springfield Municipal Airport",
     "city": "Springfield",
-    "state": "Colorado"
-  },
-  {
-    "stationId": "KSTK",
-    "airportId": "STK",
-    "name": "Sterling Municipal Airport",
-    "city": "Sterling",
     "state": "Colorado"
   },
   {
@@ -2345,13 +1330,6 @@
     "state": "Connecticut"
   },
   {
-    "stationId": "KSNC",
-    "airportId": "SNC",
-    "name": "Chester Airport",
-    "city": "Chester",
-    "state": "Connecticut"
-  },
-  {
     "stationId": "KBDL",
     "airportId": "BDL",
     "name": "Bradley International Airport",
@@ -2377,13 +1355,6 @@
     "airportId": "DOV",
     "name": "Dover Air Force Base",
     "city": "Dover",
-    "state": "Delaware"
-  },
-  {
-    "stationId": "KEVY",
-    "airportId": "EVY",
-    "name": "Summit Airport",
-    "city": "Middletown",
     "state": "Delaware"
   },
   {
@@ -2422,24 +1393,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KAGR",
-    "airportId": "AGR",
-    "name": "MacDill AFB Auxiliary Field",
-    "city": "Avon Park",
-    "state": "Florida"
-  },
-  {
     "stationId": "KAPF",
     "airportId": "APF",
     "name": "Naples Municipal Airport",
     "city": "Naples",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KAVO",
-    "airportId": "AVO",
-    "name": "Avon Park Executive Airport",
-    "city": "Avon Park",
     "state": "Florida"
   },
   {
@@ -2457,20 +1414,6 @@
     "state": "Florida"
   },
   {
-    "stationId": "KBOW",
-    "airportId": "BOW",
-    "name": "Bartow Municipal Airport",
-    "city": "Bartow",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KCDK",
-    "airportId": "CDK",
-    "name": "George T. Lewis Airport",
-    "city": "Cedar Key",
-    "state": "Florida"
-  },
-  {
     "stationId": "KCEW",
     "airportId": "CEW",
     "name": "Bob Sikes Airport",
@@ -2478,38 +1421,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KCGC",
-    "airportId": "CGC",
-    "name": "Crystal River Airport",
-    "city": "Crystal River",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KCHN",
-    "airportId": "CHN",
-    "name": "Wauchula Municipal Airport",
-    "city": "Wauchula",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KCLW",
-    "airportId": "CLW",
-    "name": "Clearwater Air Park",
-    "city": "Clearwater",
-    "state": "Florida"
-  },
-  {
     "stationId": "KCOF",
     "airportId": "COF",
     "name": "Patrick Air Force Base",
     "city": "Cocoa Beach",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KCOI",
-    "airportId": "COI",
-    "name": "Merritt Island Airport",
-    "city": "Merritt Island",
     "state": "Florida"
   },
   {
@@ -2534,13 +1449,6 @@
     "state": "Florida"
   },
   {
-    "stationId": "KDED",
-    "airportId": "DED",
-    "name": "DeLand Municipal Airport (Sidney H. Taylor Field)",
-    "city": "DeLand",
-    "state": "Florida"
-  },
-  {
     "stationId": "KDTS",
     "airportId": "DTS",
     "name": "Destin-Fort Walton Beach Airport",
@@ -2548,31 +1456,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KEGI",
-    "airportId": "EGI",
-    "name": "Duke Field (Eglin Auxiliary Field 3)",
-    "city": "Crestview",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KEVB",
-    "airportId": "EVB",
-    "name": "New Smyrna Beach Municipal Airport",
-    "city": "New Smyrna Beach",
-    "state": "Florida"
-  },
-  {
     "stationId": "KEYW",
     "airportId": "EYW",
     "name": "Key West International Airport",
     "city": "Key West",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KFHB",
-    "airportId": "FHB",
-    "name": "Fernandina Beach Municipal Airport",
-    "city": "Fernandina Beach",
     "state": "Florida"
   },
   {
@@ -2618,13 +1505,6 @@
     "state": "Florida"
   },
   {
-    "stationId": "KHEG",
-    "airportId": "HEG",
-    "name": "Herlong Airport",
-    "city": "Jacksonville",
-    "state": "Florida"
-  },
-  {
     "stationId": "KHST",
     "airportId": "HST",
     "name": "Homestead Joint Air Reserve Base",
@@ -2636,13 +1516,6 @@
     "airportId": "HWO",
     "name": "North Perry Airport",
     "city": "Hollywood",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KIMM",
-    "airportId": "IMM",
-    "name": "Immokalee Airport",
-    "city": "Immokalee",
     "state": "Florida"
   },
   {
@@ -2667,24 +1540,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KLCQ",
-    "airportId": "LCQ",
-    "name": "Lake City Gateway Airport",
-    "city": "Lake City",
-    "state": "Florida"
-  },
-  {
     "stationId": "KLEE",
     "airportId": "LEE",
     "name": "Leesburg International Airport",
     "city": "Leesburg",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KLNA",
-    "airportId": "LNA",
-    "name": "Palm Beach County Park Airport (Lantana Airport)",
-    "city": "West Palm Beach",
     "state": "Florida"
   },
   {
@@ -2716,13 +1575,6 @@
     "state": "Florida"
   },
   {
-    "stationId": "KMKY",
-    "airportId": "MKY",
-    "name": "Marco Island Airport",
-    "city": "Naples",
-    "state": "Florida"
-  },
-  {
     "stationId": "KMLB",
     "airportId": "MLB",
     "name": "Melbourne International Airport",
@@ -2737,27 +1589,6 @@
     "state": "Florida"
   },
   {
-    "stationId": "KNEN",
-    "airportId": "NEN",
-    "name": "Naval Outlying Field Whitehouse",
-    "city": "Jacksonville",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KNFJ",
-    "airportId": "NFJ",
-    "name": "Naval Outlying Field Choctaw",
-    "city": "Milton",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KNGS",
-    "airportId": "NGS",
-    "name": "NOLF Santa Rosa",
-    "city": "Milton",
-    "state": "Florida"
-  },
-  {
     "stationId": "KNIP",
     "airportId": "NIP",
     "name": "Naval Air Station Jacksonville",
@@ -2765,23 +1596,9 @@
     "state": "Florida"
   },
   {
-    "stationId": "KNKL",
-    "airportId": "NKL",
-    "name": "Naval Outlying Field Holley",
-    "city": "Fort Walton Beach",
-    "state": "Florida"
-  },
-  {
     "stationId": "KNPA",
     "airportId": "NPA",
     "name": "Naval Air Station Pensacola",
-    "city": "Pensacola",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KNPI",
-    "airportId": "NPI",
-    "name": "Naval Outlying Field Site 8",
     "city": "Pensacola",
     "state": "Florida"
   },
@@ -2800,45 +1617,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KNRQ",
-    "airportId": "NRQ",
-    "name": "Naval Outlying Field Spencer",
-    "city": "Pace",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KNUN",
-    "airportId": "NUN",
-    "name": "Naval Outlying Field Saufley",
-    "city": "Pensacola",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KNVI",
-    "airportId": "NVI",
-    "name": "Naval Outlying Field Pace",
-    "city": "Wallace",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KOBE",
-    "airportId": "OBE",
-    "name": "Okeechobee County Airport",
-    "city": "Okeechobee",
-    "state": "Florida"
-  },
-  {
     "stationId": "KOCF",
     "airportId": "OCF",
     "name": "Ocala International Airport",
     "city": "Ocala",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KOMN",
-    "airportId": "OMN",
-    "name": "Ormond Beach Municipal Airport",
-    "city": "Ormond Beach",
     "state": "Florida"
   },
   {
@@ -2863,24 +1645,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KPCM",
-    "airportId": "PCM",
-    "name": "Plant City Airport",
-    "city": "Plant City",
-    "state": "Florida"
-  },
-  {
     "stationId": "KPGD",
     "airportId": "PGD",
     "name": "Charlotte County Airport",
     "city": "Punta Gorda",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KPHK",
-    "airportId": "PHK",
-    "name": "Palm Beach County Glades Airport",
-    "city": "Pahokee",
     "state": "Florida"
   },
   {
@@ -2902,13 +1670,6 @@
     "airportId": "RSW",
     "name": "Southwest Florida International Airport",
     "city": "South Fort Myers",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KSEF",
-    "airportId": "SEF",
-    "name": "Sebring Regional Airport",
-    "city": "Sebring",
     "state": "Florida"
   },
   {
@@ -2947,13 +1708,6 @@
     "state": "Florida"
   },
   {
-    "stationId": "KTIX",
-    "airportId": "TIX",
-    "name": "Space Coast Regional Airport",
-    "city": "Titusville",
-    "state": "Florida"
-  },
-  {
     "stationId": "KTLH",
     "airportId": "TLH",
     "name": "Tallahassee Regional Airport",
@@ -2968,13 +1722,6 @@
     "state": "Florida"
   },
   {
-    "stationId": "KTNT",
-    "airportId": "TNT",
-    "name": "Dade-Collier Training and Transition Airport",
-    "city": "Miami",
-    "state": "Florida"
-  },
-  {
     "stationId": "KTPA",
     "airportId": "TPA",
     "name": "Tampa International Airport",
@@ -2982,24 +1729,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KTPF",
-    "airportId": "TPF",
-    "name": "Peter O. Knight Airport",
-    "city": "Davis Island, Tampa",
-    "state": "Florida"
-  },
-  {
     "stationId": "KVDF",
     "airportId": "VDF",
     "name": "Tampa Executive Airport",
     "city": "Tampa",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KVNC",
-    "airportId": "VNC",
-    "name": "Venice Municipal Airport",
-    "city": "Venice",
     "state": "Florida"
   },
   {
@@ -3024,38 +1757,10 @@
     "state": "Florida"
   },
   {
-    "stationId": "KXFL",
-    "airportId": "XFL",
-    "name": "Flagler County Airport",
-    "city": "Bunnell",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KXMR",
-    "airportId": "XMR",
-    "name": "Cape Canaveral Air Force Station Skid Strip",
-    "city": "Cocoa Beach",
-    "state": "Florida"
-  },
-  {
-    "stationId": "KZPH",
-    "airportId": "ZPH",
-    "name": "Zephyrhills Municipal Airport",
-    "city": "Zephyrhills",
-    "state": "Florida"
-  },
-  {
     "stationId": "KABY",
     "airportId": "ABY",
     "name": "Southwest Georgia Regional Airport",
     "city": "Albany",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KACJ",
-    "airportId": "ACJ",
-    "name": "Souther Field",
-    "city": "Americus",
     "state": "Georgia"
   },
   {
@@ -3073,13 +1778,6 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KAJR",
-    "airportId": "AJR",
-    "name": "Habersham County Airport",
-    "city": "Cornelia",
-    "state": "Georgia"
-  },
-  {
     "stationId": "KAMG",
     "airportId": "AMG",
     "name": "Bacon County Airport",
@@ -3094,24 +1792,10 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KAZE",
-    "airportId": "AZE",
-    "name": "Hazlehurst Airport",
-    "city": "Hazlehurst",
-    "state": "Georgia"
-  },
-  {
     "stationId": "KBGE",
     "airportId": "BGE",
     "name": "Decatur County Industrial Air Park",
     "city": "Bainbridge",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KBHC",
-    "airportId": "BHC",
-    "name": "Baxley Municipal Airport",
-    "city": "Baxley",
     "state": "Georgia"
   },
   {
@@ -3122,13 +1806,6 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KBXG",
-    "airportId": "BXG",
-    "name": "Burke County Airport",
-    "city": "Waynesboro",
-    "state": "Georgia"
-  },
-  {
     "stationId": "KCCO",
     "airportId": "CCO",
     "name": "Newnan-Coweta County Airport",
@@ -3136,59 +1813,10 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KCKF",
-    "airportId": "CKF",
-    "name": "Crisp County-Cordele Airport",
-    "city": "Cordele",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KCNI",
-    "airportId": "CNI",
-    "name": "Cherokee County Airport",
-    "city": "Canton",
-    "state": "Georgia"
-  },
-  {
     "stationId": "KCSG",
     "airportId": "CSG",
     "name": "Columbus Airport",
     "city": "Columbus",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KCTJ",
-    "airportId": "CTJ",
-    "name": "West Georgia Regional Airport (O.V. Gray Field)",
-    "city": "Carrollton",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KCWV",
-    "airportId": "CWV",
-    "name": "Claxton-Evans County Airport",
-    "city": "Claxton",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KCXU",
-    "airportId": "CXU",
-    "name": "Camilla-Mitchell County Airport",
-    "city": "Camilla",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KCZL",
-    "airportId": "CZL",
-    "name": "Tom B. David Field",
-    "city": "Calhoun",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KDBN",
-    "airportId": "DBN",
-    "name": "W. H. 'Bud' Barron Airport",
-    "city": "Dublin",
     "state": "Georgia"
   },
   {
@@ -3206,27 +1834,6 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KDQH",
-    "airportId": "DQH",
-    "name": "Douglas Municipal Airport",
-    "city": "Douglas",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KDZJ",
-    "airportId": "DZJ",
-    "name": "Blairsville Airport",
-    "city": "Blairsville",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KEZM",
-    "airportId": "EZM",
-    "name": "Heart of Georgia Regional Airport",
-    "city": "Eastman",
-    "state": "Georgia"
-  },
-  {
     "stationId": "KFFC",
     "airportId": "FFC",
     "name": "Falcon Field",
@@ -3238,20 +1845,6 @@
     "airportId": "FTY",
     "name": "Fulton County Airport (Brown Field)",
     "city": "Atlanta",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KFZG",
-    "airportId": "FZG",
-    "name": "Fitzgerald Municipal Airport",
-    "city": "Fitzgerald",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KHOE",
-    "airportId": "HOE",
-    "name": "Homerville Airport",
-    "city": "Homerville",
     "state": "Georgia"
   },
   {
@@ -3269,13 +1862,6 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KJZP",
-    "airportId": "JZP",
-    "name": "Pickens County Airport",
-    "city": "Jasper",
-    "state": "Georgia"
-  },
-  {
     "stationId": "KLSF",
     "airportId": "LSF",
     "name": "Lawson Army Airfield",
@@ -3287,13 +1873,6 @@
     "airportId": "LZU",
     "name": "Gwinnett County Airport (Briscoe Field)",
     "city": "Lawrenceville",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KMAC",
-    "airportId": "MAC",
-    "name": "Macon Downtown Airport",
-    "city": "Macon",
     "state": "Georgia"
   },
   {
@@ -3311,31 +1890,10 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KNAB",
-    "airportId": "NAB",
-    "name": "Naval Air Station Albany",
-    "city": "Albany",
-    "state": "Georgia"
-  },
-  {
     "stationId": "KPDK",
     "airportId": "PDK",
     "name": "DeKalb-Peachtree Airport",
     "city": "Atlanta",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KPUJ",
-    "airportId": "PUJ",
-    "name": "Paulding County Regional Airport",
-    "city": "Dallas",
-    "state": "Georgia"
-  },
-  {
-    "stationId": "KPXE",
-    "airportId": "PXE",
-    "name": "Perry-Houston County Airport",
-    "city": "Perry",
     "state": "Georgia"
   },
   {
@@ -3374,13 +1932,6 @@
     "state": "Georgia"
   },
   {
-    "stationId": "KAOC",
-    "airportId": "AOC",
-    "name": "Arco Butte County Airport",
-    "city": "Arco",
-    "state": "Idaho"
-  },
-  {
     "stationId": "KBOI",
     "airportId": "BOI",
     "name": "Boise Air Terminal (Gowen Field)",
@@ -3402,31 +1953,10 @@
     "state": "Idaho"
   },
   {
-    "stationId": "KDIJ",
-    "airportId": "DIJ",
-    "name": "Driggs-Reed Memorial Airport",
-    "city": "Driggs",
-    "state": "Idaho"
-  },
-  {
     "stationId": "KEUL",
     "airportId": "EUL",
     "name": "Caldwell Industrial Airport",
     "city": "Caldwell",
-    "state": "Idaho"
-  },
-  {
-    "stationId": "KGIC",
-    "airportId": "GIC",
-    "name": "Idaho County Airport",
-    "city": "Grangeville",
-    "state": "Idaho"
-  },
-  {
-    "stationId": "KGNG",
-    "airportId": "GNG",
-    "name": "Gooding Municipal Airport",
-    "city": "Gooding",
     "state": "Idaho"
   },
   {
@@ -3455,13 +1985,6 @@
     "airportId": "LWS",
     "name": "Lewiston-Nez Perce County Airport",
     "city": "Lewiston",
-    "state": "Idaho"
-  },
-  {
-    "stationId": "KMAN",
-    "airportId": "MAN",
-    "name": "Nampa Municipal Airport",
-    "city": "Nampa",
     "state": "Idaho"
   },
   {
@@ -3542,13 +2065,6 @@
     "state": "Illinois"
   },
   {
-    "stationId": "KAJG",
-    "airportId": "AJG",
-    "name": "Mount Carmel Municipal Airport",
-    "city": "Mount Carmel",
-    "state": "Illinois"
-  },
-  {
     "stationId": "KALN",
     "airportId": "ALN",
     "name": "St. Louis Regional Airport",
@@ -3574,27 +2090,6 @@
     "airportId": "BMI",
     "name": "Central Illinois Regional Airport",
     "city": "Bloomington",
-    "state": "Illinois"
-  },
-  {
-    "stationId": "KCIR",
-    "airportId": "CIR",
-    "name": "Cairo Regional Airport",
-    "city": "Cairo",
-    "state": "Illinois"
-  },
-  {
-    "stationId": "KCTK",
-    "airportId": "CTK",
-    "name": "Ingersoll Airport",
-    "city": "Canton",
-    "state": "Illinois"
-  },
-  {
-    "stationId": "KCUL",
-    "airportId": "CUL",
-    "name": "Carmi Municipal Airport",
-    "city": "Carmi",
     "state": "Illinois"
   },
   {
@@ -3626,24 +2121,10 @@
     "state": "Illinois"
   },
   {
-    "stationId": "KDTG",
-    "airportId": "DTG",
-    "name": "Dwight Airport",
-    "city": "Dwight",
-    "state": "Illinois"
-  },
-  {
     "stationId": "KENL",
     "airportId": "ENL",
     "name": "Centralia Municipal Airport",
     "city": "Centralia",
-    "state": "Illinois"
-  },
-  {
-    "stationId": "KEZI",
-    "airportId": "EZI",
-    "name": "Kewanee Municipal Airport",
-    "city": "Kewanee",
     "state": "Illinois"
   },
   {
@@ -3766,66 +2247,10 @@
     "state": "Indiana"
   },
   {
-    "stationId": "KANQ",
-    "airportId": "ANQ",
-    "name": "Tri-State Steuben County Airport",
-    "city": "Angola",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KASW",
-    "airportId": "ASW",
-    "name": "Warsaw Municipal Airport",
-    "city": "Warsaw",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KBAK",
-    "airportId": "BAK",
-    "name": "Columbus Municipal Airport",
-    "city": "Columbus",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KBFR",
-    "airportId": "BFR",
-    "name": "Virgil I. Grissom Municipal Airport",
-    "city": "Bedford",
-    "state": "Indiana"
-  },
-  {
     "stationId": "KBMG",
     "airportId": "BMG",
     "name": "Monroe County Airport",
     "city": "Bloomington",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KCEV",
-    "airportId": "CEV",
-    "name": "Mettel Field",
-    "city": "Connersville",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KCFJ",
-    "airportId": "CFJ",
-    "name": "Crawfordsville Municipal Airport",
-    "city": "Crawfordsville",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KDCY",
-    "airportId": "DCY",
-    "name": "Daviess County Airport",
-    "city": "Washington",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KEKM",
-    "airportId": "EKM",
-    "name": "Elkhart Municipal Airport",
-    "city": "Elkhart",
     "state": "Indiana"
   },
   {
@@ -3843,20 +2268,6 @@
     "state": "Indiana"
   },
   {
-    "stationId": "KFKR",
-    "airportId": "FKR",
-    "name": "Frankfort Municipal Airport",
-    "city": "Frankfort",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KFRH",
-    "airportId": "FRH",
-    "name": "French Lick Municipal Airport",
-    "city": "French Lick",
-    "state": "Indiana"
-  },
-  {
     "stationId": "KFWA",
     "airportId": "FWA",
     "name": "Fort Wayne International Airport",
@@ -3868,13 +2279,6 @@
     "airportId": "GUS",
     "name": "Grissom Air Reserve Base",
     "city": "Peru",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KGWB",
-    "airportId": "GWB",
-    "name": "DeKalb County Airport",
-    "city": "Auburn",
     "state": "Indiana"
   },
   {
@@ -3892,13 +2296,6 @@
     "state": "Indiana"
   },
   {
-    "stationId": "KIMS",
-    "airportId": "IMS",
-    "name": "Madison Municipal Airport",
-    "city": "Madison",
-    "state": "Indiana"
-  },
-  {
     "stationId": "KIND",
     "airportId": "IND",
     "name": "Indianapolis International Airport",
@@ -3913,13 +2310,6 @@
     "state": "Indiana"
   },
   {
-    "stationId": "KMQJ",
-    "airportId": "MQJ",
-    "name": "Indianapolis Regional (Mount Comfort) Airport",
-    "city": "Indianapolis",
-    "state": "Indiana"
-  },
-  {
     "stationId": "KOKK",
     "airportId": "OKK",
     "name": "Kokomo Municipal Airport",
@@ -3927,52 +2317,10 @@
     "state": "Indiana"
   },
   {
-    "stationId": "KRID",
-    "airportId": "RID",
-    "name": "Richmond Municipal Airport",
-    "city": "Richmond",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KRZL",
-    "airportId": "RZL",
-    "name": "Jasper County Airport",
-    "city": "Rensselaer",
-    "state": "Indiana"
-  },
-  {
     "stationId": "KSBN",
     "airportId": "SBN",
     "name": "South Bend Airport",
     "city": "South Bend",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KSMD",
-    "airportId": "SMD",
-    "name": "Smith Field",
-    "city": "Fort Wayne",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KTEL",
-    "airportId": "TEL",
-    "name": "Perry County Municipal Airport",
-    "city": "Tell City",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KTYQ",
-    "airportId": "TYQ",
-    "name": "Indianapolis Executive Airport",
-    "city": "Indianapolis",
-    "state": "Indiana"
-  },
-  {
-    "stationId": "KUMP",
-    "airportId": "UMP",
-    "name": "Indianapolis Metropolitan Airport",
-    "city": "Fishers",
     "state": "Indiana"
   },
   {
@@ -4074,31 +2422,10 @@
     "state": "Iowa"
   },
   {
-    "stationId": "KCJJ",
-    "airportId": "CJJ",
-    "name": "Ellen Church Field",
-    "city": "Cresco",
-    "state": "Iowa"
-  },
-  {
-    "stationId": "KCKP",
-    "airportId": "CKP",
-    "name": "Cherokee Municipal Airport",
-    "city": "Cherokee",
-    "state": "Iowa"
-  },
-  {
     "stationId": "KCNC",
     "airportId": "CNC",
     "name": "Chariton Municipal Airport",
     "city": "Chariton",
-    "state": "Iowa"
-  },
-  {
-    "stationId": "KCRZ",
-    "airportId": "CRZ",
-    "name": "Corning Municipal Airport",
-    "city": "Corning",
     "state": "Iowa"
   },
   {
@@ -4151,31 +2478,10 @@
     "state": "Iowa"
   },
   {
-    "stationId": "KEAG",
-    "airportId": "EAG",
-    "name": "Eagle Grove Municipal Airport",
-    "city": "Eagle Grove",
-    "state": "Iowa"
-  },
-  {
     "stationId": "KEBS",
     "airportId": "EBS",
     "name": "Webster City Municipal Airport",
     "city": "Webster City",
-    "state": "Iowa"
-  },
-  {
-    "stationId": "KEFW",
-    "airportId": "EFW",
-    "name": "Jefferson Municipal Airport",
-    "city": "Jefferson",
-    "state": "Iowa"
-  },
-  {
-    "stationId": "KEGQ",
-    "airportId": "EGQ",
-    "name": "Emmetsburg Municipal Airport",
-    "city": "Emmetsburg",
     "state": "Iowa"
   },
   {
@@ -4211,20 +2517,6 @@
     "airportId": "FSW",
     "name": "Fort Madison Municipal Airport",
     "city": "Fort Madison",
-    "state": "Iowa"
-  },
-  {
-    "stationId": "KFXY",
-    "airportId": "FXY",
-    "name": "Forest City Municipal Airport",
-    "city": "Forest City",
-    "state": "Iowa"
-  },
-  {
-    "stationId": "KGGI",
-    "airportId": "GGI",
-    "name": "Grinnell Regional Airport",
-    "city": "Grinnell",
     "state": "Iowa"
   },
   {
@@ -4284,13 +2576,6 @@
     "state": "Iowa"
   },
   {
-    "stationId": "KSKI",
-    "airportId": "SKI",
-    "name": "Sac City Municipal Airport",
-    "city": "Sac City",
-    "state": "Iowa"
-  },
-  {
     "stationId": "KSLB",
     "airportId": "SLB",
     "name": "Storm Lake Municipal Airport",
@@ -4319,51 +2604,9 @@
     "state": "Iowa"
   },
   {
-    "stationId": "KTZT",
-    "airportId": "TZT",
-    "name": "Belle Plaine Municipal Airport",
-    "city": "Belle Plaine",
-    "state": "Iowa"
-  },
-  {
     "stationId": "KAAO",
     "airportId": "AAO",
     "name": "Colonel James Jabara Airport",
-    "city": "Wichita",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KADT",
-    "airportId": "ADT",
-    "name": "Atwood-Rawlins County City-County Airport",
-    "city": "Atwood",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KANY",
-    "airportId": "ANY",
-    "name": "Anthony Municipal Airport",
-    "city": "Anthony",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KBEC",
-    "airportId": "BEC",
-    "name": "Beech Factory Airport",
-    "city": "Wichita",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KCBK",
-    "airportId": "CBK",
-    "name": "Shalz Field",
-    "city": "Colby",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KCEA",
-    "airportId": "CEA",
-    "name": "Cessna Aircraft Field",
     "city": "Wichita",
     "state": "Kansas"
   },
@@ -4389,24 +2632,10 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KCYW",
-    "airportId": "CYW",
-    "name": "Clay Center Municipal Airport",
-    "city": "Clay Center",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KDDC",
     "airportId": "DDC",
     "name": "Dodge City Regional Airport",
     "city": "Dodge City",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KEGT",
-    "airportId": "EGT",
-    "name": "Wellington Municipal Airport",
-    "city": "Wellington",
     "state": "Kansas"
   },
   {
@@ -4424,13 +2653,6 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KEQA",
-    "airportId": "EQA",
-    "name": "Captain Jack Thomas/El Dorado Airport",
-    "city": "El Dorado",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KEWK",
     "airportId": "EWK",
     "name": "Newton City/County Airport",
@@ -4438,31 +2660,10 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KFLV",
-    "airportId": "FLV",
-    "name": "Sherman Army Airfield",
-    "city": "Fort Leavenworth",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KFOE",
     "airportId": "FOE",
     "name": "Forbes Field",
     "city": "Topeka",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KFRI",
-    "airportId": "FRI",
-    "name": "Marshall Army Airfield",
-    "city": "Fort Riley / Junction City",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KFSK",
-    "airportId": "FSK",
-    "name": "Fort Scott Municipal Airport",
-    "city": "Fort Scott",
     "state": "Kansas"
   },
   {
@@ -4494,20 +2695,6 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KHQG",
-    "airportId": "HQG",
-    "name": "Hugoton Municipal Airport",
-    "city": "Hugoton",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KHRU",
-    "airportId": "HRU",
-    "name": "Herington Regional Airport",
-    "city": "Herington",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KHUT",
     "airportId": "HUT",
     "name": "Hutchinson Municipal Airport",
@@ -4536,24 +2723,10 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KIDP",
-    "airportId": "IDP",
-    "name": "Independence Municipal Airport",
-    "city": "Independence",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KIXD",
     "airportId": "IXD",
     "name": "New Century AirCenter",
     "city": "Olathe",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KJHN",
-    "airportId": "JHN",
-    "name": "Stanton County Municipal Airport",
-    "city": "Johnson",
     "state": "Kansas"
   },
   {
@@ -4564,31 +2737,10 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KLQR",
-    "airportId": "LQR",
-    "name": "Larned-Pawnee County Airport",
-    "city": "Larned",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KLWC",
     "airportId": "LWC",
     "name": "Lawrence Municipal Airport",
     "city": "Lawrence",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KLYO",
-    "airportId": "LYO",
-    "name": "Lyons-Rice County Municipal Airport",
-    "city": "Lyons",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KMEJ",
-    "airportId": "MEJ",
-    "name": "Meade Municipal Airport",
-    "city": "Meade",
     "state": "Kansas"
   },
   {
@@ -4599,41 +2751,6 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KMPR",
-    "airportId": "MPR",
-    "name": "McPherson Airport",
-    "city": "McPherson",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KMYZ",
-    "airportId": "MYZ",
-    "name": "Marysville Municipal Airport",
-    "city": "Marysville",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KNRN",
-    "airportId": "NRN",
-    "name": "Norton Municipal Airport",
-    "city": "Norton",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KOEL",
-    "airportId": "OEL",
-    "name": "Oakley Municipal Airport",
-    "city": "Oakley",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KOIN",
-    "airportId": "OIN",
-    "name": "Oberlin Municipal Airport",
-    "city": "Oberlin",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KOJC",
     "airportId": "OJC",
     "name": "Johnson County Executive Airport",
@@ -4641,45 +2758,10 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KOWI",
-    "airportId": "OWI",
-    "name": "Ottawa Municipal Airport",
-    "city": "Ottawa",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KPHG",
-    "airportId": "PHG",
-    "name": "Phillipsburg Municipal Airport",
-    "city": "Phillipsburg",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KPPF",
     "airportId": "PPF",
     "name": "Tri-City Airport",
     "city": "Parsons",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KPTS",
-    "airportId": "PTS",
-    "name": "Atkinson Municipal Airport",
-    "city": "Pittsburg",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KPTT",
-    "airportId": "PTT",
-    "name": "Pratt Industrial Airport",
-    "city": "Pratt",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KRPB",
-    "airportId": "RPB",
-    "name": "Belleville Municipal Airport",
-    "city": "Belleville",
     "state": "Kansas"
   },
   {
@@ -4697,38 +2779,10 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KSYF",
-    "airportId": "SYF",
-    "name": "Cheyenne County Municipal Airport",
-    "city": "St. Francis",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KTKO",
-    "airportId": "TKO",
-    "name": "Mankato Airport",
-    "city": "Mankato",
-    "state": "Kansas"
-  },
-  {
     "stationId": "KTOP",
     "airportId": "TOP",
     "name": "Billard Municipal Airport",
     "city": "Topeka",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KUKL",
-    "airportId": "UKL",
-    "name": "Coffey County Airport",
-    "city": "Burlington",
-    "state": "Kansas"
-  },
-  {
-    "stationId": "KULS",
-    "airportId": "ULS",
-    "name": "Ulysses Airport",
-    "city": "Ulysses",
     "state": "Kansas"
   },
   {
@@ -4739,45 +2793,10 @@
     "state": "Kansas"
   },
   {
-    "stationId": "KAAS",
-    "airportId": "AAS",
-    "name": "Taylor County Airport",
-    "city": "Campbellsville",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KBRY",
-    "airportId": "BRY",
-    "name": "Samuels Field",
-    "city": "Bardstown",
-    "state": "Kentucky"
-  },
-  {
     "stationId": "KBWG",
     "airportId": "BWG",
     "name": "Bowling Green-Warren County Regional Airport",
     "city": "Bowling Green",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KCEY",
-    "airportId": "CEY",
-    "name": "Murray-Calloway County Airport",
-    "city": "Murray",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KDVK",
-    "airportId": "DVK",
-    "name": "Stuart Powell Field",
-    "city": "Danville",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KDWU",
-    "airportId": "DWU",
-    "name": "Ashland-Boyd County Airport",
-    "city": "Ashland",
     "state": "Kentucky"
   },
   {
@@ -4788,31 +2807,10 @@
     "state": "Kentucky"
   },
   {
-    "stationId": "KEKQ",
-    "airportId": "EKQ",
-    "name": "Wayne County Airport",
-    "city": "Monticello",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KEKX",
-    "airportId": "EKX",
-    "name": "Addington Field",
-    "city": "Elizabethtown",
-    "state": "Kentucky"
-  },
-  {
     "stationId": "KFFT",
     "airportId": "FFT",
     "name": "Capital City Airport",
     "city": "Frankfort",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KFGX",
-    "airportId": "FGX",
-    "name": "Fleming-Mason Airport",
-    "city": "Flemingsburg",
     "state": "Kentucky"
   },
   {
@@ -4823,24 +2821,10 @@
     "state": "Kentucky"
   },
   {
-    "stationId": "KGLW",
-    "airportId": "GLW",
-    "name": "Glasgow Municipal Airport",
-    "city": "Glasgow",
-    "state": "Kentucky"
-  },
-  {
     "stationId": "KHOP",
     "airportId": "HOP",
     "name": "Campbell Army Airfield",
     "city": "Fort Campbell",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KHVC",
-    "airportId": "HVC",
-    "name": "Hopkinsville-Christian County Airport",
-    "city": "Hopkinsville",
     "state": "Kentucky"
   },
   {
@@ -4865,20 +2849,6 @@
     "state": "Kentucky"
   },
   {
-    "stationId": "KOWB",
-    "airportId": "OWB",
-    "name": "Owensboro-Daviess County Regional Airport",
-    "city": "Owensboro",
-    "state": "Kentucky"
-  },
-  {
-    "stationId": "KPBX",
-    "airportId": "PBX",
-    "name": "Pike County Airport (Hatcher Field)",
-    "city": "Pikeville",
-    "state": "Kentucky"
-  },
-  {
     "stationId": "KSDF",
     "airportId": "SDF",
     "name": "Louisville International Airport",
@@ -4893,25 +2863,11 @@
     "state": "Kentucky"
   },
   {
-    "stationId": "KTWT",
-    "airportId": "TWT",
-    "name": "Sturgis Municipal Airport",
-    "city": "Sturgis",
-    "state": "Kentucky"
-  },
-  {
     "stationId": "KCVG",
     "airportId": "CVG",
     "name": "Cincinnati/Northern Kentucky International Airport",
     "city": "Hebron",
     "state": "Kentucky"
-  },
-  {
-    "stationId": "KACP",
-    "airportId": "ACP",
-    "name": "Allen Parish Airport",
-    "city": "Oakdale",
-    "state": "Louisiana"
   },
   {
     "stationId": "KAEX",
@@ -4949,24 +2905,10 @@
     "state": "Louisiana"
   },
   {
-    "stationId": "KBXA",
-    "airportId": "BXA",
-    "name": "George R. Carr Memorial Airfield",
-    "city": "Bogalusa",
-    "state": "Louisiana"
-  },
-  {
     "stationId": "KCWF",
     "airportId": "CWF",
     "name": "Chennault International Airport",
     "city": "Lake Charles",
-    "state": "Louisiana"
-  },
-  {
-    "stationId": "KDRI",
-    "airportId": "DRI",
-    "name": "Beauregard Regional Airport",
-    "city": "De Ridder",
     "state": "Louisiana"
   },
   {
@@ -4981,13 +2923,6 @@
     "airportId": "ESF",
     "name": "Esler Regional Airport",
     "city": "Alexandria",
-    "state": "Louisiana"
-  },
-  {
-    "stationId": "KGNI",
-    "airportId": "GNI",
-    "name": "Grand Isle Seaplane Base",
-    "city": "Grand Isle",
     "state": "Louisiana"
   },
   {
@@ -5033,13 +2968,6 @@
     "state": "Louisiana"
   },
   {
-    "stationId": "KOPL",
-    "airportId": "OPL",
-    "name": "St. Landry Parish Airport",
-    "city": "Opelousas",
-    "state": "Louisiana"
-  },
-  {
     "stationId": "KPTN",
     "airportId": "PTN",
     "name": "Harry P. Williams Memorial Airport",
@@ -5082,31 +3010,10 @@
     "state": "Maine"
   },
   {
-    "stationId": "KBST",
-    "airportId": "BST",
-    "name": "Belfast Municipal Airport",
-    "city": "Belfast",
-    "state": "Maine"
-  },
-  {
-    "stationId": "KBXM",
-    "airportId": "BXM",
-    "name": "Brunswick Executive Airport (formerly NAS Brunswick)",
-    "city": "Brunswick",
-    "state": "Maine"
-  },
-  {
     "stationId": "KCAR",
     "airportId": "CAR",
     "name": "Caribou Municipal Airport",
     "city": "Caribou",
-    "state": "Maine"
-  },
-  {
-    "stationId": "KEPM",
-    "airportId": "EPM",
-    "name": "Eastport Municipal Airport",
-    "city": "Eastport",
     "state": "Maine"
   },
   {
@@ -5145,45 +3052,10 @@
     "state": "Maine"
   },
   {
-    "stationId": "KLRG",
-    "airportId": "LRG",
-    "name": "Lincoln Regional Airport",
-    "city": "Lincoln",
-    "state": "Maine"
-  },
-  {
     "stationId": "KMLT",
     "airportId": "MLT",
     "name": "Millinocket Municipal Airport",
     "city": "Millinocket",
-    "state": "Maine"
-  },
-  {
-    "stationId": "KMVM",
-    "airportId": "MVM",
-    "name": "Machias Valley Airport",
-    "city": "Machias",
-    "state": "Maine"
-  },
-  {
-    "stationId": "KOLD",
-    "airportId": "OLD",
-    "name": "Old Town Municipal Airport and Seaplane Base",
-    "city": "Old Town",
-    "state": "Maine"
-  },
-  {
-    "stationId": "KOWK",
-    "airportId": "OWK",
-    "name": "Central Maine Airport of Norridgewock",
-    "city": "Norridgewock",
-    "state": "Maine"
-  },
-  {
-    "stationId": "KPNN",
-    "airportId": "PNN",
-    "name": "Princeton Municipal Airport",
-    "city": "Princeton",
     "state": "Maine"
   },
   {
@@ -5229,13 +3101,6 @@
     "state": "Maryland"
   },
   {
-    "stationId": "KANP",
-    "airportId": "ANP",
-    "name": "Lee Airport",
-    "city": "Annapolis",
-    "state": "Maryland"
-  },
-  {
     "stationId": "KAPG",
     "airportId": "APG",
     "name": "Phillips Army Airfield",
@@ -5243,66 +3108,10 @@
     "state": "Maryland"
   },
   {
-    "stationId": "KCBE",
-    "airportId": "CBE",
-    "name": "Greater Cumberland Regional Airport",
-    "city": "Cumberland",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KCGE",
-    "airportId": "CGE",
-    "name": "Cambridge-Dorchester Airport",
-    "city": "Cambridge",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KCGS",
-    "airportId": "CGS",
-    "name": "College Park Airport",
-    "city": "College Park",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KDMW",
-    "airportId": "DMW",
-    "name": "Carroll County Regional Airport (Jack B. Poage Field)",
-    "city": "Westminster",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KEDG",
-    "airportId": "EDG",
-    "name": "Weide Army Airfield",
-    "city": "Edgewood Arsenal, Aberdeen Proving Ground",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KESN",
-    "airportId": "ESN",
-    "name": "Easton/Newnam Field",
-    "city": "Easton",
-    "state": "Maryland"
-  },
-  {
     "stationId": "KFDK",
     "airportId": "FDK",
     "name": "Frederick Municipal Airport",
     "city": "Frederick",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KFME",
-    "airportId": "FME",
-    "name": "Tipton Airport",
-    "city": "Fort Meade / Odenton",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KGAI",
-    "airportId": "GAI",
-    "name": "Montgomery County Airpark",
-    "city": "Gaithersburg",
     "state": "Maryland"
   },
   {
@@ -5327,13 +3136,6 @@
     "state": "Maryland"
   },
   {
-    "stationId": "KNUI",
-    "airportId": "NUI",
-    "name": "Webster Nolf Airport",
-    "city": "Saint Inigoes",
-    "state": "Maryland"
-  },
-  {
     "stationId": "KOXB",
     "airportId": "OXB",
     "name": "Ocean City Municipal Airport",
@@ -5341,24 +3143,10 @@
     "state": "Maryland"
   },
   {
-    "stationId": "KRJD",
-    "airportId": "RJD",
-    "name": "Ridgely Airpark",
-    "city": "Ridgely",
-    "state": "Maryland"
-  },
-  {
     "stationId": "KSBY",
     "airportId": "SBY",
     "name": "Wicomico Regional Airport",
     "city": "Salisbury",
-    "state": "Maryland"
-  },
-  {
-    "stationId": "KVKX",
-    "airportId": "VKX",
-    "name": "Potomac Airfield",
-    "city": "Friendly",
     "state": "Maryland"
   },
   {
@@ -5436,27 +3224,6 @@
     "airportId": "FMH",
     "name": "Otis Air National Guard Base",
     "city": "Falmouth",
-    "state": "Massachusetts"
-  },
-  {
-    "stationId": "KGBR",
-    "airportId": "GBR",
-    "name": "Walter J. Koladza Airport",
-    "city": "Great Barrington",
-    "state": "Massachusetts"
-  },
-  {
-    "stationId": "KGDM",
-    "airportId": "GDM",
-    "name": "Gardner Municipal Airport",
-    "city": "Gardner",
-    "state": "Massachusetts"
-  },
-  {
-    "stationId": "KGHG",
-    "airportId": "GHG",
-    "name": "Marshfield Municipal Airport",
-    "city": "Marshfield",
     "state": "Massachusetts"
   },
   {
@@ -5593,13 +3360,6 @@
     "state": "Michigan"
   },
   {
-    "stationId": "KBFA",
-    "airportId": "BFA",
-    "name": "Boyne Mountain Airport",
-    "city": "Boyne Falls",
-    "state": "Michigan"
-  },
-  {
     "stationId": "KBIV",
     "airportId": "BIV",
     "name": "West Michigan Regional Airport",
@@ -5618,13 +3378,6 @@
     "airportId": "CAD",
     "name": "Wexford County Airport",
     "city": "Cadillac",
-    "state": "Michigan"
-  },
-  {
-    "stationId": "KCFS",
-    "airportId": "CFS",
-    "name": "Tuscola Area Airport",
-    "city": "Caro",
     "state": "Michigan"
   },
   {
@@ -5677,13 +3430,6 @@
     "state": "Michigan"
   },
   {
-    "stationId": "KFKS",
-    "airportId": "FKS",
-    "name": "Frankfort Dow Memorial Field",
-    "city": "Frankfort",
-    "state": "Michigan"
-  },
-  {
     "stationId": "KFNT",
     "airportId": "FNT",
     "name": "Bishop International Airport",
@@ -5712,24 +3458,10 @@
     "state": "Michigan"
   },
   {
-    "stationId": "KHAI",
-    "airportId": "HAI",
-    "name": "Three Rivers Municipal/Doctor Haines Airport",
-    "city": "Three Rivers",
-    "state": "Michigan"
-  },
-  {
     "stationId": "KHYX",
     "airportId": "HYX",
     "name": "Saginaw County H.W. Browne Airport",
     "city": "Saginaw",
-    "state": "Michigan"
-  },
-  {
-    "stationId": "KIKW",
-    "airportId": "IKW",
-    "name": "Jack Barstow Municipal Airport",
-    "city": "Midland",
     "state": "Michigan"
   },
   {
@@ -5761,13 +3493,6 @@
     "state": "Michigan"
   },
   {
-    "stationId": "KRCT",
-    "airportId": "RCT",
-    "name": "Nartron Field",
-    "city": "Reed City",
-    "state": "Michigan"
-  },
-  {
     "stationId": "KSAW",
     "airportId": "SAW",
     "name": "Sawyer International Airport",
@@ -5786,13 +3511,6 @@
     "airportId": "TVC",
     "name": "Cherry Capital Airport",
     "city": "Traverse City",
-    "state": "Michigan"
-  },
-  {
-    "stationId": "KVLL",
-    "airportId": "VLL",
-    "name": "Oakland-Troy Airport",
-    "city": "Troy",
     "state": "Michigan"
   },
   {
@@ -5838,13 +3556,6 @@
     "state": "Minnesota"
   },
   {
-    "stationId": "KAQP",
-    "airportId": "AQP",
-    "name": "Appleton Municipal Airport",
-    "city": "Appleton",
-    "state": "Minnesota"
-  },
-  {
     "stationId": "KAUM",
     "airportId": "AUM",
     "name": "Austin Municipal Airport",
@@ -5870,13 +3581,6 @@
     "airportId": "BDE",
     "name": "Baudette International Airport",
     "city": "Baudette",
-    "state": "Minnesota"
-  },
-  {
-    "stationId": "KBDH",
-    "airportId": "BDH",
-    "name": "Willmar Municipal Airport",
-    "city": "Willmar",
     "state": "Minnesota"
   },
   {
@@ -5912,20 +3616,6 @@
     "airportId": "CDD",
     "name": "Scotts Seaplane Base",
     "city": "Crane Lake",
-    "state": "Minnesota"
-  },
-  {
-    "stationId": "KCFE",
-    "airportId": "CFE",
-    "name": "Buffalo Municipal Airport",
-    "city": "Buffalo",
-    "state": "Minnesota"
-  },
-  {
-    "stationId": "KCHU",
-    "airportId": "CHU",
-    "name": "Houston County Airport",
-    "city": "Caledonia",
     "state": "Minnesota"
   },
   {
@@ -5968,13 +3658,6 @@
     "airportId": "DTL",
     "name": "Detroit Lakes Airport (Wething Field)",
     "city": "Detroit Lakes",
-    "state": "Minnesota"
-  },
-  {
-    "stationId": "KDVP",
-    "airportId": "DVP",
-    "name": "Slayton Municipal Airport",
-    "city": "Slayton",
     "state": "Minnesota"
   },
   {
@@ -6167,13 +3850,6 @@
     "state": "Minnesota"
   },
   {
-    "stationId": "KSYN",
-    "airportId": "SYN",
-    "name": "Stanton Airfield",
-    "city": "Stanton",
-    "state": "Minnesota"
-  },
-  {
     "stationId": "KXVG",
     "airportId": "XVG",
     "name": "Longville Municipal Airport",
@@ -6202,31 +3878,10 @@
     "state": "Mississippi"
   },
   {
-    "stationId": "KCKM",
-    "airportId": "CKM",
-    "name": "Fletcher Municipal Airport (Fletcher Field)",
-    "city": "Clarksdale",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KCRX",
-    "airportId": "CRX",
-    "name": "Roscoe Turner Airport",
-    "city": "Corinth",
-    "state": "Mississippi"
-  },
-  {
     "stationId": "KGLH",
     "airportId": "GLH",
     "name": "Mid Delta Regional Airport",
     "city": "Greenville",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KGNF",
-    "airportId": "GNF",
-    "name": "Grenada Municipal Airport",
-    "city": "Grenada",
     "state": "Mississippi"
   },
   {
@@ -6272,52 +3927,10 @@
     "state": "Mississippi"
   },
   {
-    "stationId": "KHSA",
-    "airportId": "HSA",
-    "name": "Stennis International Airport",
-    "city": "Bay St. Louis",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KIDL",
-    "airportId": "IDL",
-    "name": "Indianola Municipal Airport",
-    "city": "Indianola",
-    "state": "Mississippi"
-  },
-  {
     "stationId": "KJAN",
     "airportId": "JAN",
     "name": "Jackson International Airport",
     "city": "Jackson",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KJVW",
-    "airportId": "JVW",
-    "name": "John Bell Williams Airport",
-    "city": "Raymond",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KLMS",
-    "airportId": "LMS",
-    "name": "Louisville Winston County Airport",
-    "city": "Louisville",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KLUL",
-    "airportId": "LUL",
-    "name": "Hesler-Noble Field",
-    "city": "Laurel",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KMBO",
-    "airportId": "MBO",
-    "name": "Campbell Airport",
-    "city": "Madison",
     "state": "Mississippi"
   },
   {
@@ -6331,27 +3944,6 @@
     "stationId": "KMEI",
     "airportId": "MEI",
     "name": "Key Airport",
-    "city": "Meridian",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KMMS",
-    "airportId": "MMS",
-    "name": "Selfs Airport",
-    "city": "Marks",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KMPE",
-    "airportId": "MPE",
-    "name": "Philadelphia Municipal Airport",
-    "city": "Philadelphia",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KNJW",
-    "airportId": "NJW",
-    "name": "Joe Williams Nolf Airport",
     "city": "Meridian",
     "state": "Mississippi"
   },
@@ -6370,20 +3962,6 @@
     "state": "Mississippi"
   },
   {
-    "stationId": "KOSX",
-    "airportId": "OSX",
-    "name": "Kosciusko Attala County Airport",
-    "city": "Kosciusko",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KPCU",
-    "airportId": "PCU",
-    "name": "Picayune-Pearl River County Airport",
-    "city": "Picayune",
-    "state": "Mississippi"
-  },
-  {
     "stationId": "KPIB",
     "airportId": "PIB",
     "name": "Hattiesburg-Laurel Regional Airport",
@@ -6398,53 +3976,11 @@
     "state": "Mississippi"
   },
   {
-    "stationId": "KRNV",
-    "airportId": "RNV",
-    "name": "Cleveland Municipal Airport",
-    "city": "Cleveland",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KSTF",
-    "airportId": "STF",
-    "name": "George M. Bryan Airport",
-    "city": "Starkville",
-    "state": "Mississippi"
-  },
-  {
     "stationId": "KTUP",
     "airportId": "TUP",
     "name": "Tupelo Regional Airport",
     "city": "Tupelo",
     "state": "Mississippi"
-  },
-  {
-    "stationId": "KUBS",
-    "airportId": "UBS",
-    "name": "Columbus-Lowndes County Airport",
-    "city": "Columbus",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KUOX",
-    "airportId": "UOX",
-    "name": "University-Oxford Airport",
-    "city": "Oxford",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KVKS",
-    "airportId": "VKS",
-    "name": "Vicksburg Municipal Airport",
-    "city": "Vicksburg",
-    "state": "Mississippi"
-  },
-  {
-    "stationId": "KBBG",
-    "airportId": "BBG",
-    "name": "Branson Airport",
-    "city": "Branson",
-    "state": "Missouri"
   },
   {
     "stationId": "KAIZ",
@@ -6454,38 +3990,10 @@
     "state": "Missouri"
   },
   {
-    "stationId": "KAOV",
-    "airportId": "AOV",
-    "name": "Ava Bill Martin Memorial Airport",
-    "city": "Ava",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KBUM",
-    "airportId": "BUM",
-    "name": "Butler Memorial Airport",
-    "city": "Butler",
-    "state": "Missouri"
-  },
-  {
     "stationId": "KCGI",
     "airportId": "CGI",
     "name": "Cape Girardeau Regional Airport",
     "city": "Cape Girardeau",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KCHQ",
-    "airportId": "CHQ",
-    "name": "Mississippi County Airport",
-    "city": "Charleston",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KCHT",
-    "airportId": "CHT",
-    "name": "Chillicothe Municipal Airport",
-    "city": "Chillicothe",
     "state": "Missouri"
   },
   {
@@ -6503,66 +4011,10 @@
     "state": "Missouri"
   },
   {
-    "stationId": "KDXE",
-    "airportId": "DXE",
-    "name": "Dexter Municipal Airport",
-    "city": "Dexter",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KEIW",
-    "airportId": "EIW",
-    "name": "County Memorial Airport",
-    "city": "New Madrid",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KEOS",
-    "airportId": "EOS",
-    "name": "Neosho Hugh Robinson Airport",
-    "city": "Neosho",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KEVU",
-    "airportId": "EVU",
-    "name": "Northwest Missouri Regional Airport",
-    "city": "Maryville",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KEZZ",
-    "airportId": "EZZ",
-    "name": "Cameron Memorial Airport",
-    "city": "Cameron",
-    "state": "Missouri"
-  },
-  {
     "stationId": "KFAM",
     "airportId": "FAM",
     "name": "Farmington Regional Airport",
     "city": "Farmington",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KFES",
-    "airportId": "FES",
-    "name": "Festus Memorial Airport",
-    "city": "Festus",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KFTT",
-    "airportId": "FTT",
-    "name": "Elton Hensley Memorial Airport",
-    "city": "Fulton",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KHAE",
-    "airportId": "HAE",
-    "name": "Hannibal Regional Airport",
-    "city": "Hannibal",
     "state": "Missouri"
   },
   {
@@ -6573,24 +4025,10 @@
     "state": "Missouri"
   },
   {
-    "stationId": "KLLU",
-    "airportId": "LLU",
-    "name": "Lamar Municipal Airport",
-    "city": "Lamar",
-    "state": "Missouri"
-  },
-  {
     "stationId": "KLXT",
     "airportId": "LXT",
     "name": "Lee's Summit Municipal Airport",
     "city": "Lee's Summit",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KMAW",
-    "airportId": "MAW",
-    "name": "Malden Municipal Airport",
-    "city": "Malden",
     "state": "Missouri"
   },
   {
@@ -6601,52 +4039,10 @@
     "state": "Missouri"
   },
   {
-    "stationId": "KMHL",
-    "airportId": "MHL",
-    "name": "Marshall Memorial Municipal Airport",
-    "city": "Marshall",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KOZS",
-    "airportId": "OZS",
-    "name": "Camdenton Memorial Airport",
-    "city": "Camdenton",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KPLK",
-    "airportId": "PLK",
-    "name": "M. Graham Clark Downtown Airport",
-    "city": "Point Lookout",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KRAW",
-    "airportId": "RAW",
-    "name": "Warsaw Municipal Airport",
-    "city": "Warsaw",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KRCM",
-    "airportId": "RCM",
-    "name": "SkyHaven Airport",
-    "city": "Warrensburg",
-    "state": "Missouri"
-  },
-  {
     "stationId": "KSGF",
     "airportId": "SGF",
     "name": "Springfield-Branson National Airport",
     "city": "Springfield",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KSIK",
-    "airportId": "SIK",
-    "name": "Sikeston Memorial Municipal Airport",
-    "city": "Sikeston",
     "state": "Missouri"
   },
   {
@@ -6668,20 +4064,6 @@
     "airportId": "SZL",
     "name": "Whiteman Air Force Base (Whiteman AFB)",
     "city": "Johnson County",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KTRX",
-    "airportId": "TRX",
-    "name": "Trenton Municipal Airport",
-    "city": "Trenton",
-    "state": "Missouri"
-  },
-  {
-    "stationId": "KVER",
-    "airportId": "VER",
-    "name": "Jesse Viertel Memorial Airport",
-    "city": "Boonville",
     "state": "Missouri"
   },
   {
@@ -6720,13 +4102,6 @@
     "state": "Montana"
   },
   {
-    "stationId": "KCII",
-    "airportId": "CII",
-    "name": "Choteau Airport",
-    "city": "Choteau",
-    "state": "Montana"
-  },
-  {
     "stationId": "KCTB",
     "airportId": "CTB",
     "name": "Cut Bank Municipal Airport",
@@ -6738,20 +4113,6 @@
     "airportId": "DLN",
     "name": "Dillon Airport",
     "city": "Dillon",
-    "state": "Montana"
-  },
-  {
-    "stationId": "KDRU",
-    "airportId": "DRU",
-    "name": "Drummond Airport",
-    "city": "Drummond",
-    "state": "Montana"
-  },
-  {
-    "stationId": "KFCA",
-    "airportId": "FCA",
-    "name": "Glacier Park International Airport",
-    "city": "Kalispell",
     "state": "Montana"
   },
   {
@@ -6804,24 +4165,10 @@
     "state": "Montana"
   },
   {
-    "stationId": "KHWQ",
-    "airportId": "HWQ",
-    "name": "Wheatland County Airport",
-    "city": "Harlowton",
-    "state": "Montana"
-  },
-  {
     "stationId": "KJDN",
     "airportId": "JDN",
     "name": "Jordan Airport",
     "city": "Jordan",
-    "state": "Montana"
-  },
-  {
-    "stationId": "KLTY",
-    "airportId": "LTY",
-    "name": "Liberty County Airport",
-    "city": "Chester",
     "state": "Montana"
   },
   {
@@ -6860,34 +4207,6 @@
     "state": "Montana"
   },
   {
-    "stationId": "KPWD",
-    "airportId": "PWD",
-    "name": "Sher-Wood Airport",
-    "city": "Plentywood",
-    "state": "Montana"
-  },
-  {
-    "stationId": "KRED",
-    "airportId": "RED",
-    "name": "Red Lodge Airport",
-    "city": "Red Lodge",
-    "state": "Montana"
-  },
-  {
-    "stationId": "KRPX",
-    "airportId": "RPX",
-    "name": "Roundup Airport",
-    "city": "Roundup",
-    "state": "Montana"
-  },
-  {
-    "stationId": "KSBX",
-    "airportId": "SBX",
-    "name": "Shelby Airport",
-    "city": "Shelby",
-    "state": "Montana"
-  },
-  {
     "stationId": "KSDY",
     "airportId": "SDY",
     "name": "Sidney-Richland Municipal Airport",
@@ -6895,31 +4214,10 @@
     "state": "Montana"
   },
   {
-    "stationId": "KTHM",
-    "airportId": "THM",
-    "name": "Thompson Falls Airport",
-    "city": "Thompson Falls",
-    "state": "Montana"
-  },
-  {
-    "stationId": "KWYS",
-    "airportId": "WYS",
-    "name": "Yellowstone Airport",
-    "city": "West Yellowstone",
-    "state": "Montana"
-  },
-  {
     "stationId": "KAFK",
     "airportId": "AFK",
     "name": "Nebraska City Municipal Airport",
     "city": "Nebraska City",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KAHQ",
-    "airportId": "AHQ",
-    "name": "Wahoo Municipal Airport",
-    "city": "Wahoo",
     "state": "Nebraska"
   },
   {
@@ -6965,59 +4263,10 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KBTA",
-    "airportId": "BTA",
-    "name": "Blair Municipal Airport",
-    "city": "Blair",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KBUB",
-    "airportId": "BUB",
-    "name": "Cram Field",
-    "city": "Burwell",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KBVN",
-    "airportId": "BVN",
-    "name": "Albion Municipal Airport",
-    "city": "Albion",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KCDR",
     "airportId": "CDR",
     "name": "Chadron Municipal Airport",
     "city": "Chadron",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KCEK",
-    "airportId": "CEK",
-    "name": "Crete Municipal Airport",
-    "city": "Crete",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KCNP",
-    "airportId": "CNP",
-    "name": "Billy G. Ray Field",
-    "city": "Chappell",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KCSB",
-    "airportId": "CSB",
-    "name": "Cambridge Municipal Airport",
-    "city": "Cambridge",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KCZD",
-    "airportId": "CZD",
-    "name": "Cozad Municipal Airport",
-    "city": "Cozad",
     "state": "Nebraska"
   },
   {
@@ -7028,31 +4277,10 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KEPG",
-    "airportId": "EPG",
-    "name": "Browns Airport",
-    "city": "Weeping Water",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KFBY",
-    "airportId": "FBY",
-    "name": "Fairbury Municipal Airport",
-    "city": "Fairbury",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KFET",
     "airportId": "FET",
     "name": "Fremont Municipal Airport",
     "city": "Fremont",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KFMZ",
-    "airportId": "FMZ",
-    "name": "Fairmont State Airfield",
-    "city": "Fairmont",
     "state": "Nebraska"
   },
   {
@@ -7063,13 +4291,6 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KGGF",
-    "airportId": "GGF",
-    "name": "Grant Municipal Airport",
-    "city": "Grant",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KGRI",
     "airportId": "GRI",
     "name": "Central Nebraska Regional Airport",
@@ -7077,31 +4298,10 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KGRN",
-    "airportId": "GRN",
-    "name": "Gordon Municipal Airport",
-    "city": "Gordon",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KGTE",
-    "airportId": "GTE",
-    "name": "Quinn Airport",
-    "city": "Gothenburg",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KHDE",
     "airportId": "HDE",
     "name": "Brewster Airport",
     "city": "Holdrege",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KHJH",
-    "airportId": "HJH",
-    "name": "Hebron Municipal Airport",
-    "city": "Hebron",
     "state": "Nebraska"
   },
   {
@@ -7140,13 +4340,6 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KLCG",
-    "airportId": "LCG",
-    "name": "Wayne Municipal Airport",
-    "city": "Wayne",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KLNK",
     "airportId": "LNK",
     "name": "Lincoln Airport",
@@ -7165,13 +4358,6 @@
     "airportId": "MCK",
     "name": "McCook Municipal Airport",
     "city": "McCook",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KMHN",
-    "airportId": "MHN",
-    "name": "Hooker County Airport",
-    "city": "Mullen",
     "state": "Nebraska"
   },
   {
@@ -7210,13 +4396,6 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KOKS",
-    "airportId": "OKS",
-    "name": "Garden County Airport",
-    "city": "Oshkosh",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KOLU",
     "airportId": "OLU",
     "name": "Columbus Municipal Airport",
@@ -7238,38 +4417,10 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KPMV",
-    "airportId": "PMV",
-    "name": "Plattsmouth Municipal Airport",
-    "city": "Plattsmouth",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KRBE",
-    "airportId": "RBE",
-    "name": "Rock County Airport",
-    "city": "Bassett",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KSCB",
-    "airportId": "SCB",
-    "name": "Scribner State Airport",
-    "city": "Scribner",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KSNY",
     "airportId": "SNY",
     "name": "Sidney Municipal Airport",
     "city": "Sidney",
-    "state": "Nebraska"
-  },
-  {
-    "stationId": "KSWT",
-    "airportId": "SWT",
-    "name": "Seward Municipal Airport",
-    "city": "Seward",
     "state": "Nebraska"
   },
   {
@@ -7280,53 +4431,11 @@
     "state": "Nebraska"
   },
   {
-    "stationId": "KTQK",
-    "airportId": "TQK",
-    "name": "Scott City Municipal Airport",
-    "city": "Scott City",
-    "state": "Nebraska"
-  },
-  {
     "stationId": "KVTN",
     "airportId": "VTN",
     "name": "Miller Field",
     "city": "Valentine",
     "state": "Nebraska"
-  },
-  {
-    "stationId": "KBAM",
-    "airportId": "BAM",
-    "name": "Battle Mountain Airport",
-    "city": "Battle Mountain",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KBJN",
-    "airportId": "BJN",
-    "name": "Tonopah Test Range Airport",
-    "city": "Tonopah",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KBTY",
-    "airportId": "BTY",
-    "name": "Beatty Airport",
-    "city": "Beatty",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KBVU",
-    "airportId": "BVU",
-    "name": "Boulder City Municipal Airport",
-    "city": "Boulder City",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KCXP",
-    "airportId": "CXP",
-    "name": "Carson City Airport",
-    "city": "Carson City",
-    "state": "Nevada"
   },
   {
     "stationId": "KDRA",
@@ -7350,38 +4459,10 @@
     "state": "Nevada"
   },
   {
-    "stationId": "KFLX",
-    "airportId": "FLX",
-    "name": "Fallon Municipal Airport",
-    "city": "Fallon",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KGAB",
-    "airportId": "GAB",
-    "name": "Gabbs Airport",
-    "city": "Gabbs",
-    "state": "Nevada"
-  },
-  {
     "stationId": "KHND",
     "airportId": "HND",
     "name": "Henderson Executive Airport",
     "city": "Henderson",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KHTH",
-    "airportId": "HTH",
-    "name": "Hawthorne Industrial Airport",
-    "city": "Hawthorne",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KINS",
-    "airportId": "INS",
-    "name": "Creech Air Force Base",
-    "city": "Indian Springs",
     "state": "Nevada"
   },
   {
@@ -7406,20 +4487,6 @@
     "state": "Nevada"
   },
   {
-    "stationId": "KLWL",
-    "airportId": "LWL",
-    "name": "Wells Municipal Airport",
-    "city": "Wells",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KMEV",
-    "airportId": "MEV",
-    "name": "Minden-Tahoe Airport",
-    "city": "Minden",
-    "state": "Nevada"
-  },
-  {
     "stationId": "KNFL",
     "airportId": "NFL",
     "name": "Naval Air Station Fallon",
@@ -7431,20 +4498,6 @@
     "airportId": "RNO",
     "name": "Reno-Tahoe International Airport",
     "city": "Reno",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KRTS",
-    "airportId": "RTS",
-    "name": "Reno Stead Airport",
-    "city": "Reno",
-    "state": "Nevada"
-  },
-  {
-    "stationId": "KTNX",
-    "airportId": "TNX",
-    "name": "Tonopah Test Range Airport",
-    "city": "Tonopah",
     "state": "Nevada"
   },
   {
@@ -7469,13 +4522,6 @@
     "state": "Nevada"
   },
   {
-    "stationId": "KXTA",
-    "airportId": "XTA",
-    "name": "Nellis Bombing Range Test Site (Area 51)",
-    "city": "Groom Lake",
-    "state": "Nevada"
-  },
-  {
     "stationId": "KAFN",
     "airportId": "AFN",
     "name": "Jaffrey Airport / Silver Ranch Airpark",
@@ -7497,13 +4543,6 @@
     "state": "New Hampshire"
   },
   {
-    "stationId": "KCNH",
-    "airportId": "CNH",
-    "name": "Claremont Municipal Airport",
-    "city": "Claremont",
-    "state": "New Hampshire"
-  },
-  {
     "stationId": "KCON",
     "airportId": "CON",
     "name": "Concord Municipal Airport",
@@ -7522,13 +4561,6 @@
     "airportId": "EEN",
     "name": "Dillant-Hopkins Airport",
     "city": "Keene",
-    "state": "New Hampshire"
-  },
-  {
-    "stationId": "KERR",
-    "airportId": "ERR",
-    "name": "Errol Airport",
-    "city": "Errol",
     "state": "New Hampshire"
   },
   {
@@ -7602,24 +4634,10 @@
     "state": "New Jersey"
   },
   {
-    "stationId": "KLDJ",
-    "airportId": "LDJ",
-    "name": "Linden Airport",
-    "city": "Linden",
-    "state": "New Jersey"
-  },
-  {
     "stationId": "KMIV",
     "airportId": "MIV",
     "name": "Millville Municipal Airport",
     "city": "Millville",
-    "state": "New Jersey"
-  },
-  {
-    "stationId": "KMJX",
-    "airportId": "MJX",
-    "name": "Robert J. Miller Air Park",
-    "city": "Toms River",
     "state": "New Jersey"
   },
   {
@@ -7634,13 +4652,6 @@
     "airportId": "NEL",
     "name": "Naval Air Engineering Station Lakehurst",
     "city": "Lakehurst",
-    "state": "New Jersey"
-  },
-  {
-    "stationId": "KOBI",
-    "airportId": "OBI",
-    "name": "Woodbine Municipal Airport",
-    "city": "Woodbine",
     "state": "New Jersey"
   },
   {
@@ -7714,13 +4725,6 @@
     "state": "New Mexico"
   },
   {
-    "stationId": "KAXX",
-    "airportId": "AXX",
-    "name": "Angel Fire Airport",
-    "city": "Angel Fire",
-    "state": "New Mexico"
-  },
-  {
     "stationId": "KCAO",
     "airportId": "CAO",
     "name": "Clayton Municipal Airpark",
@@ -7770,13 +4774,6 @@
     "state": "New Mexico"
   },
   {
-    "stationId": "KFSU",
-    "airportId": "FSU",
-    "name": "Fort Sumner Municipal Airport",
-    "city": "Fort Sumner",
-    "state": "New Mexico"
-  },
-  {
     "stationId": "KGNT",
     "airportId": "GNT",
     "name": "Grants-Milan Municipal Airport",
@@ -7805,24 +4802,10 @@
     "state": "New Mexico"
   },
   {
-    "stationId": "KLAM",
-    "airportId": "LAM",
-    "name": "Los Alamos Airport",
-    "city": "Los Alamos",
-    "state": "New Mexico"
-  },
-  {
     "stationId": "KLRU",
     "airportId": "LRU",
     "name": "Las Cruces International Airport",
     "city": "Las Cruces",
-    "state": "New Mexico"
-  },
-  {
-    "stationId": "KLSB",
-    "airportId": "LSB",
-    "name": "Lordsburg Municipal Airport",
-    "city": "Lordsburg",
     "state": "New Mexico"
   },
   {
@@ -7875,13 +4858,6 @@
     "state": "New Mexico"
   },
   {
-    "stationId": "KSXU",
-    "airportId": "SXU",
-    "name": "Santa Rosa Route 66 Airport",
-    "city": "Santa Rosa",
-    "state": "New Mexico"
-  },
-  {
     "stationId": "KTCC",
     "airportId": "TCC",
     "name": "Tucumcari Municipal Airport",
@@ -7893,13 +4869,6 @@
     "airportId": "TCS",
     "name": "Truth or Consequences Municipal Airport",
     "city": "Truth or Consequences",
-    "state": "New Mexico"
-  },
-  {
-    "stationId": "KZUN",
-    "airportId": "ZUN",
-    "name": "Black Rock Airport",
-    "city": "Zuni Pueblo",
     "state": "New Mexico"
   },
   {
@@ -7924,24 +4893,10 @@
     "state": "New York"
   },
   {
-    "stationId": "KBQR",
-    "airportId": "BQR",
-    "name": "Buffalo-Lancaster Airport",
-    "city": "Lancaster",
-    "state": "New York"
-  },
-  {
     "stationId": "KBUF",
     "airportId": "BUF",
     "name": "Buffalo Niagara International Airport",
     "city": "Buffalo",
-    "state": "New York"
-  },
-  {
-    "stationId": "KCZG",
-    "airportId": "CZG",
-    "name": "Tri-Cities Airport",
-    "city": "Endicott",
     "state": "New York"
   },
   {
@@ -8001,24 +4956,10 @@
     "state": "New York"
   },
   {
-    "stationId": "KGVQ",
-    "airportId": "GVQ",
-    "name": "Genesee County Airport",
-    "city": "Batavia",
-    "state": "New York"
-  },
-  {
     "stationId": "KHPN",
     "airportId": "HPN",
     "name": "Westchester County Airport",
     "city": "White Plains",
-    "state": "New York"
-  },
-  {
-    "stationId": "KHTO",
-    "airportId": "HTO",
-    "name": "East Hampton Airport",
-    "city": "East Hampton",
     "state": "New York"
   },
   {
@@ -8064,38 +5005,10 @@
     "state": "New York"
   },
   {
-    "stationId": "KJRA",
-    "airportId": "JRA",
-    "name": "West 30th Street Heliport",
-    "city": "Manhattan, New York City",
-    "state": "New York"
-  },
-  {
-    "stationId": "KJRB",
-    "airportId": "JRB",
-    "name": "Downtown Manhattan Heliport",
-    "city": "Manhattan, New York City",
-    "state": "New York"
-  },
-  {
     "stationId": "KLGA",
     "airportId": "LGA",
     "name": "La Guardia International Airport",
     "city": "New York",
-    "state": "New York"
-  },
-  {
-    "stationId": "KLKP",
-    "airportId": "LKP",
-    "name": "Lake Placid Airport",
-    "city": "Lake Placid",
-    "state": "New York"
-  },
-  {
-    "stationId": "KMAL",
-    "airportId": "MAL",
-    "name": "Malone-Dufort Airport",
-    "city": "Malone",
     "state": "New York"
   },
   {
@@ -8127,34 +5040,6 @@
     "state": "New York"
   },
   {
-    "stationId": "KOGS",
-    "airportId": "OGS",
-    "name": "Ogdensburg International Airport",
-    "city": "Ogdensburg",
-    "state": "New York"
-  },
-  {
-    "stationId": "KOIC",
-    "airportId": "OIC",
-    "name": "Norwich Lt. Warren Eaton Airport",
-    "city": "Norwich",
-    "state": "New York"
-  },
-  {
-    "stationId": "KOLE",
-    "airportId": "OLE",
-    "name": "Cattaraugus County-Olean Airport",
-    "city": "Olean",
-    "state": "New York"
-  },
-  {
-    "stationId": "KPBG",
-    "airportId": "PBG",
-    "name": "Plattsburgh International Airport",
-    "city": "Plattsburgh",
-    "state": "New York"
-  },
-  {
     "stationId": "KPEO",
     "airportId": "PEO",
     "name": "Penn Yan Airport",
@@ -8166,20 +5051,6 @@
     "airportId": "POU",
     "name": "Dutchess County Airport",
     "city": "Poughkeepsie",
-    "state": "New York"
-  },
-  {
-    "stationId": "KPTD",
-    "airportId": "PTD",
-    "name": "Potsdam Municipal Airport",
-    "city": "Potsdam",
-    "state": "New York"
-  },
-  {
-    "stationId": "KRME",
-    "airportId": "RME",
-    "name": "Griffiss Airport",
-    "city": "Rome",
     "state": "New York"
   },
   {
@@ -8197,24 +5068,10 @@
     "state": "New York"
   },
   {
-    "stationId": "KSDC",
-    "airportId": "SDC",
-    "name": "Williamson-Sodus Airport",
-    "city": "Williamson/Sodus",
-    "state": "New York"
-  },
-  {
     "stationId": "KSLK",
     "airportId": "SLK",
     "name": "Adirondack Regional Airport",
     "city": "Saranac Lake",
-    "state": "New York"
-  },
-  {
-    "stationId": "KSSN",
-    "airportId": "SSN",
-    "name": "Seneca Army Airfield",
-    "city": "Romulus",
     "state": "New York"
   },
   {
@@ -8244,20 +5101,6 @@
     "name": "Elmira/Corning Regional Airport",
     "city": "Big Flats",
     "state": "New York"
-  },
-  {
-    "stationId": "KACZ",
-    "airportId": "ACZ",
-    "name": "Henderson Field",
-    "city": "Wallace",
-    "state": "North Carolina"
-  },
-  {
-    "stationId": "KAFP",
-    "airportId": "AFP",
-    "name": "Anson County Airport",
-    "city": "Wadesboro",
-    "state": "North Carolina"
   },
   {
     "stationId": "KAKH",
@@ -8323,24 +5166,10 @@
     "state": "North Carolina"
   },
   {
-    "stationId": "KEHO",
-    "airportId": "EHO",
-    "name": "Shelby Municipal Airport",
-    "city": "Shelby",
-    "state": "North Carolina"
-  },
-  {
     "stationId": "KEQY",
     "airportId": "EQY",
     "name": "Monroe Regional Airport",
     "city": "Monroe",
-    "state": "North Carolina"
-  },
-  {
-    "stationId": "KETC",
-    "airportId": "ETC",
-    "name": "Tarboro-Edgecombe Airport",
-    "city": "Tarboro",
     "state": "North Carolina"
   },
   {
@@ -8376,13 +5205,6 @@
     "airportId": "FBG",
     "name": "Simmons Army Airfield",
     "city": "Fort Bragg",
-    "state": "North Carolina"
-  },
-  {
-    "stationId": "KFFA",
-    "airportId": "FFA",
-    "name": "First Flight Airport",
-    "city": "Kill Devil Hills",
     "state": "North Carolina"
   },
   {
@@ -8526,13 +5348,6 @@
     "state": "North Carolina"
   },
   {
-    "stationId": "KMCZ",
-    "airportId": "MCZ",
-    "name": "Martin County Airport",
-    "city": "Williamston",
-    "state": "North Carolina"
-  },
-  {
     "stationId": "KMEB",
     "airportId": "MEB",
     "name": "Laurinburg-Maxton Airport",
@@ -8575,13 +5390,6 @@
     "state": "North Carolina"
   },
   {
-    "stationId": "KNJM",
-    "airportId": "NJM",
-    "name": "Marine Corps Auxiliary Landing Field Bogue",
-    "city": "Swansboro",
-    "state": "North Carolina"
-  },
-  {
     "stationId": "KNKT",
     "airportId": "NKT",
     "name": "Marine Corps Air Station Cherry Point",
@@ -8603,24 +5411,10 @@
     "state": "North Carolina"
   },
   {
-    "stationId": "KONX",
-    "airportId": "ONX",
-    "name": "Currituck County Airport",
-    "city": "Currituck",
-    "state": "North Carolina"
-  },
-  {
     "stationId": "KPGV",
     "airportId": "PGV",
     "name": "Pitt-Greenville Airport",
     "city": "Greenville",
-    "state": "North Carolina"
-  },
-  {
-    "stationId": "KPMZ",
-    "airportId": "PMZ",
-    "name": "Plymouth Municipal Airport",
-    "city": "Plymouth",
     "state": "North Carolina"
   },
   {
@@ -8663,13 +5457,6 @@
     "airportId": "RZZ",
     "name": "Halifax County Airport",
     "city": "Roanoke Rapids",
-    "state": "North Carolina"
-  },
-  {
-    "stationId": "KSIF",
-    "airportId": "SIF",
-    "name": "Rockingham County Airport",
-    "city": "Stoneville",
     "state": "North Carolina"
   },
   {
@@ -8722,24 +5509,10 @@
     "state": "North Carolina"
   },
   {
-    "stationId": "KZEF",
-    "airportId": "ZEF",
-    "name": "Elkin Municipal Airport",
-    "city": "Elkin",
-    "state": "North Carolina"
-  },
-  {
     "stationId": "KAVL",
     "airportId": "AVL",
     "name": "Asheville Regional Airport",
     "city": "Fletcher",
-    "state": "North Carolina"
-  },
-  {
-    "stationId": "KSCR",
-    "airportId": "SCR",
-    "name": "Siler City Municipal Airport",
-    "city": "Siler City",
     "state": "North Carolina"
   },
   {
@@ -8750,38 +5523,10 @@
     "state": "North Dakota"
   },
   {
-    "stationId": "KASY",
-    "airportId": "ASY",
-    "name": "Ashley Municipal Airport",
-    "city": "Ashley",
-    "state": "North Dakota"
-  },
-  {
-    "stationId": "KBAC",
-    "airportId": "BAC",
-    "name": "Barnes County Municipal Airport",
-    "city": "Valley City",
-    "state": "North Dakota"
-  },
-  {
     "stationId": "KBIS",
     "airportId": "BIS",
     "name": "Bismarck Municipal Airport",
     "city": "Bismarck",
-    "state": "North Dakota"
-  },
-  {
-    "stationId": "KBPP",
-    "airportId": "BPP",
-    "name": "Bowman Municipal Airport",
-    "city": "Bowman",
-    "state": "North Dakota"
-  },
-  {
-    "stationId": "KBWP",
-    "airportId": "BWP",
-    "name": "Harry Stern Airport",
-    "city": "Wahpeton",
     "state": "North Dakota"
   },
   {
@@ -8799,13 +5544,6 @@
     "state": "North Dakota"
   },
   {
-    "stationId": "KGAF",
-    "airportId": "GAF",
-    "name": "Grafton Municipal Airport",
-    "city": "Grafton",
-    "state": "North Dakota"
-  },
-  {
     "stationId": "KGFK",
     "airportId": "GFK",
     "name": "Grand Forks International Airport",
@@ -8813,31 +5551,10 @@
     "state": "North Dakota"
   },
   {
-    "stationId": "KGWR",
-    "airportId": "GWR",
-    "name": "Gwinner-Roger Melroe Field",
-    "city": "Gwinner",
-    "state": "North Dakota"
-  },
-  {
-    "stationId": "KHBC",
-    "airportId": "HBC",
-    "name": "Mohall Municipal Airport",
-    "city": "Mohall",
-    "state": "North Dakota"
-  },
-  {
     "stationId": "KHEI",
     "airportId": "HEI",
     "name": "Hettinger Municipal Airport",
     "city": "Hettinger",
-    "state": "North Dakota"
-  },
-  {
-    "stationId": "KHZE",
-    "airportId": "HZE",
-    "name": "Mercer County Regional Airport",
-    "city": "Hazen",
     "state": "North Dakota"
   },
   {
@@ -8869,24 +5586,10 @@
     "state": "North Dakota"
   },
   {
-    "stationId": "KPMB",
-    "airportId": "PMB",
-    "name": "Pembina Municipal Airport",
-    "city": "Pembina",
-    "state": "North Dakota"
-  },
-  {
     "stationId": "KRDR",
     "airportId": "RDR",
     "name": "Grand Forks Air Force Base",
     "city": "Grand Forks",
-    "state": "North Dakota"
-  },
-  {
-    "stationId": "KRUG",
-    "airportId": "RUG",
-    "name": "Rugby Municipal Airport",
-    "city": "Rugby",
     "state": "North Dakota"
   },
   {
@@ -8897,24 +5600,10 @@
     "state": "Ohio"
   },
   {
-    "stationId": "KAMT",
-    "airportId": "AMT",
-    "name": "Alexander Salamon Airport",
-    "city": "West Union",
-    "state": "Ohio"
-  },
-  {
     "stationId": "KAOH",
     "airportId": "AOH",
     "name": "Lima Allen County Airport",
     "city": "Lima",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KAXV",
-    "airportId": "AXV",
-    "name": "Neil Armstrong Airport",
-    "city": "Wapakoneta",
     "state": "Ohio"
   },
   {
@@ -8929,13 +5618,6 @@
     "airportId": "BKL",
     "name": "Cleveland Burke Lakefront Airport",
     "city": "Cleveland",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KCDI",
-    "airportId": "CDI",
-    "name": "Cambridge Municipal Airport",
-    "city": "Cambridge",
     "state": "Ohio"
   },
   {
@@ -8960,20 +5642,6 @@
     "state": "Ohio"
   },
   {
-    "stationId": "KCQA",
-    "airportId": "CQA",
-    "name": "Lakefield Airport",
-    "city": "Celina",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KCYO",
-    "airportId": "CYO",
-    "name": "Pickaway County Memorial Airport",
-    "city": "Circleville",
-    "state": "Ohio"
-  },
-  {
     "stationId": "KDAY",
     "airportId": "DAY",
     "name": "James M. Cox International Airport",
@@ -8988,20 +5656,6 @@
     "state": "Ohio"
   },
   {
-    "stationId": "KEDJ",
-    "airportId": "EDJ",
-    "name": "Bellefontaine Regional Airport",
-    "city": "Bellefontaine",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KEOP",
-    "airportId": "EOP",
-    "name": "Pike County Airport",
-    "city": "Waverly",
-    "state": "Ohio"
-  },
-  {
     "stationId": "KFDY",
     "airportId": "FDY",
     "name": "Findlay Airport",
@@ -9013,13 +5667,6 @@
     "airportId": "FFO",
     "name": "Wright-Patterson Air Force Base",
     "city": "Dayton",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KFZI",
-    "airportId": "FZI",
-    "name": "Fostoria Metropolitan Airport",
-    "city": "Fostoria",
     "state": "Ohio"
   },
   {
@@ -9051,13 +5698,6 @@
     "state": "Ohio"
   },
   {
-    "stationId": "KLNN",
-    "airportId": "LNN",
-    "name": "Willoughby Lost Nation Municipal Airport",
-    "city": "Willoughby",
-    "state": "Ohio"
-  },
-  {
     "stationId": "KLPR",
     "airportId": "LPR",
     "name": "Lorain County Regional Airport",
@@ -9079,20 +5719,6 @@
     "state": "Ohio"
   },
   {
-    "stationId": "KOXD",
-    "airportId": "OXD",
-    "name": "Miami University Airport",
-    "city": "Oxford",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KRZT",
-    "airportId": "RZT",
-    "name": "Ross County Regional Airport",
-    "city": "Chillicothe",
-    "state": "Ohio"
-  },
-  {
     "stationId": "KTOL",
     "airportId": "TOL",
     "name": "Toledo Express Airport",
@@ -9104,20 +5730,6 @@
     "airportId": "TZR",
     "name": "Bolton Field",
     "city": "Columbus",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KUNI",
-    "airportId": "UNI",
-    "name": "Gordon K. Bush Airport",
-    "city": "Athens / Albany",
-    "state": "Ohio"
-  },
-  {
-    "stationId": "KVES",
-    "airportId": "VES",
-    "name": "Darke County Airport",
-    "city": "Versailles",
     "state": "Ohio"
   },
   {
@@ -9177,20 +5789,6 @@
     "state": "Oklahoma"
   },
   {
-    "stationId": "KAXS",
-    "airportId": "AXS",
-    "name": "Altus/Quartz Mountain Regional Airport",
-    "city": "Altus",
-    "state": "Oklahoma"
-  },
-  {
-    "stationId": "KBFK",
-    "airportId": "BFK",
-    "name": "Buffalo Municipal Airport",
-    "city": "Buffalo",
-    "state": "Oklahoma"
-  },
-  {
     "stationId": "KBVO",
     "airportId": "BVO",
     "name": "Bartlesville Municipal Airport",
@@ -9202,20 +5800,6 @@
     "airportId": "CHK",
     "name": "Chickasha Municipal Airport",
     "city": "Chickasha",
-    "state": "Oklahoma"
-  },
-  {
-    "stationId": "KCKA",
-    "airportId": "CKA",
-    "name": "Kegelman Air Force Auxiliary Field",
-    "city": "Cherokee",
-    "state": "Oklahoma"
-  },
-  {
-    "stationId": "KCLK",
-    "airportId": "CLK",
-    "name": "Clinton Regional Airport",
-    "city": "Clinton",
     "state": "Oklahoma"
   },
   {
@@ -9233,13 +5817,6 @@
     "state": "Oklahoma"
   },
   {
-    "stationId": "KCUH",
-    "airportId": "CUH",
-    "name": "Cushing Municipal Airport",
-    "city": "Cushing",
-    "state": "Oklahoma"
-  },
-  {
     "stationId": "KDUA",
     "airportId": "DUA",
     "name": "Eaker Field",
@@ -9251,13 +5828,6 @@
     "airportId": "DUC",
     "name": "Halliburton Field",
     "city": "Duncan",
-    "state": "Oklahoma"
-  },
-  {
-    "stationId": "KELK",
-    "airportId": "ELK",
-    "name": "Elk City Municipal Airport",
-    "city": "Elk City",
     "state": "Oklahoma"
   },
   {
@@ -9317,24 +5887,10 @@
     "state": "Oklahoma"
   },
   {
-    "stationId": "KGZL",
-    "airportId": "GZL",
-    "name": "Stigler Regional Airport",
-    "city": "Stigler",
-    "state": "Oklahoma"
-  },
-  {
     "stationId": "KHBR",
     "airportId": "HBR",
     "name": "Hobart Municipal Airport",
     "city": "Hobart",
-    "state": "Oklahoma"
-  },
-  {
-    "stationId": "KHHW",
-    "airportId": "HHW",
-    "name": "Stan Stamper Municipal Airport",
-    "city": "Hugo",
     "state": "Oklahoma"
   },
   {
@@ -9366,13 +5922,6 @@
     "state": "Oklahoma"
   },
   {
-    "stationId": "KMIO",
-    "airportId": "MIO",
-    "name": "Miami Municipal Airport",
-    "city": "Miami",
-    "state": "Oklahoma"
-  },
-  {
     "stationId": "KMKO",
     "airportId": "MKO",
     "name": "Davis Field",
@@ -9384,13 +5933,6 @@
     "airportId": "MLC",
     "name": "McAlester Regional Airport",
     "city": "McAlester",
-    "state": "Oklahoma"
-  },
-  {
-    "stationId": "KOJA",
-    "airportId": "OJA",
-    "name": "Thomas P. Stafford Airport",
-    "city": "Weatherford",
     "state": "Oklahoma"
   },
   {
@@ -9432,13 +5974,6 @@
     "stationId": "KPWA",
     "airportId": "PWA",
     "name": "Wiley Post Airport",
-    "city": "Oklahoma City",
-    "state": "Oklahoma"
-  },
-  {
-    "stationId": "KRCE",
-    "airportId": "RCE",
-    "name": "Clarence E. Page Municipal Airport",
     "city": "Oklahoma City",
     "state": "Oklahoma"
   },
@@ -9506,24 +6041,10 @@
     "state": "Oklahoma"
   },
   {
-    "stationId": "KBKN",
-    "airportId": "BKN",
-    "name": "Blackwell-Tonkawa Municipal Airport",
-    "city": "Blackwell",
-    "state": "Oklahoma"
-  },
-  {
     "stationId": "KAST",
     "airportId": "AST",
     "name": "Astoria Regional Airport",
     "city": "Astoria",
-    "state": "Oregon"
-  },
-  {
-    "stationId": "KBDN",
-    "airportId": "BDN",
-    "name": "Bend Municipal Airport",
-    "city": "Bend",
     "state": "Oregon"
   },
   {
@@ -9541,24 +6062,10 @@
     "state": "Oregon"
   },
   {
-    "stationId": "KBOK",
-    "airportId": "BOK",
-    "name": "Brookings State Airport",
-    "city": "Brookings",
-    "state": "Oregon"
-  },
-  {
     "stationId": "KCVO",
     "airportId": "CVO",
     "name": "Corvallis Municipal Airport",
     "city": "Corvallis",
-    "state": "Oregon"
-  },
-  {
-    "stationId": "KCZK",
-    "airportId": "CZK",
-    "name": "Cascade Locks State Airport",
-    "city": "Cascade Locks",
     "state": "Oregon"
   },
   {
@@ -9573,13 +6080,6 @@
     "airportId": "EUG",
     "name": "Eugene Airport / Mahlon Sweet Field",
     "city": "Eugene",
-    "state": "Oregon"
-  },
-  {
-    "stationId": "KGCD",
-    "airportId": "GCD",
-    "name": "Seneca Emergency Airstrip",
-    "city": "Seneca",
     "state": "Oregon"
   },
   {
@@ -9667,13 +6167,6 @@
     "state": "Oregon"
   },
   {
-    "stationId": "KPFC",
-    "airportId": "PFC",
-    "name": "Pacific City State Airport",
-    "city": "Pacific City",
-    "state": "Oregon"
-  },
-  {
     "stationId": "KRBG",
     "airportId": "RBG",
     "name": "Roseburg Regional Airport",
@@ -9713,13 +6206,6 @@
     "airportId": "SXT",
     "name": "Grants Pass",
     "city": "Grants Pass",
-    "state": "Oregon"
-  },
-  {
-    "stationId": "KTMK",
-    "airportId": "TMK",
-    "name": "Tillamook Airport",
-    "city": "Tillamook",
     "state": "Oregon"
   },
   {
@@ -9769,13 +6255,6 @@
     "airportId": "AVP",
     "name": "Wilkes-Barre/Scranton International Airport",
     "city": "Avoca",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KAXQ",
-    "airportId": "AXQ",
-    "name": "Clarion County Airport",
-    "city": "Clarion",
     "state": "Pennsylvania"
   },
   {
@@ -9849,20 +6328,6 @@
     "state": "Pennsylvania"
   },
   {
-    "stationId": "KHMZ",
-    "airportId": "HMZ",
-    "name": "Bedford County Airport",
-    "city": "Bedford",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KHZL",
-    "airportId": "HZL",
-    "name": "Hazleton Municipal Airport",
-    "city": "Hazleton",
-    "state": "Pennsylvania"
-  },
-  {
     "stationId": "KIDI",
     "airportId": "IDI",
     "name": "Indiana County-Jimmy Stewart Airport",
@@ -9891,13 +6356,6 @@
     "state": "Pennsylvania"
   },
   {
-    "stationId": "KLHV",
-    "airportId": "LHV",
-    "name": "William T. Piper Memorial Airport",
-    "city": "Lock Haven",
-    "state": "Pennsylvania"
-  },
-  {
     "stationId": "KLNS",
     "airportId": "LNS",
     "name": "Lancaster Airport",
@@ -9919,38 +6377,10 @@
     "state": "Pennsylvania"
   },
   {
-    "stationId": "KMQS",
-    "airportId": "MQS",
-    "name": "Chester County G O Carlson Airport",
-    "city": "Coatesville",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KMUU",
-    "airportId": "MUU",
-    "name": "Huntingdon County Airport",
-    "city": "Mount Union",
-    "state": "Pennsylvania"
-  },
-  {
     "stationId": "KNXX",
     "airportId": "NXX",
     "name": "Naval Air Station Joint Reserve Base Willow Grove",
     "city": "Willow Grove",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KOQN",
-    "airportId": "OQN",
-    "name": "Brandywine Airport",
-    "city": "West Chester",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KOYM",
-    "airportId": "OYM",
-    "name": "St. Marys Municipal Airport",
-    "city": "Saint Marys",
     "state": "Pennsylvania"
   },
   {
@@ -9975,13 +6405,6 @@
     "state": "Pennsylvania"
   },
   {
-    "stationId": "KPSB",
-    "airportId": "PSB",
-    "name": "Mid-State Airport",
-    "city": "Philipsburg",
-    "state": "Pennsylvania"
-  },
-  {
     "stationId": "KPTW",
     "airportId": "PTW",
     "name": "Pottstown Limerick Airport",
@@ -9993,13 +6416,6 @@
     "airportId": "RDG",
     "name": "Reading Regional Airport",
     "city": "Reading",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KRVL",
-    "airportId": "RVL",
-    "name": "Mifflin County Airport",
-    "city": "Reedsville",
     "state": "Pennsylvania"
   },
   {
@@ -10017,13 +6433,6 @@
     "state": "Pennsylvania"
   },
   {
-    "stationId": "KUCP",
-    "airportId": "UCP",
-    "name": "New Castle Municipal Airport",
-    "city": "New Castle",
-    "state": "Pennsylvania"
-  },
-  {
     "stationId": "KUKT",
     "airportId": "UKT",
     "name": "Quakertown Airport",
@@ -10035,41 +6444,6 @@
     "airportId": "UNV",
     "name": "University Park Airport",
     "city": "University Park",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KVVS",
-    "airportId": "VVS",
-    "name": "Joseph A. Hardy Connellsville Airport",
-    "city": "Connellsville",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KWAY",
-    "airportId": "WAY",
-    "name": "Greene County Airport",
-    "city": "Waynesburg",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KWBW",
-    "airportId": "WBW",
-    "name": "Wilkes-Barre Wyoming Valley Airport",
-    "city": "Wilkes-Barre",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KZER",
-    "airportId": "ZER",
-    "name": "Schuylkill County Airport (Joe Zerbey Field)",
-    "city": "Pottsville",
-    "state": "Pennsylvania"
-  },
-  {
-    "stationId": "KFWQ",
-    "airportId": "FWQ",
-    "name": "Rostraver Airport",
-    "city": "Monongahela",
     "state": "Pennsylvania"
   },
   {
@@ -10122,45 +6496,10 @@
     "state": "Siler City"
   },
   {
-    "stationId": "KAIK",
-    "airportId": "AIK",
-    "name": "Aiken Municipal Airport",
-    "city": "Aiken",
-    "state": "South Carolina"
-  },
-  {
     "stationId": "KAND",
     "airportId": "AND",
     "name": "Anderson Regional Airport",
     "city": "Anderson",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KARW",
-    "airportId": "ARW",
-    "name": "Beaufort County Airport",
-    "city": "Beaufort County",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KBBP",
-    "airportId": "BBP",
-    "name": "Marlboro County Jetport (H.E. Avent Field)",
-    "city": "Bennettsville",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KBNL",
-    "airportId": "BNL",
-    "name": "Barnwell County Airport",
-    "city": "Barnwell",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KCDN",
-    "airportId": "CDN",
-    "name": "Woodward Field",
-    "city": "Camden",
     "state": "South Carolina"
   },
   {
@@ -10178,20 +6517,6 @@
     "state": "South Carolina"
   },
   {
-    "stationId": "KCKI",
-    "airportId": "CKI",
-    "name": "Williamsburg Regional Airport",
-    "city": "Kingstree",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KCQW",
-    "airportId": "CQW",
-    "name": "Cheraw Municipal Airport",
-    "city": "Chesterfield County",
-    "state": "South Carolina"
-  },
-  {
     "stationId": "KCRE",
     "airportId": "CRE",
     "name": "Grand Strand Airport",
@@ -10206,45 +6531,10 @@
     "state": "South Carolina"
   },
   {
-    "stationId": "KDLC",
-    "airportId": "DLC",
-    "name": "Dillon County Airport",
-    "city": "Dillon",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KDYB",
-    "airportId": "DYB",
-    "name": "Summerville Airport",
-    "city": "Summerville",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KEOE",
-    "airportId": "EOE",
-    "name": "Newberry County Airport",
-    "city": "Newberry",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KFDW",
-    "airportId": "FDW",
-    "name": "Fairfield County Airport",
-    "city": "Winnsboro",
-    "state": "South Carolina"
-  },
-  {
     "stationId": "KFLO",
     "airportId": "FLO",
     "name": "Florence Regional Airport",
     "city": "Florence",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KGGE",
-    "airportId": "GGE",
-    "name": "Georgetown County Airport",
-    "city": "Georgetown",
     "state": "South Carolina"
   },
   {
@@ -10269,73 +6559,10 @@
     "state": "South Carolina"
   },
   {
-    "stationId": "KGYH",
-    "airportId": "GYH",
-    "name": "Donaldson Center Airport",
-    "city": "Greenville",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KHVS",
-    "airportId": "HVS",
-    "name": "Hartsville Regional Airport",
-    "city": "Hartsville",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KHXD",
-    "airportId": "HXD",
-    "name": "Hilton Head Airport",
-    "city": "Hilton Head Island",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KHYW",
-    "airportId": "HYW",
-    "name": "Conway-Horry County Airport",
-    "city": "Conway",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KJZI",
-    "airportId": "JZI",
-    "name": "Charleston Executive Airport",
-    "city": "Charleston",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KLKR",
-    "airportId": "LKR",
-    "name": "Lancaster County Airport (McWhirter Field)",
-    "city": "Lancaster",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KLQK",
-    "airportId": "LQK",
-    "name": "Pickens County Airport",
-    "city": "Pickens",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KMAO",
-    "airportId": "MAO",
-    "name": "Marion County Airport",
-    "city": "Marion",
-    "state": "South Carolina"
-  },
-  {
     "stationId": "KMMT",
     "airportId": "MMT",
     "name": "McEntire Joint National Guard Base",
     "city": "Eastover",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KMNI",
-    "airportId": "MNI",
-    "name": "Santee Cooper Regional Airport",
-    "city": "Manning",
     "state": "South Carolina"
   },
   {
@@ -10360,41 +6587,6 @@
     "state": "South Carolina"
   },
   {
-    "stationId": "KPHH",
-    "airportId": "PHH",
-    "name": "Swinnie Airport",
-    "city": "Andrews",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KPYG",
-    "airportId": "PYG",
-    "name": "Pageland Airport",
-    "city": "Pageland",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KRBW",
-    "airportId": "RBW",
-    "name": "Lowcountry Regional Airport",
-    "city": "Walterboro",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KSMS",
-    "airportId": "SMS",
-    "name": "Sumter Airport",
-    "city": "Sumter",
-    "state": "South Carolina"
-  },
-  {
-    "stationId": "KSPA",
-    "airportId": "SPA",
-    "name": "Spartanburg Downtown Memorial Airport",
-    "city": "Spartanburg",
-    "state": "South Carolina"
-  },
-  {
     "stationId": "KSSC",
     "airportId": "SSC",
     "name": "Shaw AFB",
@@ -10416,13 +6608,6 @@
     "state": "South Carolina"
   },
   {
-    "stationId": "KXNO",
-    "airportId": "XNO",
-    "name": "North Air Force Auxiliary Field",
-    "city": "North",
-    "state": "South Carolina"
-  },
-  {
     "stationId": "KCAE",
     "airportId": "CAE",
     "name": "Columbia Metropolitan Airport",
@@ -10434,13 +6619,6 @@
     "airportId": "ABR",
     "name": "Aberdeen Regional Airport",
     "city": "Aberdeen",
-    "state": "South Dakota"
-  },
-  {
-    "stationId": "KAGZ",
-    "airportId": "AGZ",
-    "name": "Wagner Municipal Airport",
-    "city": "Wagner",
     "state": "South Dakota"
   },
   {
@@ -10458,24 +6636,10 @@
     "state": "South Dakota"
   },
   {
-    "stationId": "KBTN",
-    "airportId": "BTN",
-    "name": "Britton Municipal Airport",
-    "city": "Britton",
-    "state": "South Dakota"
-  },
-  {
     "stationId": "KCUT",
     "airportId": "CUT",
     "name": "Custer County Airport",
     "city": "Custer",
-    "state": "South Dakota"
-  },
-  {
-    "stationId": "KEFC",
-    "airportId": "EFC",
-    "name": "Belle Fourche Municipal Airport",
-    "city": "Belle Fourche",
     "state": "South Dakota"
   },
   {
@@ -10493,31 +6657,10 @@
     "state": "South Dakota"
   },
   {
-    "stationId": "KHSR",
-    "airportId": "HSR",
-    "name": "Hot Springs Municipal Airport",
-    "city": "Hot Springs",
-    "state": "South Dakota"
-  },
-  {
-    "stationId": "KICR",
-    "airportId": "ICR",
-    "name": "Winner Regional Airport",
-    "city": "Winner",
-    "state": "South Dakota"
-  },
-  {
     "stationId": "KIEN",
     "airportId": "IEN",
     "name": "Pine Ridge Airport",
     "city": "Pine Ridge",
-    "state": "South Dakota"
-  },
-  {
-    "stationId": "KLEM",
-    "airportId": "LEM",
-    "name": "Lemmon Municipal Airport",
-    "city": "Lemmon",
     "state": "South Dakota"
   },
   {
@@ -10528,24 +6671,10 @@
     "state": "South Dakota"
   },
   {
-    "stationId": "KMDS",
-    "airportId": "MDS",
-    "name": "Madison Municipal Airport",
-    "city": "Madison",
-    "state": "South Dakota"
-  },
-  {
     "stationId": "KMHE",
     "airportId": "MHE",
     "name": "Mitchell Municipal Airport",
     "city": "Mitchell",
-    "state": "South Dakota"
-  },
-  {
-    "stationId": "KMKA",
-    "airportId": "MKA",
-    "name": "Miller Municipal Airport",
-    "city": "Miller",
     "state": "South Dakota"
   },
   {
@@ -10584,46 +6713,11 @@
     "state": "South Dakota"
   },
   {
-    "stationId": "KSPF",
-    "airportId": "SPF",
-    "name": "Black Hills Airport (Clyde Ice Field)",
-    "city": "Spearfish",
-    "state": "South Dakota"
-  },
-  {
-    "stationId": "KVMR",
-    "airportId": "VMR",
-    "name": "Davidson Airport",
-    "city": "Vermillion",
-    "state": "South Dakota"
-  },
-  {
     "stationId": "KYKN",
     "airportId": "YKN",
     "name": "Chan Gurney Municipal Airport",
     "city": "Yankton",
     "state": "South Dakota"
-  },
-  {
-    "stationId": "KAPT",
-    "airportId": "APT",
-    "name": "Marion County Airport (Brown Field)",
-    "city": "Jasper",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KAYX",
-    "airportId": "AYX",
-    "name": "Arnold Air Force Base",
-    "city": "Tullahoma",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KBGF",
-    "airportId": "BGF",
-    "name": "Winchester Municipal Airport",
-    "city": "Winchester",
-    "state": "Tennessee"
   },
   {
     "stationId": "KBNA",
@@ -10654,66 +6748,10 @@
     "state": "Tennessee"
   },
   {
-    "stationId": "KDKX",
-    "airportId": "DKX",
-    "name": "Knoxville Downtown Island Airport",
-    "city": "Knoxville",
-    "state": "Tennessee"
-  },
-  {
     "stationId": "KDYR",
     "airportId": "DYR",
     "name": "Dyersburg Regional Airport",
     "city": "Dyersburg",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KFYE",
-    "airportId": "FYE",
-    "name": "Fayette County Airport",
-    "city": "Somerville",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KFYM",
-    "airportId": "FYM",
-    "name": "Fayetteville Municipal Airport",
-    "city": "Fayetteville",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KGHM",
-    "airportId": "GHM",
-    "name": "Centerville Municipal Airport",
-    "city": "Centerville",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KGKT",
-    "airportId": "GKT",
-    "name": "Gatlinburg-Pigeon Forge Airport",
-    "city": "Sevier County",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KJWN",
-    "airportId": "JWN",
-    "name": "John C. Tune Airport",
-    "city": "Nashville",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KLUG",
-    "airportId": "LUG",
-    "name": "Ellington Airport",
-    "city": "Lewisburg",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KMBT",
-    "airportId": "MBT",
-    "name": "Murfreesboro Municipal Airport",
-    "city": "Murfreesboro",
     "state": "Tennessee"
   },
   {
@@ -10731,20 +6769,6 @@
     "state": "Tennessee"
   },
   {
-    "stationId": "KMMI",
-    "airportId": "MMI",
-    "name": "McMinn County Airport",
-    "city": "Athens",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KMOR",
-    "airportId": "MOR",
-    "name": "Moore-Murrell Airport",
-    "city": "Morristown",
-    "state": "Tennessee"
-  },
-  {
     "stationId": "KMQY",
     "airportId": "MQY",
     "name": "Smyrna Airport",
@@ -10759,27 +6783,6 @@
     "state": "Tennessee"
   },
   {
-    "stationId": "KPHT",
-    "airportId": "PHT",
-    "name": "Henry County Airport",
-    "city": "Paris",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KPVE",
-    "airportId": "PVE",
-    "name": "Beech River Regional Airport",
-    "city": "Darden",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KSYI",
-    "airportId": "SYI",
-    "name": "Shelbyville Municipal Airport",
-    "city": "Shelbyville",
-    "state": "Tennessee"
-  },
-  {
     "stationId": "KTRI",
     "airportId": "TRI",
     "name": "Tri-Cities Regional Airport",
@@ -10791,13 +6794,6 @@
     "airportId": "TYS",
     "name": "McGhee Tyson Airport",
     "city": "Knoxville",
-    "state": "Tennessee"
-  },
-  {
-    "stationId": "KUOS",
-    "airportId": "UOS",
-    "name": "Franklin County Airport",
-    "city": "Sewanee",
     "state": "Tennessee"
   },
   {
@@ -10843,45 +6839,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KAQO",
-    "airportId": "AQO",
-    "name": "Llano Municipal Airport",
-    "city": "Llano",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KARM",
-    "airportId": "ARM",
-    "name": "Wharton Regional Airport",
-    "city": "Wharton",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KASL",
-    "airportId": "ASL",
-    "name": "Harrison County Airport",
-    "city": "Marshall",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KATA",
-    "airportId": "ATA",
-    "name": "Hall-Miller Municipal Airport",
-    "city": "Atlanta",
-    "state": "Texas"
-  },
-  {
     "stationId": "KAUS",
     "airportId": "AUS",
     "name": "Austin-Bergstrom International Airport",
     "city": "Austin",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KAXH",
-    "airportId": "AXH",
-    "name": "Houston Southwest Airport",
-    "city": "Houston",
     "state": "Texas"
   },
   {
@@ -10892,38 +6853,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KBBD",
-    "airportId": "BBD",
-    "name": "Curtis Field",
-    "city": "Brady",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KBFE",
-    "airportId": "BFE",
-    "name": "Terry County Airport",
-    "city": "Brownfield",
-    "state": "Texas"
-  },
-  {
     "stationId": "KBGD",
     "airportId": "BGD",
     "name": "Hutchinson County Airport",
     "city": "Borger",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KBIF",
-    "airportId": "BIF",
-    "name": "Biggs Army Airfield",
-    "city": "Fort Bliss, El Paso",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KBKD",
-    "airportId": "BKD",
-    "name": "Stephens County Airport",
-    "city": "Breckenridge",
     "state": "Texas"
   },
   {
@@ -10938,13 +6871,6 @@
     "airportId": "BMQ",
     "name": "Burnet Municipal Airport (Kate Craddock Field)",
     "city": "Burnet",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KBMT",
-    "airportId": "BMT",
-    "name": "Beaumont Municipal Airport",
-    "city": "Beaumont",
     "state": "Texas"
   },
   {
@@ -10983,13 +6909,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KCFD",
-    "airportId": "CFD",
-    "name": "Coulter Field",
-    "city": "Bryan",
-    "state": "Texas"
-  },
-  {
     "stationId": "KCLL",
     "airportId": "CLL",
     "name": "Easterwood Airport",
@@ -10997,31 +6916,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KCNW",
-    "airportId": "CNW",
-    "name": "TSTC Waco Airport",
-    "city": "Waco",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KCOM",
-    "airportId": "COM",
-    "name": "Coleman Municipal Airport",
-    "city": "Coleman",
-    "state": "Texas"
-  },
-  {
     "stationId": "KCOT",
     "airportId": "COT",
     "name": "Cotulla-La Salle County Airport",
     "city": "Cotulla",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KCPT",
-    "airportId": "CPT",
-    "name": "Cleburne Municipal Airport",
-    "city": "Cleburne",
     "state": "Texas"
   },
   {
@@ -11039,24 +6937,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KCWC",
-    "airportId": "CWC",
-    "name": "Kickapoo Downtown Airpark",
-    "city": "Wichita Falls",
-    "state": "Texas"
-  },
-  {
     "stationId": "KCXO",
     "airportId": "CXO",
     "name": "Lone Star Executive Airport",
     "city": "Houston",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KCZT",
-    "airportId": "CZT",
-    "name": "Dimmit County Airport",
-    "city": "Carrizo Springs",
     "state": "Texas"
   },
   {
@@ -11081,13 +6965,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KDKR",
-    "airportId": "DKR",
-    "name": "Houston County Airport",
-    "city": "Crockett",
-    "state": "Texas"
-  },
-  {
     "stationId": "KDLF",
     "airportId": "DLF",
     "name": "Laughlin Air Force Base",
@@ -11109,13 +6986,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KDUX",
-    "airportId": "DUX",
-    "name": "Moore County Airport",
-    "city": "Dumas",
-    "state": "Texas"
-  },
-  {
     "stationId": "KDWH",
     "airportId": "DWH",
     "name": "David Wayne Hooks Memorial Airport",
@@ -11130,38 +7000,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KEBG",
-    "airportId": "EBG",
-    "name": "South Texas International Airport at Edinburg",
-    "city": "Edinburg",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KECU",
-    "airportId": "ECU",
-    "name": "Edwards County Airport",
-    "city": "Rocksprings",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KEDC",
-    "airportId": "EDC",
-    "name": "Austin Executive Airport",
-    "city": "Austin",
-    "state": "Texas"
-  },
-  {
     "stationId": "KEFD",
     "airportId": "EFD",
     "name": "Ellington Field",
     "city": "Houston",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KELA",
-    "airportId": "ELA",
-    "name": "Eagle Lake Airport",
-    "city": "Eagle Lake",
     "state": "Texas"
   },
   {
@@ -11176,20 +7018,6 @@
     "airportId": "ERV",
     "name": "Kerrville Municipal Airport (Louis Schreiner Field)",
     "city": "Kerrville",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KETN",
-    "airportId": "ETN",
-    "name": "Eastland Municipal Airport",
-    "city": "Eastland",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KEYQ",
-    "airportId": "EYQ",
-    "name": "Weiser Air Park",
-    "city": "Houston",
     "state": "Texas"
   },
   {
@@ -11211,13 +7039,6 @@
     "airportId": "FWS",
     "name": "Fort Worth Spinks Airport",
     "city": "Fort Worth",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KGDJ",
-    "airportId": "GDJ",
-    "name": "Granbury Municipal Airport",
-    "city": "Granbury",
     "state": "Texas"
   },
   {
@@ -11249,13 +7070,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KGNC",
-    "airportId": "GNC",
-    "name": "Gaines County Airport",
-    "city": "Seminole",
-    "state": "Texas"
-  },
-  {
     "stationId": "KGRK",
     "airportId": "GRK",
     "name": "Killeen-Fort Hood Regional Airport / Gray Army Airfield",
@@ -11274,13 +7088,6 @@
     "airportId": "GVT",
     "name": "Majors Airport",
     "city": "Greenville",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KGYB",
-    "airportId": "GYB",
-    "name": "Giddings-Lee County Airport",
-    "city": "Giddings",
     "state": "Texas"
   },
   {
@@ -11333,13 +7140,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KHRX",
-    "airportId": "HRX",
-    "name": "Hereford Municipal Airport",
-    "city": "Hereford",
-    "state": "Texas"
-  },
-  {
     "stationId": "KHYI",
     "airportId": "HYI",
     "name": "San Marcos Municipal Airport",
@@ -11358,13 +7158,6 @@
     "airportId": "ILE",
     "name": "Skylark Field",
     "city": "Killeen",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KINJ",
-    "airportId": "INJ",
-    "name": "Hillsboro Municipal Airport",
-    "city": "Hillsboro",
     "state": "Texas"
   },
   {
@@ -11403,31 +7196,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KLHB",
-    "airportId": "LHB",
-    "name": "Hearne Municipal Airport",
-    "city": "Hearne",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KLNC",
-    "airportId": "LNC",
-    "name": "Lancaster Airport",
-    "city": "Lancaster",
-    "state": "Texas"
-  },
-  {
     "stationId": "KLRD",
     "airportId": "LRD",
     "name": "Laredo International Airport",
     "city": "Laredo",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KLZZ",
-    "airportId": "LZZ",
-    "name": "Lampasas Airport",
-    "city": "Lampasas",
     "state": "Texas"
   },
   {
@@ -11438,24 +7210,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KMDD",
-    "airportId": "MDD",
-    "name": "Midland Airpark",
-    "city": "Midland",
-    "state": "Texas"
-  },
-  {
     "stationId": "KMFE",
     "airportId": "MFE",
     "name": "McAllen-Miller International Airport",
     "city": "McAllen",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KMNZ",
-    "airportId": "MNZ",
-    "name": "Hamilton Municipal Airport",
-    "city": "Hamilton",
     "state": "Texas"
   },
   {
@@ -11487,13 +7245,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KNWL",
-    "airportId": "NWL",
-    "name": "Naval Outlying Field Waldron",
-    "city": "Corpus Christi",
-    "state": "Texas"
-  },
-  {
     "stationId": "KOCH",
     "airportId": "OCH",
     "name": "A.L. Mangham Jr. Regional Airport",
@@ -11505,34 +7256,6 @@
     "airportId": "ODO",
     "name": "Odessa-Schlemeyer Field",
     "city": "Odessa",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KORG",
-    "airportId": "ORG",
-    "name": "Orange County Airport",
-    "city": "Orange",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KOZA",
-    "airportId": "OZA",
-    "name": "Ozona Municipal AIrport",
-    "city": "Ozona",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KPEQ",
-    "airportId": "PEQ",
-    "name": "Pecos Municipal Airport",
-    "city": "Pecos",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KPKV",
-    "airportId": "PKV",
-    "name": "Calhoun County Airport",
-    "city": "Port Lavaca",
     "state": "Texas"
   },
   {
@@ -11578,20 +7301,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KRWV",
-    "airportId": "RWV",
-    "name": "Caldwell Municipal Airport",
-    "city": "Caldwell",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KRYW",
-    "airportId": "RYW",
-    "name": "Rusty Allen Airport",
-    "city": "Lago Vista",
-    "state": "Texas"
-  },
-  {
     "stationId": "KSAT",
     "airportId": "SAT",
     "name": "San Antonio International Airport",
@@ -11620,24 +7329,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KSLR",
-    "airportId": "SLR",
-    "name": "Sulphur Springs Municipal Airport",
-    "city": "Sulphur Springs",
-    "state": "Texas"
-  },
-  {
     "stationId": "KSNK",
     "airportId": "SNK",
     "name": "Winston Field Airport",
     "city": "Snyder",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KSOA",
-    "airportId": "SOA",
-    "name": "Sonora Municipal",
-    "city": "Sonora",
     "state": "Texas"
   },
   {
@@ -11655,13 +7350,6 @@
     "state": "Texas"
   },
   {
-    "stationId": "KSWI",
-    "airportId": "SWI",
-    "name": "Sherman Municipal Airport",
-    "city": "Sherman",
-    "state": "Texas"
-  },
-  {
     "stationId": "KSWW",
     "airportId": "SWW",
     "name": "Avenger Field",
@@ -11673,13 +7361,6 @@
     "airportId": "TKI",
     "name": "Collin County Regional Airport at McKinney",
     "city": "McKinney",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KTME",
-    "airportId": "TME",
-    "name": "Houston Executive Airport",
-    "city": "Waller County",
     "state": "Texas"
   },
   {
@@ -11704,24 +7385,10 @@
     "state": "Texas"
   },
   {
-    "stationId": "KUVA",
-    "airportId": "UVA",
-    "name": "Garner Field",
-    "city": "Uvalde",
-    "state": "Texas"
-  },
-  {
     "stationId": "KVCT",
     "airportId": "VCT",
     "name": "Victoria Regional Airport",
     "city": "Victoria",
-    "state": "Texas"
-  },
-  {
-    "stationId": "KXBP",
-    "airportId": "XBP",
-    "name": "Bridgeport Municipal Airport",
-    "city": "Bridgeport",
     "state": "Texas"
   },
   {
@@ -11739,27 +7406,6 @@
     "state": "Utah"
   },
   {
-    "stationId": "KBDG",
-    "airportId": "BDG",
-    "name": "Blanding Municipal Airport",
-    "city": "Blanding",
-    "state": "Utah"
-  },
-  {
-    "stationId": "KBMC",
-    "airportId": "BMC",
-    "name": "Brigham City Airport",
-    "city": "Brigham City",
-    "state": "Utah"
-  },
-  {
-    "stationId": "KBTF",
-    "airportId": "BTF",
-    "name": "Skypark Airport",
-    "city": "Bountiful",
-    "state": "Utah"
-  },
-  {
     "stationId": "KCDC",
     "airportId": "CDC",
     "name": "Cedar City Regional Airport",
@@ -11774,27 +7420,6 @@
     "state": "Utah"
   },
   {
-    "stationId": "KDPG",
-    "airportId": "DPG",
-    "name": "Michael Army Airfield",
-    "city": "Dugway Proving Ground",
-    "state": "Utah"
-  },
-  {
-    "stationId": "KDTA",
-    "airportId": "DTA",
-    "name": "Delta Municipal Airport",
-    "city": "Delta",
-    "state": "Utah"
-  },
-  {
-    "stationId": "KDXZ",
-    "airportId": "DXZ",
-    "name": "St. George Regional Airport",
-    "city": "St. George",
-    "state": "Utah"
-  },
-  {
     "stationId": "KENV",
     "airportId": "ENV",
     "name": "Wendover Airport",
@@ -11802,31 +7427,10 @@
     "state": "Utah"
   },
   {
-    "stationId": "KFOM",
-    "airportId": "FOM",
-    "name": "Fillmore Municipal Airport",
-    "city": "Fillmore",
-    "state": "Utah"
-  },
-  {
     "stationId": "KHIF",
     "airportId": "HIF",
     "name": "Hill Air Force Base",
     "city": "Ogden",
-    "state": "Utah"
-  },
-  {
-    "stationId": "KHVE",
-    "airportId": "HVE",
-    "name": "Hanksville Airport",
-    "city": "Hanksville",
-    "state": "Utah"
-  },
-  {
-    "stationId": "KKNB",
-    "airportId": "KNB",
-    "name": "Kanab Municipal Airport",
-    "city": "Kanab",
     "state": "Utah"
   },
   {
@@ -11865,13 +7469,6 @@
     "state": "Utah"
   },
   {
-    "stationId": "KRIF",
-    "airportId": "RIF",
-    "name": "Richfield Municipal Airport",
-    "city": "Richfield",
-    "state": "Utah"
-  },
-  {
     "stationId": "KSGU",
     "airportId": "SGU",
     "name": "St. George Municipal Airport",
@@ -11883,13 +7480,6 @@
     "airportId": "SLC",
     "name": "Salt Lake City International Airport",
     "city": "Salt Lake City",
-    "state": "Utah"
-  },
-  {
-    "stationId": "KTVY",
-    "airportId": "TVY",
-    "name": "Bolinder Field-Tooele Valley Airport",
-    "city": "Tooele",
     "state": "Utah"
   },
   {
@@ -11907,31 +7497,10 @@
     "state": "Vermont"
   },
   {
-    "stationId": "KCDA",
-    "airportId": "CDA",
-    "name": "Caledonia County Airport",
-    "city": "Lyndonville",
-    "state": "Vermont"
-  },
-  {
     "stationId": "KDDH",
     "airportId": "DDH",
     "name": "William H. Morse State Airport",
     "city": "Bennington",
-    "state": "Vermont"
-  },
-  {
-    "stationId": "KEFK",
-    "airportId": "EFK",
-    "name": "Newport State Airport",
-    "city": "Newport",
-    "state": "Vermont"
-  },
-  {
-    "stationId": "KFSO",
-    "airportId": "FSO",
-    "name": "Franklin County State Airport",
-    "city": "Highgate",
     "state": "Vermont"
   },
   {
@@ -11977,13 +7546,6 @@
     "state": "Virginia"
   },
   {
-    "stationId": "KAPH",
-    "airportId": "APH",
-    "name": "A.P. Hill Army Airfield",
-    "city": "Fort A.P. Hill",
-    "state": "Virginia"
-  },
-  {
     "stationId": "KAVC",
     "airportId": "AVC",
     "name": "Mecklenburg-Brunswick Regional Airport",
@@ -11995,13 +7557,6 @@
     "airportId": "BCB",
     "name": "VirginiaTech/Montgomery Executive Airport",
     "city": "Blacksburg",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KBKT",
-    "airportId": "BKT",
-    "name": "Allen C. Perkinson Airport / Blackstone Army Airfield",
-    "city": "Blackstone",
     "state": "Virginia"
   },
   {
@@ -12023,13 +7578,6 @@
     "airportId": "CPK",
     "name": "Chesapeake Regional Airport",
     "city": "Norfolk",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KCXE",
-    "airportId": "CXE",
-    "name": "Chase City Municipal Airport",
-    "city": "Chase City",
     "state": "Virginia"
   },
   {
@@ -12068,13 +7616,6 @@
     "state": "Virginia"
   },
   {
-    "stationId": "KFCI",
-    "airportId": "FCI",
-    "name": "Chesterfield County Airport",
-    "city": "Richmond",
-    "state": "Virginia"
-  },
-  {
     "stationId": "KFKN",
     "airportId": "FKN",
     "name": "Franklin Municipal Airport (John Beverly Rose Field)",
@@ -12082,38 +7623,10 @@
     "state": "Virginia"
   },
   {
-    "stationId": "KFRR",
-    "airportId": "FRR",
-    "name": "Front Royal-Warren County Airport",
-    "city": "Front Royal",
-    "state": "Virginia"
-  },
-  {
     "stationId": "KFVX",
     "airportId": "FVX",
     "name": "Farmville Regional Airport",
     "city": "Farmville",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KFYJ",
-    "airportId": "FYJ",
-    "name": "Middle Peninsula Regional Airport",
-    "city": "West Point",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KGDY",
-    "airportId": "GDY",
-    "name": "Grundy Municipal Airport",
-    "city": "Grundy",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KGVE",
-    "airportId": "GVE",
-    "name": "Gordonsville Municipal Airport",
-    "city": "Gordonsville",
     "state": "Virginia"
   },
   {
@@ -12135,13 +7648,6 @@
     "airportId": "HSP",
     "name": "Ingalls Field",
     "city": "Hot Springs",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KHWY",
-    "airportId": "HWY",
-    "name": "Warrenton-Fauquier Airport",
-    "city": "Warrenton",
     "state": "Virginia"
   },
   {
@@ -12180,13 +7686,6 @@
     "state": "Virginia"
   },
   {
-    "stationId": "KLVL",
-    "airportId": "LVL",
-    "name": "Lawrenceville/Brunswick Municipal Airport",
-    "city": "Lawrenceville",
-    "state": "Virginia"
-  },
-  {
     "stationId": "KLYH",
     "airportId": "LYH",
     "name": "Lynchburg Regional Airport",
@@ -12212,20 +7711,6 @@
     "airportId": "MTV",
     "name": "Blue Ridge Airport",
     "city": "Martinsville",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KNDY",
-    "airportId": "NDY",
-    "name": "Naval Surface Warfare Center Dahlgren",
-    "city": "Dahlgren",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KNFE",
-    "airportId": "NFE",
-    "name": "Naval Auxiliary Landing Field Fentress",
-    "city": "Fentress",
     "state": "Virginia"
   },
   {
@@ -12299,24 +7784,10 @@
     "state": "Virginia"
   },
   {
-    "stationId": "KPVG",
-    "airportId": "PVG",
-    "name": "Hampton Roads Executive Airport",
-    "city": "Norfolk",
-    "state": "Virginia"
-  },
-  {
     "stationId": "KRIC",
     "airportId": "RIC",
     "name": "Richmond International Airport",
     "city": "Sandston",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KRMN",
-    "airportId": "RMN",
-    "name": "Stafford Regional Airport",
-    "city": "Stafford",
     "state": "Virginia"
   },
   {
@@ -12338,20 +7809,6 @@
     "airportId": "SHD",
     "name": "Shenandoah Valley Regional Airport",
     "city": "Staunton",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KTGI",
-    "airportId": "TGI",
-    "name": "Tangier Island Airport",
-    "city": "Tangier",
-    "state": "Virginia"
-  },
-  {
-    "stationId": "KVBW",
-    "airportId": "VBW",
-    "name": "Bridgewater Airport",
-    "city": "Bridgewater",
     "state": "Virginia"
   },
   {
@@ -12397,24 +7854,10 @@
     "state": "Washington"
   },
   {
-    "stationId": "KBVS",
-    "airportId": "BVS",
-    "name": "Skagit Regional Airport",
-    "city": "Burlington & Mount Vernon",
-    "state": "Washington"
-  },
-  {
     "stationId": "KCLM",
     "airportId": "CLM",
     "name": "William R. Fairchild International Airport",
     "city": "Port Angeles",
-    "state": "Washington"
-  },
-  {
-    "stationId": "KCLS",
-    "airportId": "CLS",
-    "name": "Chehalis-Centralia Airport",
-    "city": "Chehalis",
     "state": "Washington"
   },
   {
@@ -12443,20 +7886,6 @@
     "airportId": "EPH",
     "name": "Ephrata Municipal Airport",
     "city": "Ephrata",
-    "state": "Washington"
-  },
-  {
-    "stationId": "KESW",
-    "airportId": "ESW",
-    "name": "Easton State Airport",
-    "city": "Easton",
-    "state": "Washington"
-  },
-  {
-    "stationId": "KFCT",
-    "airportId": "FCT",
-    "name": "Vagabond Army Airfield",
-    "city": "Yakima",
     "state": "Washington"
   },
   {
@@ -12509,20 +7938,6 @@
     "state": "Washington"
   },
   {
-    "stationId": "KNOW",
-    "airportId": "NOW",
-    "name": "Coast Guard Air Station Port Angeles",
-    "city": "Port Angeles",
-    "state": "Washington"
-  },
-  {
-    "stationId": "KNRA",
-    "airportId": "NRA",
-    "name": "Naval Outlying Field Coupeville",
-    "city": "Coupeville",
-    "state": "Washington"
-  },
-  {
     "stationId": "KNUW",
     "airportId": "NUW",
     "name": "Naval Air Station Whidbey Island",
@@ -12544,24 +7959,10 @@
     "state": "Washington"
   },
   {
-    "stationId": "KORS",
-    "airportId": "ORS",
-    "name": "Orcas Island Airport",
-    "city": "Eastsound",
-    "state": "Washington"
-  },
-  {
     "stationId": "KPAE",
     "airportId": "PAE",
     "name": "Snohomish County Airport (Paine Field)",
     "city": "Everett",
-    "state": "Washington"
-  },
-  {
-    "stationId": "KPLU",
-    "airportId": "PLU",
-    "name": "Pierce County Airport-Thun Field",
-    "city": "Graham",
     "state": "Washington"
   },
   {
@@ -12583,13 +7984,6 @@
     "airportId": "PWT",
     "name": "Bremerton National Airport",
     "city": "Bremerton",
-    "state": "Washington"
-  },
-  {
-    "stationId": "KRLD",
-    "airportId": "RLD",
-    "name": "Richland Airport",
-    "city": "Richland",
     "state": "Washington"
   },
   {
@@ -12747,20 +8141,6 @@
     "state": "West Virginia"
   },
   {
-    "stationId": "KSXL",
-    "airportId": "SXL",
-    "name": "Summersville Airport",
-    "city": "Summersville",
-    "state": "West Virginia"
-  },
-  {
-    "stationId": "KAHH",
-    "airportId": "AHH",
-    "name": "Amery Municipal Airport",
-    "city": "Amery",
-    "state": "Wisconsin"
-  },
-  {
     "stationId": "KAIG",
     "airportId": "AIG",
     "name": "Langlade County Airport",
@@ -12789,20 +8169,6 @@
     "state": "Wisconsin"
   },
   {
-    "stationId": "KBCK",
-    "airportId": "BCK",
-    "name": "Black River Falls Area Airport",
-    "city": "Black River Falls",
-    "state": "Wisconsin"
-  },
-  {
-    "stationId": "KBDJ",
-    "airportId": "BDJ",
-    "name": "Boulder Junction Airport",
-    "city": "Boulder Junction",
-    "state": "Wisconsin"
-  },
-  {
     "stationId": "KBUU",
     "airportId": "BUU",
     "name": "Burlington Municipal Airport",
@@ -12828,13 +8194,6 @@
     "airportId": "CWA",
     "name": "Central Wisconsin Airport",
     "city": "Mosinee",
-    "state": "Wisconsin"
-  },
-  {
-    "stationId": "KDAF",
-    "airportId": "DAF",
-    "name": "Necedah Airport",
-    "city": "Necedah",
     "state": "Wisconsin"
   },
   {
@@ -12880,13 +8239,6 @@
     "state": "Wisconsin"
   },
   {
-    "stationId": "KEZS",
-    "airportId": "EZS",
-    "name": "Shawano Municipal Airport",
-    "city": "Shawano",
-    "state": "Wisconsin"
-  },
-  {
     "stationId": "KFLD",
     "airportId": "FLD",
     "name": "Fond du Lac County Airport",
@@ -12898,20 +8250,6 @@
     "airportId": "GRB",
     "name": "Austin Straubel International Airport",
     "city": "Green Bay",
-    "state": "Wisconsin"
-  },
-  {
-    "stationId": "KGTG",
-    "airportId": "GTG",
-    "name": "Grantsburg Municipal Airport",
-    "city": "Grantsburg",
-    "state": "Wisconsin"
-  },
-  {
-    "stationId": "KHXF",
-    "airportId": "HXF",
-    "name": "Hartford Municipal Airport",
-    "city": "Hartford",
     "state": "Wisconsin"
   },
   {
@@ -12985,24 +8323,10 @@
     "state": "Wisconsin"
   },
   {
-    "stationId": "KPCZ",
-    "airportId": "PCZ",
-    "name": "Waupaca Municipal Airport",
-    "city": "Waupaca",
-    "state": "Wisconsin"
-  },
-  {
     "stationId": "KPDC",
     "airportId": "PDC",
     "name": "Prairie du Chien Municipal Airport",
     "city": "Prairie du Chien",
-    "state": "Wisconsin"
-  },
-  {
-    "stationId": "KPVB",
-    "airportId": "PVB",
-    "name": "Platteville Municipal Airport",
-    "city": "Platteville",
     "state": "Wisconsin"
   },
   {
@@ -13041,24 +8365,10 @@
     "state": "Wisconsin"
   },
   {
-    "stationId": "KSSQ",
-    "airportId": "SSQ",
-    "name": "Shell Lake Municipal Airport",
-    "city": "Shell Lake",
-    "state": "Wisconsin"
-  },
-  {
     "stationId": "KSUW",
     "airportId": "SUW",
     "name": "Richard I. Bong Airport",
     "city": "Superior",
-    "state": "Wisconsin"
-  },
-  {
-    "stationId": "KUBE",
-    "airportId": "UBE",
-    "name": "Cumberland Municipal Airport",
-    "city": "Cumberland",
     "state": "Wisconsin"
   },
   {
@@ -13087,13 +8397,6 @@
     "airportId": "RKS",
     "name": "Sweetwater County Airport",
     "city": "Rock Springs",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KAFO",
-    "airportId": "AFO",
-    "name": "Afton Municipal Airport",
-    "city": "Afton",
     "state": "Wyoming"
   },
   {
@@ -13139,38 +8442,10 @@
     "state": "Wyoming"
   },
   {
-    "stationId": "KEAN",
-    "airportId": "EAN",
-    "name": "Phifer Airfield",
-    "city": "Wheatland",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KECS",
-    "airportId": "ECS",
-    "name": "Mondell Field",
-    "city": "Newcastle",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KEMM",
-    "airportId": "EMM",
-    "name": "Kemmerer Municipal Airport",
-    "city": "Kemmerer",
-    "state": "Wyoming"
-  },
-  {
     "stationId": "KEVW",
     "airportId": "EVW",
     "name": "Evanston-Uinta County Airport (Burns Field)",
     "city": "Evanston",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KFBR",
-    "airportId": "FBR",
-    "name": "Fort Bridger Airport",
-    "city": "Fort Bridger",
     "state": "Wyoming"
   },
   {
@@ -13185,13 +8460,6 @@
     "airportId": "GEY",
     "name": "South Big Horn County Airport",
     "city": "Greybull",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KHAR",
-    "airportId": "HAR",
-    "name": "Harford Airport",
-    "city": "Casper",
     "state": "Wyoming"
   },
   {
@@ -13216,24 +8484,10 @@
     "state": "Wyoming"
   },
   {
-    "stationId": "KLSK",
-    "airportId": "LSK",
-    "name": "Lusk Municipal Airport",
-    "city": "Lusk",
-    "state": "Wyoming"
-  },
-  {
     "stationId": "KPNA",
     "airportId": "PNA",
     "name": "Ralph Wenz Field",
     "city": "Pinedale",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KPOY",
-    "airportId": "POY",
-    "name": "Powell Municipal Airport",
-    "city": "Powell",
     "state": "Wyoming"
   },
   {
@@ -13251,31 +8505,10 @@
     "state": "Wyoming"
   },
   {
-    "stationId": "KSAA",
-    "airportId": "SAA",
-    "name": "Shively Airport",
-    "city": "Saratoga",
-    "state": "Wyoming"
-  },
-  {
     "stationId": "KSHR",
     "airportId": "SHR",
     "name": "Sheridan County Airport",
     "city": "Sheridan",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KTBX",
-    "airportId": "TBX",
-    "name": "Shoshoni Municipal Airport",
-    "city": "Shoshoni",
-    "state": "Wyoming"
-  },
-  {
-    "stationId": "KTHP",
-    "airportId": "THP",
-    "name": "Hot Springs County Municipal Airport",
-    "city": "Thermopolis",
     "state": "Wyoming"
   },
   {
