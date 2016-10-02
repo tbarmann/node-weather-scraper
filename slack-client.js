@@ -7,6 +7,7 @@ const MemoryDataStore = require('@slack/client').MemoryDataStore;
 const token = process.env.SLACK_API_TOKEN || '';
 const getWeatherData = require('./nws-current-conditions-scraper');
 const airports = require('./airports.json');
+const saySorry = require('./say-sorry.js');
 const _ = require('lodash');
 
 let weatherBotId;
@@ -34,10 +35,10 @@ rtm.on(RTM_EVENTS.MESSAGE, (message) => {
 
 const handleMessage = (message) => {
   message.text = cleanMessage(message.text);
-  const words = messageToWords(message.text);
+  const words = message.text.split(' ');
   const stationRecords = stationLookup(airports, words);
   if (stationRecords.length === 0) {
-    rtm.sendMessage(`I don't have any information about '${message.text}'. ${saySorry()}.`, message.channel);
+    rtm.sendMessage(`I don't have any information about '${message.text}'.  ${saySorry()}.`, message.channel);
   }
   else if (stationRecords.length > 1) {
     sendNeedsMoreInfoMessage(message.channel, stationRecords);
@@ -56,7 +57,6 @@ const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
   rtm.sendMessage(reply.join('\n'), channelId);
 }
 
-
 const sendWeatherReport = (channelId, stationRecord) => {
   console.log(stationRecord);
 	getWeatherData(stationRecord, (data) => {
@@ -69,15 +69,9 @@ const sendWeatherReport = (channelId, stationRecord) => {
 const cleanMessage = (message) => {
   // get rid of any @user
   message = message.replace(/<@[^\s.]+/g, '');
-  message = message.replace(/[!$%\^&\*;:{}=\-_`~()\?]/g, ' ');
+  message = message.replace(/[!$%\^&\*;:{}=_`~()\?]/g, ' ');
   message = message.replace(/\s{2,}/g,' ');
   return message.trim();
-}
-
-const messageToWords = (message) => {
-  // break up message into parts that are delimited by spaces
-  let parts = message.split(' ');
-  return _.concat([message], parts);
 }
 
 const stationLookup = (airports, words) => {
@@ -101,8 +95,6 @@ const stationLookup = (airports, words) => {
     records = _.filter(airports, (o) => o.state.toLowerCase().indexOf(targetLower) !== -1);
   }
 
-  console.log(records);
-
   if (records.length > 0 && words.length > 0) {
     records = stationLookup(records, words);
   }
@@ -123,28 +115,4 @@ const constructWeatherMessage = (data, stationRecord) => {
 const messageContainsUserId = (msg, userId) => {
 	const pattern  = `<@${userId}>`;
   return (msg.text.indexOf(pattern) !== -1 || msg.channel === weatherBotDMChannel);
-}
-
-const saySorry = () => {
-  const variations = [
-    'I\m sorry',
-    'Sorry bout that',
-    'I\m embarrassed',
-    'Whoops',
-    'My bad',
-    'Sorry, bro',
-    'My fault, bro',
-    'My mistake',
-    'It\s the programmer\'s fault',
-    'I owe you an apology',
-    'Forgive me'
-  ];
-  return variations[getRandomInt(0,variations.length)];
-}
-
-// Returns a random integer between min (included) and max (excluded)
-const getRandomInt = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
 }

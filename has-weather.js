@@ -13,5 +13,5 @@ _.each(airports, (thisStation) => {
   newAirports.push(thisStation);
 });
 
-fs.writeFile('new-airports.json', JSON.stringify(newAirports, null, '  '));
+fs.writeFile('./new-airports.json', JSON.stringify(newAirports, null, '  '));
 
