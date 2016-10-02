@@ -33,19 +33,31 @@ rtm.on(RTM_EVENTS.MESSAGE, (message) => {
 });
 
 const handleMessage = (message) => {
+  message.text = cleanMessage(message.text);
   const words = messageToWords(message.text);
-  _.each(words, (w) => {
-    const stationRecord = stationLookup(w);
-    if (stationRecord !== null) {
-      getWeatherReport(message.channel, stationRecord);
-    }
-    else {
-      rtm.sendMessage(`I don't have any information about '${w}'. Sorry.`, message.channel);
-    }
-  });
+  const stationRecords = stationLookup(airports, words);
+  if (stationRecords.length === 0) {
+    rtm.sendMessage(`I don't have any information about '${message.text}'. ${saySorry()}.`, message.channel);
+  }
+  else if (stationRecords.length > 1) {
+    sendNeedsMoreInfoMessage(message.channel, stationRecords);
+  }
+  else {
+//    const stationRecord = stationRecords.shift();
+    sendWeatherReport(message.channel, stationRecords.shift());
+  }
 }
 
-const getWeatherReport = (channelId, stationRecord) => {
+const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
+  const reply = ['Multiple records found.'];
+  _.each(stationRecords, (stationRecord) => {
+    reply.push(`If you meant ${stationRecord.name}, use ${stationRecord.airportId}`);
+  })
+  rtm.sendMessage(reply.join('\n'), channelId);
+}
+
+
+const sendWeatherReport = (channelId, stationRecord) => {
   console.log(stationRecord);
 	getWeatherData(stationRecord, (data) => {
 		rtm.sendMessage(constructWeatherMessage(data, stationRecord), channelId, () => {
@@ -54,38 +66,47 @@ const getWeatherReport = (channelId, stationRecord) => {
 	})
 }
 
-const messageToWords = (message) => {
-  // break up message into parts that are delimited by commas
+const cleanMessage = (message) => {
   // get rid of any @user
-
   message = message.replace(/<@[^\s.]+/g, '');
   message = message.replace(/[!$%\^&\*;:{}=\-_`~()\?]/g, ' ');
   message = message.replace(/\s{2,}/g,' ');
-  let parts = message.split(',');
-  parts = _.map(parts, (part) => part.trim());
-  console.log(parts);
-  return (_.filter(parts, (word) => word !== ''));
+  return message.trim();
 }
 
-const stationLookup = (target) => {
-  const airport = target.toUpperCase();
+const messageToWords = (message) => {
+  // break up message into parts that are delimited by spaces
+  let parts = message.split(' ');
+  return _.concat([message], parts);
+}
+
+const stationLookup = (airports, words) => {
+  const target = words.shift();
   const targetLower = target.toLowerCase();
-  let record = null;
+  let records = [];
 
   if (target.length === 3) {
-    record = _.find(airports, (o) => o.airportId === airport );
+    records = _.filter(airports, (o) => o.airportId === target.toUpperCase() );
   }
-  if (!record) {
-    record = _.find(airports, (o) => o.city.toLowerCase().indexOf(targetLower) !== -1);
+  if (records.length === 0) {
+    records = _.filter(airports, (o) => o.city.toLowerCase().indexOf(targetLower) !== -1);
   }
-  if (!record) {
-    record = _.find(airports, (o) => o.alternate_city.toLowerCase().indexOf(targetLower) !== -1);
+  if (records.length === 0) {
+    records = _.filter(airports, (o) => o.alternate_city.toLowerCase().indexOf(targetLower) !== -1);
   }
-  if (!record) {
-    record = _.find(airports, (o) => o.name.toLowerCase().indexOf(targetLower) !== -1);
+  if (records.length === 0) {
+    records = _.filter(airports, (o) => o.name.toLowerCase().indexOf(targetLower) !== -1);
+  }
+  if (records.length === 0) {
+    records = _.filter(airports, (o) => o.state.toLowerCase().indexOf(targetLower) !== -1);
   }
 
-  return (record) ? record : null
+  console.log(records);
+
+  if (records.length > 0 && words.length > 0) {
+    records = stationLookup(records, words);
+  }
+  return records;
 }
 
 const constructWeatherMessage = (data, stationRecord) => {
@@ -104,3 +125,26 @@ const messageContainsUserId = (msg, userId) => {
   return (msg.text.indexOf(pattern) !== -1 || msg.channel === weatherBotDMChannel);
 }
 
+const saySorry = () => {
+  const variations = [
+    'I\m sorry',
+    'Sorry bout that',
+    'I\m embarrassed',
+    'Whoops',
+    'My bad',
+    'Sorry, bro',
+    'My fault, bro',
+    'My mistake',
+    'It\s the programmer\'s fault',
+    'I owe you an apology',
+    'Forgive me'
+  ];
+  return variations[getRandomInt(0,variations.length)];
+}
+
+// Returns a random integer between min (included) and max (excluded)
+const getRandomInt = (min, max) => {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
