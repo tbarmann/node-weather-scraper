@@ -1451,10 +1451,10 @@
   {
     "stationId": "KDEN",
     "airportId": "DEN",
-    "name": "Denver International Airport (replaced Stapleton Int'l)",
+    "name": "Denver International Airport",
     "city": "Denver",
     "state": "Colorado",
-    "alternate_city": "",
+    "alternate_city": "Boulder",
     "state_abbr": "CO"
   },
   {
@@ -8310,7 +8310,7 @@
     "name": "T.F. Green State Airport",
     "city": "Providence",
     "state": "Rhode Island",
-    "alternate_city": "",
+    "alternate_city": "Warwick",
     "state_abbr": "RI"
   },
   {
