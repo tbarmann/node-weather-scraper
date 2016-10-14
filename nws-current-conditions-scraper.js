@@ -1,10 +1,12 @@
 "use strict";
 const request = require('request');
 const cheerio = require('cheerio');
+const moment = require('moment-timezone');
 
 module.exports = (stationRecord, callback) => {
 
   const stationId = stationRecord.stationId;
+  const stationTzCity = getTimeZoneCity(stationRecord);
 
   const headers = [
     'date',
@@ -35,51 +37,74 @@ module.exports = (stationRecord, callback) => {
   };
 
   const parseDate = (row) => {
-    const now = new Date();
-    const todayDay = now.getDate();
-    const todayMonth = now.getMonth();
-    const todayYear = now.getFullYear();
+    const now = new moment().tz(stationTzCity);
+    console.log(now.format());
+    const todayDay = now.get('date');
+    const todayMonth = now.get('month') + 1; // convert to 1-12
+    const todayYear = now.get('year');
 
     let year = todayYear;
-    const day = parseInt(row.date,10);
-    const hour = parseInt(row.time.split(':')[0]);
-    const minute = parseInt(row.time.split(':')[1]);
+    const day = parseInt(row.date, 10);
+    const hour = parseInt(row.time.split(':')[0], 10);
+    const minute = parseInt(row.time.split(':')[1], 10);
 
     let month = (day>todayDay) ? todayMonth -1 : todayMonth;
     if (month === -1) {
-      month = 11;
+      month = 12;
       year--;
     }
 
-    return new Date(year, month, day, hour, minute);
+    return moment.tz(`${month}/${day}/${year} ${hour}:${minute}`, 'M/D/YYYY H:m', stationTzCity);
   };
 
-  return request(options, (error, response, html) => {
+  function getTimeZoneCity(stationRecord) {
+    const tz = stationRecord.timeZone;
+    const dst = stationRecord.dayTimeSaving === "y";
+    switch(tz) {
+      case "M":
+        return (dst) ? "America/Denver" : "America/Phoenix";
+      case "P":
+        return "America/Los_Angeles";
+      case "C":
+        return "America/Chicago";
+      case "E":
+      default:
+        return "America/New_York";
+    }
+  }
+
+  function scrapeHtml(html) {
     let result = {
       stationId,
       data: []
     };
-    if (!error) {
-      const $ = cheerio.load(html);
-      result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
-      result.url = options.url;
-      console.log("Result title: ", result.title);
-      const data = [];
-      const table = $('table:nth-child(4)');
-      $('tr', table).each((key1,value1) => {
-        if (key1 > 2) {
-          let row = {};
-          $('td', value1).each((key2, value2) => {
-            row[headers[key2]] = $(value2).text();
-          });
-          if (Object.keys(row).length !== 0) {
-            row.parsedDate = parseDate(row);
-            data.push(row);
-          }
+    const data = [];
+    const $ = cheerio.load(html);
+    result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
+    result.url = options.url;
+    console.log("Result title: ", result.title);
+    const table = $('table:nth-child(4)');
+    $('tr', table).each((key1,value1) => {
+      if (key1 > 2) {
+        let row = {};
+        $('td', value1).each((key2, value2) => {
+          row[headers[key2]] = $(value2).text();
+        });
+        if (Object.keys(row).length !== 0) {
+          const parsedDateLocal = parseDate(row);
+          row.parsedDateLocal = parsedDateLocal.format();
+          row.parsedDateUTC = moment.utc(parsedDateLocal).format();
+          data.push(row);
         }
-      });
-      result.data = data;
+      }
+    });
+    result.data = data;
+    return result;
+  }
+
+  return request(options, (error, response, html) => {
+    if (!error) {
+      callback (scrapeHtml(html).data[0]);
     }
-    callback(result);
   });
 }

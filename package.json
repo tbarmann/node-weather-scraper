@@ -8,9 +8,11 @@
     "@slack/client": "3.6.0",
     "cheerio": "latest",
     "lodash": "^4.15.0",
+    "moment": "^2.15.1",
+    "moment-timezone": "^0.5.6",
     "request": "latest"
   },
-  "scripts" : {
-    "start" : "node ./slack-client"
+  "scripts": {
+    "start": "node ./slack-client"
   }
 }
