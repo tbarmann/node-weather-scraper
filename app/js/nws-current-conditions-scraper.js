@@ -38,7 +38,6 @@ module.exports = (stationRecord, callback) => {
 
   const parseDate = (row) => {
     const now = new moment().tz(stationTzCity);
-    console.log(now.format());
     const todayDay = now.get('date');
     const todayMonth = now.get('month') + 1; // convert to 1-12
     const todayYear = now.get('year');
@@ -82,7 +81,6 @@ module.exports = (stationRecord, callback) => {
     const $ = cheerio.load(html);
     result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
     result.url = options.url;
-    console.log("Result title: ", result.title);
     const table = $('table:nth-child(4)');
     $('tr', table).each((key1,value1) => {
       if (key1 > 2) {
@@ -104,7 +102,7 @@ module.exports = (stationRecord, callback) => {
 
   return request(options, (error, response, html) => {
     if (!error) {
-      callback (scrapeHtml(html).data[0]);
+      callback (scrapeHtml(html));
     }
   });
 }

@@ -13,6 +13,7 @@
     "request": "latest"
   },
   "scripts": {
-    "start": "node ./slack-client"
+    "start": "node ./app/js/slack-client",
+    "test": "node ./app/js/test"
   }
 }

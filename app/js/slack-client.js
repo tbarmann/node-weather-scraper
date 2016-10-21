@@ -6,7 +6,7 @@ const RTM_CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS.RTM;
 const MemoryDataStore = require('@slack/client').MemoryDataStore;
 const token = process.env.SLACK_API_TOKEN || '';
 const getWeatherData = require('./nws-current-conditions-scraper');
-const airports = require('./airports.json');
+const airports = require('../data/airports.json');
 const saySorry = require('./say-sorry.js');
 const _ = require('lodash');
 
@@ -58,7 +58,6 @@ const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
 }
 
 const sendWeatherReport = (channelId, stationRecord) => {
-  console.log(stationRecord);
 	getWeatherData(stationRecord, (data) => {
 		rtm.sendMessage(constructWeatherMessage(data, stationRecord), channelId, () => {
 			console.log('message sent.');
