@@ -6,8 +6,10 @@
   "author": "tbarmann",
   "dependencies": {
     "@slack/client": "3.6.0",
+    "chai": "^3.5.0",
     "cheerio": "latest",
     "lodash": "^4.15.0",
+    "mocha": "^3.1.2",
     "moment": "^2.15.1",
     "moment-timezone": "^0.5.6",
     "request": "latest"
