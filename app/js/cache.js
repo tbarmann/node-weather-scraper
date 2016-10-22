@@ -1,14 +1,10 @@
+"use strict";
 const fetchWeatherData = require('./nws-current-conditions-scraper');
-const EventEmitter = require('events');
-const MinutestoLive = 70;
-
-class MyEmitter extends EventEmitter {}
-
-const myEmitter = new MyEmitter();
-
+const MINUTES_TO_LIVE = 70;
 
 class WeatherReportCache {
-  constructor() {
+  constructor(myEmitter) {
+    this.myEmitter = myEmitter;
     this.cache = {};
     this.update = this.update.bind(this);
     this.getWeather = this.getWeather.bind(this);
@@ -38,16 +34,15 @@ class WeatherReportCache {
     if (!this.inCache(stationId) || this.hasExpired(stationId)) {
       fetchWeatherData(station, (record) => {
         this.update(record);
-        myEmitter.emit('fetch_done', this.cache[stationId].payload);
+        this.myEmitter.emit('fetch_done', this.cache[stationId].payload);
       });
     }
     else {
       console.log("Cache Hit!");
       this.cache[stationId].hits += 1;
-      myEmitter.emit('fetch_done', this.cache[stationId].payload);
+      this.myEmitter.emit('fetch_done', this.cache[stationId].payload);
     }
   }
 }
-
 
 module.exports = WeatherReportCache;

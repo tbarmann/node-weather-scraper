@@ -1,6 +1,9 @@
+"use strict";
 const WeatherReportCache = require('./cache');
+const EventEmitter = require('events');
 
-const testCache = new WeatherReportCache();
+const myEmitter = new EventEmitter();
+const myCache = new WeatherReportCache(myEmitter);
 
 const stationRecords = [
   {
@@ -18,18 +21,21 @@ const stationRecords = [
   }
 ];
 
-console.log(testCache.getWeather(stationRecords[0]));
-// setTimeout( () => testCache.getWeather(stationRecords[0]), 6000);
-// setTimeout( () => testCache.getWeather(stationRecords[0]), 9000);
-
-// setTimeout( () => console.log(testCache.cache), 11000);
+myEmitter.on('fetch_done', (payload) => console.log(payload));
 
 
-//getWeatherData(stationRecords[0], testCache.update)
+
+myCache.getWeather(stationRecords[0]);
+setTimeout( () => myCache.getWeather(stationRecords[0]), 3000);
+setTimeout( () => myCache.getWeather(stationRecords[0]), 6000);
+setTimeout( () => myCache.getWeather(stationRecords[0]), 9000);
+
+
+//getWeatherData(stationRecords[0], myCache.update)
 
 // getWeatherData(stationRecords[0], (record) => {
-//   testCache.update(record)
-//   console.log(testCache.cache);
+//   myCache.update(record)
+//   console.log(myCache.cache);
 // });
 
 
