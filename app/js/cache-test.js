@@ -21,14 +21,14 @@ const stationRecords = [
   }
 ];
 
-myEmitter.on('fetch_done', (payload) => console.log(payload));
+myEmitter.on('fetch_done', (payload) => console.log(payload.expires));
 
 
 
 myCache.getWeather(stationRecords[0]);
 setTimeout( () => myCache.getWeather(stationRecords[0]), 3000);
-setTimeout( () => myCache.getWeather(stationRecords[0]), 6000);
-setTimeout( () => myCache.getWeather(stationRecords[0]), 9000);
+setTimeout( () => myCache.getWeather(stationRecords[0]), 4000);
+setTimeout( () => myCache.getWeather(stationRecords[0]), 5000);
 
 
 //getWeatherData(stationRecords[0], myCache.update)
