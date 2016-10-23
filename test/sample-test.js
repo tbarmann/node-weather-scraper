@@ -30,12 +30,12 @@ describe('A basic test', function(){
 describe('EventEmitter', function(){
   describe('#emit()', function(){
     it('should invoke the callback', function(){
-    const emitter = new EventEmitter;
-    const myCache = new WeatherReportCache(emitter);
-    const spy = sinon.spy();
+      const emitter = new EventEmitter;
+      const myCache = new WeatherReportCache(emitter);
+      const spy = sinon.spy();
 
       emitter.on('fetch_done', spy);
-      this.myCache.update(stationRecords[0]);
+      myCache.getWeather(stationRecords[0]);
       spy.called.should.equal.true;
       sinon.assert.calledOnce(spy);
     })

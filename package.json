@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node ./app/js/slack-client",
-    "test": "node ./app/js/test"
+    "test": "mocha"
   },
   "devDependencies": {
     "sinon": "^1.17.6"
