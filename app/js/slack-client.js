@@ -130,5 +130,5 @@ const constructWeatherMessage = (data, stationRecord) => {
 
 const messageContainsUserId = (msg, userId) => {
 	const pattern  = `<@${userId}>`;
-  return (msg.text.indexOf(pattern) !== -1 || msg.channel === weatherBotDMChannel);
+  return (msg.text !== undefined && (msg.text.indexOf(pattern) !== -1 || msg.channel === weatherBotDMChannel));
 }
