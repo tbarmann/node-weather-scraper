@@ -10,6 +10,7 @@ class WeatherReportCache {
     this.minutesToLive = minutesToLive;
     this.myEmitter = myEmitter;
     this.cache = {};
+    this.resetCache = this.resetCache.bind(this);
     this.update = this.update.bind(this);
     this.delete = this.delete.bind(this);
     this.getCacheInfo = this.getCacheInfo.bind(this);
@@ -37,6 +38,10 @@ class WeatherReportCache {
     if (this.inCache(stationId)) {
       delete this.cache[stationId];
     }
+  }
+
+  resetCache() {
+    this.cache = {};
   }
 
   getCacheInfo() {
