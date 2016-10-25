@@ -5,7 +5,9 @@ const _ = require('lodash');
 const MINUTES_TO_LIVE = 70;
 
 class WeatherReportCache {
-  constructor(myEmitter) {
+  constructor(myEmitter, minutesToLive = MINUTES_TO_LIVE) {
+
+    this.minutesToLive = minutesToLive;
     this.myEmitter = myEmitter;
     this.cache = {};
     this.update = this.update.bind(this);
@@ -17,7 +19,7 @@ class WeatherReportCache {
   update(record) {
     const stationId = record.stationId;
     const latestObservationTime = moment.utc(record.data[0].parsedDateUTC)
-    const expiresUTC = latestObservationTime.add(MINUTES_TO_LIVE, 'minutes');
+    const expiresUTC = latestObservationTime.add(this.minutesToLive, 'minutes');
     this.cache[stationId] = { expires: expiresUTC.format(), hits: 0, payload: record }
   }
 
