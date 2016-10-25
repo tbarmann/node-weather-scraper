@@ -82,15 +82,6 @@ setTimeout( () => myCache.getWeather(stationRecords[0]), 3000);
 setTimeout( () => myCache.getWeather(stationRecords[0]), 6000);
 setTimeout( () => myCache.getWeather(stationRecords[0]), 9000);
 
-//setTimeout( () => console.log(myCache.getCacheInfo()), 6000);
-
-
-//getWeatherData(stationRecords[0], myCache.update)
-
-// getWeatherData(stationRecords[0], (record) => {
-//   myCache.update(record)
-//   console.log(myCache.cache);
-// });
 
 
 
