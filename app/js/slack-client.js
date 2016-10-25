@@ -12,6 +12,7 @@ const WeatherReportCache = require('./cache');
 const EventEmitter = require('events');
 const myEmitter = new EventEmitter();
 const myCache = new WeatherReportCache(myEmitter);
+const moment = require('moment-timezone');
 
 let weatherBotId;
 let weatherBotName;
@@ -119,11 +120,12 @@ const stationLookup = (airports, words) => {
 
 const constructWeatherMessage = (data, stationRecord) => {
   const latest = data.data[0];
+  const displayFormat = 'ddd, MMM D, YYYY h:mm A';
   const items = [
   	`${stationRecord.name}, ${stationRecord.city}, ${stationRecord.state}`,
   	`${latest.weather}, ${latest.temp_air} degrees`,
     `Source: ${data.url}`,
-  	`Last updated: ${latest.parsedDateUTC}`
+  	`Last updated ${moment(latest.parsedDateUTC).fromNow()}`
   ];
   return items.join('\n');
 }
