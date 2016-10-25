@@ -57,13 +57,13 @@ class WeatherReportCache {
     if (!this.inCache(stationId) || this.hasExpired(stationId)) {
       fetchWeatherData(station, (record) => {
         this.update(record);
-        this.myEmitter.emit('fetch_done', this.cache[stationId]);
+        this.myEmitter.emit('fetch_done', this.cache[stationId].payload);
       });
     }
     else {
       console.log("Cache Hit!");
       this.cache[stationId].hits += 1;
-      this.myEmitter.emit('fetch_done', this.cache[stationId]);
+      this.myEmitter.emit('fetch_done', this.cache[stationId].payload);
     }
   }
 }

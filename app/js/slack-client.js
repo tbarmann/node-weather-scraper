@@ -5,10 +5,13 @@ const RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 const RTM_CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS.RTM;
 const MemoryDataStore = require('@slack/client').MemoryDataStore;
 const token = process.env.SLACK_API_TOKEN || '';
-const getWeatherData = require('./nws-current-conditions-scraper');
 const airports = require('../data/airports.json');
 const saySorry = require('./say-sorry.js');
 const _ = require('lodash');
+const WeatherReportCache = require('./cache');
+const EventEmitter = require('events');
+const myEmitter = new EventEmitter();
+const myCache = new WeatherReportCache(myEmitter);
 
 let weatherBotId;
 let weatherBotName;
@@ -47,7 +50,7 @@ const handleWeather = (message) => {
   const words = message.text.split(' ');
   const stationRecords = stationLookup(airports, words);
   if (stationRecords.length === 0) {
-    rtm.sendMessage(`I don't have any information about '${message.text}'.  ${saySorry()}.`, message.channel);
+    rtm.sendMessage(`I don't have any information about '${message.text}'. ${saySorry()}.`, message.channel);
   }
   else if (stationRecords.length > 1) {
     sendNeedsMoreInfoMessage(message.channel, stationRecords);
@@ -71,11 +74,12 @@ const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
 }
 
 const sendWeatherReport = (channelId, stationRecord) => {
-	getWeatherData(stationRecord, (data) => {
-		rtm.sendMessage(constructWeatherMessage(data, stationRecord), channelId, () => {
-			console.log('message sent.');
-		});
-	})
+  myCache.getWeather(stationRecord);
+  myEmitter.once('fetch_done', (data) => {
+    rtm.sendMessage(constructWeatherMessage(data, stationRecord), channelId, () => {
+      console.log('message sent.');
+    });
+  });
 }
 
 const cleanMessage = (message) => {
@@ -119,7 +123,7 @@ const constructWeatherMessage = (data, stationRecord) => {
   	`${stationRecord.name}, ${stationRecord.city}, ${stationRecord.state}`,
   	`${latest.weather}, ${latest.temp_air} degrees`,
     `Source: ${data.url}`,
-  	`Last updated: ${latest.parsedDate}`
+  	`Last updated: ${latest.parsedDateUTC}`
   ];
   return items.join('\n');
 }
