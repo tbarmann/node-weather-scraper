@@ -74,12 +74,12 @@ const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
 }
 
 const sendWeatherReport = (channelId, stationRecord) => {
-  myCache.getWeather(stationRecord);
   myEmitter.once('fetch_done', (data) => {
     rtm.sendMessage(constructWeatherMessage(data, stationRecord), channelId, () => {
       console.log('message sent.');
     });
   });
+  myCache.getWeather(stationRecord);
 }
 
 const cleanMessage = (message) => {
