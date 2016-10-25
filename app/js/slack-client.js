@@ -118,7 +118,7 @@ const stationLookup = (airports, words) => {
 }
 
 const constructWeatherMessage = (data, stationRecord) => {
-  const latest = data.data[0];
+  const latest = _.first(data.data);
   const displayFormat = 'ddd, MMM D, YYYY h:mm A';
   const items = [
   	`${stationRecord.name}, ${stationRecord.city}, ${stationRecord.state}`,
