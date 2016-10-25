@@ -44,8 +44,7 @@ const handleMessage = (message) => {
     sendNeedsMoreInfoMessage(message.channel, stationRecords);
   }
   else {
-//    const stationRecord = stationRecords.shift();
-    sendWeatherReport(message.channel, stationRecords.shift());
+    sendWeatherReport(message.channel, _.first(stationRecords));
   }
 }
 
