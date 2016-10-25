@@ -35,6 +35,15 @@ rtm.on(RTM_EVENTS.MESSAGE, (message) => {
 
 const handleMessage = (message) => {
   message.text = cleanMessage(message.text);
+  if (_.startsWith(message.text,'-') || _.startsWith(message.text.toLowerCase(),'help')) {
+    handleCommand(message);
+  }
+  else {
+    handleWeather(message);
+  }
+}
+
+const handleWeather = (message) => {
   const words = message.text.split(' ');
   const stationRecords = stationLookup(airports, words);
   if (stationRecords.length === 0) {
@@ -46,6 +55,11 @@ const handleMessage = (message) => {
   else {
     sendWeatherReport(message.channel, _.first(stationRecords));
   }
+}
+
+const handleCommand = (message) => {
+  console.log(myCache.getCacheInfo());
+  rtm.sendMessage(JSON.stringify(myCache.getCacheInfo()), message.channel);
 }
 
 const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
