@@ -36,7 +36,7 @@ describe('EventEmitter', function(){
 
       emitter.on('fetch_done', spy);
       myCache.getWeather(stationRecords[0]);
-      spy.called.should.equal.true;
+  //    spy.called.should.equal.true;
       sinon.assert.calledOnce(spy);
     })
   })

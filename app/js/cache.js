@@ -1,7 +1,7 @@
 "use strict";
 const fetchWeatherData = require('./nws-current-conditions-scraper');
 const moment = require('moment-timezone');
-
+const _ = require('lodash');
 const MINUTES_TO_LIVE = 70;
 
 class WeatherReportCache {
@@ -10,6 +10,7 @@ class WeatherReportCache {
     this.cache = {};
     this.update = this.update.bind(this);
     this.delete = this.delete.bind(this);
+    this.getCacheInfo = this.getCacheInfo.bind(this);
     this.getWeather = this.getWeather.bind(this);
   }
 
@@ -34,6 +35,14 @@ class WeatherReportCache {
     if (this.inCache(stationId)) {
       delete this.cache[stationId];
     }
+  }
+
+  getCacheInfo() {
+    let headers = []
+    _.each(this.cache, (value, key) => {
+      headers.push({stationId: key, hits: value.hits, expires: value.expires});
+    });
+    return headers;
   }
 
   getWeather(station) {
