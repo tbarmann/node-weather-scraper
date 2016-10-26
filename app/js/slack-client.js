@@ -25,6 +25,10 @@ const rtm = new RtmClient(token, {
 
 rtm.start();
 
+rtm.sendMessageAsCode = (code, channelId) => {
+  rtm.sendMessage('```' + code + '```', channelId);
+}
+
 rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, (rtmStartData) => {
 	weatherBotId = rtmStartData.self.id; // U1VJTP4TS
   weatherBotName = rtmStartData.self.name;
