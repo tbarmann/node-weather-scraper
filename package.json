@@ -6,6 +6,7 @@
   "author": "tbarmann",
   "dependencies": {
     "@slack/client": "3.6.0",
+    "ascii-table": "0.0.9",
     "chai": "^3.5.0",
     "cheerio": "latest",
     "lodash": "^4.16.4",
