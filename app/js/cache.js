@@ -2,6 +2,8 @@
 const fetchWeatherData = require('./nws-current-conditions-scraper');
 const moment = require('moment-timezone');
 const _ = require('lodash');
+const AsciiTable = require('ascii-table');
+
 const MINUTES_TO_LIVE = 70;
 
 class WeatherReportCache {
@@ -14,6 +16,7 @@ class WeatherReportCache {
     this.update = this.update.bind(this);
     this.delete = this.delete.bind(this);
     this.getCacheInfo = this.getCacheInfo.bind(this);
+    this.formatCacheMessage = this.formatCacheMessage.bind(this);
     this.getWeather = this.getWeather.bind(this);
   }
 
@@ -45,11 +48,20 @@ class WeatherReportCache {
   }
 
   getCacheInfo() {
-    let headers = []
+    const title = 'Cache info';
+    const heading = ['Station', 'Hits', 'Expires (UTC)'];
+    const rows = [];
     _.each(this.cache, (value, key) => {
-      headers.push({stationId: key, hits: value.hits, expires: value.expires});
+      rows.push([key, value.hits, value.expires]);
     });
-    return headers;
+    return { title, heading, rows };
+  }
+
+  formatCacheMessage() {
+    if (_.isEmpty(this.cache)) {
+      return '[Cache is empty]';
+    }
+    return new AsciiTable().fromJSON(this.getCacheInfo()).toString();
   }
 
   getWeather(station) {

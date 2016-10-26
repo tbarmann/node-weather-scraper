@@ -51,6 +51,10 @@ const handleMessage = (message) => {
   }
 }
 
+const handleCommandMessage = (message) => {
+  rtm.sendMessageAsCode(myCache.formatCacheMessage(), message.channel);
+}
+
 const handleWeatherMessage = (message) => {
   const words = message.text.split(' ');
   const stationRecords = stationLookup(airports, words);
@@ -63,10 +67,6 @@ const handleWeatherMessage = (message) => {
   else {
     sendWeatherReport(message.channel, _.first(stationRecords));
   }
-}
-
-const handleCommandMessage = (message) => {
-  rtm.sendMessage(JSON.stringify(myCache.getCacheInfo()), message.channel);
 }
 
 const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
