@@ -1,7 +1,12 @@
 "use strict";
-const getRandomInt = require('./get-random-int.js');
 
-module.exports = () => {
+const getRandomInt = (min, max) => {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+const saySorry = () => {
   const variations = [
     'I\'m sorry',
     'Sorry \'bout that',
@@ -17,3 +22,4 @@ module.exports = () => {
   ];
   return variations[getRandomInt(0,variations.length)];
 }
+module.exports = { getRandomInt, saySorry }
