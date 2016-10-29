@@ -5,8 +5,8 @@ const RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 const RTM_CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS.RTM;
 const MemoryDataStore = require('@slack/client').MemoryDataStore;
 const token = process.env.SLACK_API_TOKEN || '';
-const airports = require('../data/airports.json');
 const saySorry = require('./helpers').saySorry;
+const stationLookup = require('./station-lookup');
 const _ = require('lodash');
 const WeatherReportCache = require('./cache');
 const EventEmitter = require('events');
@@ -57,7 +57,7 @@ const handleCommandMessage = (message) => {
 
 const handleWeatherMessage = (message) => {
   const words = message.text.split(' ');
-  const stationRecords = stationLookup(airports, words);
+  const stationRecords = stationLookup(words);
   if (stationRecords.length === 0) {
     rtm.sendMessage(`I don't have any information about '${message.text}'. ${saySorry()}.`, message.channel);
   }
@@ -92,33 +92,6 @@ const cleanMessage = (message) => {
   message = message.replace(/[!$%\^&\*;:{}=_`~()\?]/g, ' ');
   message = message.replace(/\s{2,}/g,' ');
   return message.trim();
-}
-
-const stationLookup = (airports, words) => {
-  const target = words.shift();
-  const targetLower = target.toLowerCase();
-  let records = [];
-
-  if (target.length === 3) {
-    records = _.filter(airports, (o) => o.airportId === target.toUpperCase() );
-  }
-  if (records.length === 0) {
-    records = _.filter(airports, (o) => o.city.toLowerCase().indexOf(targetLower) !== -1);
-  }
-  if (records.length === 0) {
-    records = _.filter(airports, (o) => o.alternate_city.toLowerCase().indexOf(targetLower) !== -1);
-  }
-  if (records.length === 0) {
-    records = _.filter(airports, (o) => o.name.toLowerCase().indexOf(targetLower) !== -1);
-  }
-  if (records.length === 0) {
-    records = _.filter(airports, (o) => o.state.toLowerCase().indexOf(targetLower) !== -1);
-  }
-
-  if (records.length > 0 && words.length > 0) {
-    records = stationLookup(records, words);
-  }
-  return records;
 }
 
 const constructWeatherMessage = (data, stationRecord) => {

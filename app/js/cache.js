@@ -31,6 +31,10 @@ class WeatherReportCache {
     return this.cache.hasOwnProperty(stationId);
   }
 
+  isCacheEmpty() {
+    return _.isEmpty(this.cache);
+  }
+
   hasExpired(stationId) {
     const nowUTC = new moment.utc();
     const expiresUTC = moment.utc(this.cache[stationId].expires);
@@ -58,7 +62,7 @@ class WeatherReportCache {
   }
 
   formatCacheMessage() {
-    if (_.isEmpty(this.cache)) {
+    if (this.isCacheEmpty()) {
       return '[Cache is empty]';
     }
     return new AsciiTable().fromJSON(this.getCacheInfo()).toString();
