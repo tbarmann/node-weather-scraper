@@ -1,12 +1,14 @@
 "use strict";
+
 const RtmClient = require('@slack/client').RtmClient;
 const CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS;
 const RTM_EVENTS = require('@slack/client').RTM_EVENTS;
 const RTM_CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS.RTM;
 const MemoryDataStore = require('@slack/client').MemoryDataStore;
-const token = process.env.SLACK_API_TOKEN || '';
+const token = process.env.SLACK_API_TOKEN || require('../../.config.js').SLACK_API_TOKEN;
 const saySorry = require('./helpers').saySorry;
-const stationLookup = require('./station-lookup');
+const cleanMessage = require('./helpers').cleanMessage;
+const stationSearch = require('./station-search');
 const _ = require('lodash');
 const WeatherReportCache = require('./cache');
 const EventEmitter = require('events');
@@ -56,8 +58,7 @@ const handleCommandMessage = (message) => {
 }
 
 const handleWeatherMessage = (message) => {
-  const words = message.text.split(' ');
-  const stationRecords = stationLookup(words);
+  const stationRecords = stationSearch(message.text);
   if (stationRecords.length === 0) {
     rtm.sendMessage(`I don't have any information about '${message.text}'. ${saySorry()}.`, message.channel);
   }
@@ -84,14 +85,6 @@ const sendWeatherReport = (channelId, stationRecord) => {
     });
   });
   myCache.getWeather(stationRecord);
-}
-
-const cleanMessage = (message) => {
-  // get rid of any @user
-  message = message.replace(/<@[^\s.]+/g, '');
-  message = message.replace(/[!$%\^&\*;:{}=_`~()\?]/g, ' ');
-  message = message.replace(/\s{2,}/g,' ');
-  return message.trim();
 }
 
 const constructWeatherMessage = (data, stationRecord) => {

@@ -22,4 +22,13 @@ const saySorry = () => {
   ];
   return variations[getRandomInt(0,variations.length)];
 }
-module.exports = { getRandomInt, saySorry }
+
+const cleanMessage = (message) => {
+  // get rid of any @user
+  message = message.replace(/<@[^\s.]+/g, '');
+  message = message.replace(/[!$%\^&\*;:{}=_`~()\?]/g, ' ');
+  message = message.replace(/\s{2,}/g,' ');
+  return message.trim();
+}
+
+module.exports = { getRandomInt, saySorry, cleanMessage }

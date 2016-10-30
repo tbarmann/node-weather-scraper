@@ -1,8 +1,16 @@
 "use strict";
-const airports = require('../data/airports.json');
+const airports = require('../data/airports.json')
 const _ = require('lodash');
 
-const stationLookup = (words) => {
+const messageToWords = (message) => {
+  return message.split(' ');
+}
+const stationSearch = (message) => {
+  const words = messageToWords(message);
+  return stationLookup(airports, words);
+}
+
+const stationLookup = (airports, words) => {
   const target = words.shift();
   const targetLower = target.toLowerCase();
   let records = [];
@@ -29,4 +37,4 @@ const stationLookup = (words) => {
   return records;
 }
 
-module.exports = { stationLookup }
+module.exports = stationSearch;
