@@ -1,7 +1,7 @@
 {
   "name": "node-weather-scraper",
   "version": "0.0.1",
-  "description": "Scrapes current conditions for Providence from NWS",
+  "description": "Scrapes current conditions many U.S. cities",
   "main": "main.js",
   "author": "tbarmann",
   "dependencies": {
