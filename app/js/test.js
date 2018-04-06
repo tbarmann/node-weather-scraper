@@ -68,6 +68,13 @@ const stationRecords = [
   }
 ];
 
-const data = getWeatherData(stationRecords[3], console.log);
+function extractTemp(data) {
+    const temps = data.data.map((item) => {
+        return {date: item.parsedDateLocal, temperature: item.temp_air};
+    });
+    console.log(temps);
+}
+
+const data = getWeatherData(stationRecords[0], extractTemp);
 
 
