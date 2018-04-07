@@ -15,11 +15,15 @@
   },
   "scripts": {
     "start": "node ./app/js/slack-client",
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint ./app/js --fix"
   },
   "devDependencies": {
-    "sinon": "^1.17.6",
+    "chai": "^3.5.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
     "mocha": "^3.1.2",
-    "chai": "^3.5.0"
+    "sinon": "^1.17.6"
   }
 }
