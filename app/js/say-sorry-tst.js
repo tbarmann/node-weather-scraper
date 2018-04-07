@@ -1,4 +1,5 @@
-"use strict";
+
+
 const getRandomInt = require('./helpers').getRandomInt;
 const saySorry = require('./helpers').saySorry;
 

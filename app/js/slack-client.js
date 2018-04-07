@@ -1,4 +1,4 @@
-"use strict";
+
 
 const RtmClient = require('@slack/client').RtmClient;
 const CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS;
@@ -12,6 +12,7 @@ const stationSearch = require('./station-search');
 const _ = require('lodash');
 const WeatherReportCache = require('./cache');
 const EventEmitter = require('events');
+
 const myEmitter = new EventEmitter();
 const myCache = new WeatherReportCache(myEmitter);
 const moment = require('moment-timezone');
@@ -28,55 +29,52 @@ const rtm = new RtmClient(token, {
 rtm.start();
 
 rtm.sendMessageAsCode = (code, channelId) => {
-  rtm.sendMessage('```' + code + '```', channelId);
-}
+  rtm.sendMessage(`\`\`\`${code}\`\`\``, channelId);
+};
 
 rtm.on(CLIENT_EVENTS.RTM.AUTHENTICATED, (rtmStartData) => {
-	weatherBotId = rtmStartData.self.id; // U1VJTP4TS
+  weatherBotId = rtmStartData.self.id; // U1VJTP4TS
   weatherBotName = rtmStartData.self.name;
-	console.log(`Logged in as ${rtmStartData.self.name} of team ${rtmStartData.team.name}, but not yet connected to a channel`);
+  console.log(`Logged in as ${rtmStartData.self.name} of team ${rtmStartData.team.name}, but not yet connected to a channel`);
 });
 
 rtm.on(RTM_EVENTS.MESSAGE, (message) => {
-  if (message.subtype !== 'message_deleted' && messageContainsUserId(message,weatherBotId)) {
+  if (message.subtype !== 'message_deleted' && messageContainsUserId(message, weatherBotId)) {
     handleMessage(message);
   }
 });
 
 const handleMessage = (message) => {
   message.text = cleanMessage(message.text);
-  if (_.startsWith(message.text,'-') || _.startsWith(message.text.toLowerCase(),'help')) {
+  if (_.startsWith(message.text, '-') || _.startsWith(message.text.toLowerCase(), 'help')) {
     handleCommandMessage(message);
-  }
-  else {
+  } else {
     handleWeatherMessage(message);
   }
-}
+};
 
 const handleCommandMessage = (message) => {
   rtm.sendMessageAsCode(myCache.formatCacheMessage(), message.channel);
-}
+};
 
 const handleWeatherMessage = (message) => {
   const stationRecords = stationSearch(message.text);
   if (stationRecords.length === 0) {
     rtm.sendMessage(`I don't have any information about '${message.text}'. ${saySorry()}.`, message.channel);
-  }
-  else if (stationRecords.length > 1) {
+  } else if (stationRecords.length > 1) {
     sendNeedsMoreInfoMessage(message.channel, stationRecords);
-  }
-  else {
+  } else {
     sendWeatherReport(message.channel, _.first(stationRecords));
   }
-}
+};
 
 const sendNeedsMoreInfoMessage = (channelId, stationRecords) => {
   const reply = ['Multiple records found.'];
   _.each(stationRecords, (stationRecord) => {
     reply.push(`If you meant ${stationRecord.name}, use ${stationRecord.airportId}`);
-  })
+  });
   rtm.sendMessage(reply.join('\n'), channelId);
-}
+};
 
 const sendWeatherReport = (channelId, stationRecord) => {
   myEmitter.once('fetch_done', (data) => {
@@ -85,7 +83,7 @@ const sendWeatherReport = (channelId, stationRecord) => {
     });
   });
   myCache.getWeather(stationRecord);
-}
+};
 
 const constructWeatherMessage = (data, stationRecord) => {
   const latest = _.first(data.data);
@@ -97,9 +95,9 @@ const constructWeatherMessage = (data, stationRecord) => {
   	`Last updated ${moment(latest.parsedDateUTC).fromNow()}`
   ];
   return items.join('\n');
-}
+};
 
 const messageContainsUserId = (msg, userId) => {
-	const pattern  = `<@${userId}>`;
+  const pattern = `<@${userId}>`;
   return (msg.text !== undefined && (msg.text.indexOf(pattern) !== -1 || msg.channel === weatherBotDMChannel));
-}
+};

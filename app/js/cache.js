@@ -1,4 +1,5 @@
-"use strict";
+
+
 const fetchWeatherData = require('./nws-current-conditions-scraper');
 const moment = require('moment-timezone');
 const _ = require('lodash');
@@ -8,7 +9,6 @@ const MINUTES_TO_LIVE = 70;
 
 class WeatherReportCache {
   constructor(myEmitter, minutesToLive = MINUTES_TO_LIVE) {
-
     this.minutesToLive = minutesToLive;
     this.myEmitter = myEmitter;
     this.cache = {};
@@ -22,9 +22,9 @@ class WeatherReportCache {
 
   update(record) {
     const stationId = record.stationId;
-    const latestObservationTime = moment.utc(record.data[0].parsedDateUTC)
+    const latestObservationTime = moment.utc(record.data[0].parsedDateUTC);
     const expiresUTC = latestObservationTime.add(this.minutesToLive, 'minutes');
-    this.cache[stationId] = { expires: expiresUTC.format(), hits: 0, payload: record }
+    this.cache[stationId] = { expires: expiresUTC.format(), hits: 0, payload: record };
   }
 
   inCache(stationId) {
@@ -75,9 +75,8 @@ class WeatherReportCache {
         this.update(record);
         this.myEmitter.emit('fetch_done', this.cache[stationId].payload);
       });
-    }
-    else {
-      console.log("Cache Hit!");
+    } else {
+      console.log('Cache Hit!');
       this.cache[stationId].hits += 1;
       this.myEmitter.emit('fetch_done', this.cache[stationId].payload);
     }

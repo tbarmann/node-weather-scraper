@@ -1,10 +1,10 @@
-"use strict";
+
+
 const request = require('request');
 const cheerio = require('cheerio');
 const moment = require('moment-timezone');
 
 module.exports = (stationRecord, callback) => {
-
   const stationId = stationRecord.stationId;
   const stationTzCity = getTimeZoneCity(stationRecord);
 
@@ -47,7 +47,7 @@ module.exports = (stationRecord, callback) => {
     const hour = parseInt(row.time.split(':')[0], 10);
     const minute = parseInt(row.time.split(':')[1], 10);
 
-    let month = (day>todayDay) ? todayMonth -1 : todayMonth;
+    let month = (day > todayDay) ? todayMonth - 1 : todayMonth;
     if (month === -1) {
       month = 12;
       year--;
@@ -58,22 +58,22 @@ module.exports = (stationRecord, callback) => {
 
   function getTimeZoneCity(stationRecord) {
     const tz = stationRecord.timeZone;
-    const dst = stationRecord.dayTimeSaving === "y";
-    switch(tz) {
-      case "M":
-        return (dst) ? "America/Denver" : "America/Phoenix";
-      case "P":
-        return "America/Los_Angeles";
-      case "C":
-        return "America/Chicago";
-      case "E":
+    const dst = stationRecord.dayTimeSaving === 'y';
+    switch (tz) {
+      case 'M':
+        return (dst) ? 'America/Denver' : 'America/Phoenix';
+      case 'P':
+        return 'America/Los_Angeles';
+      case 'C':
+        return 'America/Chicago';
+      case 'E':
       default:
-        return "America/New_York";
+        return 'America/New_York';
     }
   }
 
   function scrapeHtml(html) {
-    let result = {
+    const result = {
       stationId,
       data: []
     };
@@ -82,9 +82,9 @@ module.exports = (stationRecord, callback) => {
     result.title = $('table:nth-child(2) tr:nth-child(2) > td.white1').text();
     result.url = options.url;
     const table = $('table:nth-child(4)');
-    $('tr', table).each((key1,value1) => {
+    $('tr', table).each((key1, value1) => {
       if (key1 > 2) {
-        let row = {};
+        const row = {};
         $('td', value1).each((key2, value2) => {
           row[headers[key2]] = $(value2).text();
         });
@@ -102,7 +102,7 @@ module.exports = (stationRecord, callback) => {
 
   return request(options, (error, response, html) => {
     if (!error) {
-      callback (scrapeHtml(html));
+      callback(scrapeHtml(html));
     }
   });
-}
+};
